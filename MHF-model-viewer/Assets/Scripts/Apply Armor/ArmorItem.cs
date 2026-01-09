@@ -5,6 +5,7 @@ public class ArmorItem : ScriptableObject
 {
 	public enum ArmorType
 	{
+		Face,
 		Helmet,
 		Torso,
 		Arms,
@@ -12,7 +13,16 @@ public class ArmorItem : ScriptableObject
 		Legs
 	}
 
+	public enum Gender
+	{
+		Male,
+		Female
+	}
+
 	public string armorName;
-	public ArmorType type;
+	public Gender gender;
 	public GameObject modelPrefab;
+	public ArmorType type;
+	[HideInInspector]
+	public bool isHeadVisible;
 }

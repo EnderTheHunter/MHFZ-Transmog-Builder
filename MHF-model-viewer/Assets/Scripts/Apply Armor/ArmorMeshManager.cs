@@ -1,10 +1,17 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ArmorMeshManager : MonoBehaviour
 {
 	public Transform parentOverride;
-	public GameObject[] currentModel = new GameObject[5];
+	public GameObject[] currentModel = new GameObject[6];
 	public Transform rootBone;
+	private PlayerArmorInventory playerArmorInventory;
+
+	private void Start()
+	{
+		playerArmorInventory = GetComponent<PlayerArmorInventory>();
+	}
 
 	public int ChooseArmorPiece(ArmorItem.ArmorType type)
 	{
@@ -20,6 +27,8 @@ public class ArmorMeshManager : MonoBehaviour
 				return 3;
 			case ArmorItem.ArmorType.Legs:
 				return 4;
+			case ArmorItem.ArmorType.Face:
+				return 5;
 			default:
 				return -1;
 		}
@@ -40,6 +49,10 @@ public class ArmorMeshManager : MonoBehaviour
 		if (currentModel[piece] != null)
 		{
 			Destroy(currentModel[piece]);
+			if (piece == 0 && currentModel[5] != null)
+			{
+				Destroy(currentModel[5]);
+			}
 		}
 	}
 
@@ -75,6 +88,21 @@ public class ArmorMeshManager : MonoBehaviour
 			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type, mesh);
 			mesh.rootBone = rootBone;
 			mesh.bones = newBones;
+			foreach (Material mat in mesh.materials)
+			{
+				mat.SetFloat("_Cull", 0);
+				mat.SetFloat("_Smoothness", 0);
+				if (mat.GetTexture("_BaseMap") == null)
+				{
+					if (playerArmorInventory.GetGender() == ArmorItem.Gender.Male)
+					{
+						mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+					} else
+					{
+						mat.SetTexture("_BaseMap", playerArmorInventory.baseModelFemale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+					}
+				}
+			}
 		}
 		currentModel[piece] = model;
 	}
@@ -84,6 +112,10 @@ public class ArmorMeshManager : MonoBehaviour
 		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
 		switch (type)
 		{
+			case ArmorItem.ArmorType.Face:
+				newBones[0] = mainSkel[0];
+				newBones[1] = mainSkel[24];
+				break;
 			case ArmorItem.ArmorType.Helmet:
 				newBones[0] = mainSkel[0];
 				newBones[1] = mainSkel[13];

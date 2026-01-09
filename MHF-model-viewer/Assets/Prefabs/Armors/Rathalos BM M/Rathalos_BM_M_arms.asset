@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Rathalos_BM_M_arms
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Rathalos arms
-  type: 2
+  gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 1bb0ae9270e588e4684e4b81ea13d775, type: 3}
+  type: 3
+  isHeadVisible: 0

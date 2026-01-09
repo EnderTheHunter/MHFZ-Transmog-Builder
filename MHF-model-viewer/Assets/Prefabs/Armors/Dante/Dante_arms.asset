@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Dante_arms
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Dante arms
-  type: 2
+  gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 1e635c89dbb1eca408c011848094db6c, type: 3}
+  type: 3
+  isHeadVisible: 0

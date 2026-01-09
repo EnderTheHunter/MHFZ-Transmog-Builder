@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Rathalos_BM_M_Body
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Rathalos body
-  type: 1
+  gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 6ad4f7526783a9f4cbd5c82216bcc5a9, type: 3}
+  type: 2
+  isHeadVisible: 0

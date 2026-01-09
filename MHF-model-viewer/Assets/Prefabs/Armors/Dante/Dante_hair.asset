@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Dante_hair
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Dante hair
-  type: 0
+  gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 5c8a58762dd112e49b5ce2361359ea0f, type: 3}
+  type: 1
+  isHeadVisible: 1
