@@ -83,23 +83,26 @@ public class ArmorMeshManager : MonoBehaviour
 			model.transform.localRotation = Quaternion.identity;
 			model.transform.localScale = Vector3.one;
 
-			SkinnedMeshRenderer mesh = model.GetComponentInChildren<SkinnedMeshRenderer>();
-			Transform[] newBones = new Transform[mesh.bones.Length];
-			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type, mesh);
-			mesh.rootBone = rootBone;
-			mesh.bones = newBones;
-			foreach (Material mat in mesh.materials)
+			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
+			Transform[] newBones = new Transform[meshes[0].bones.Length];
+			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			foreach (SkinnedMeshRenderer mesh in meshes)
 			{
-				mat.SetFloat("_Cull", 0);
-				mat.SetFloat("_Smoothness", 0);
-				if (mat.GetTexture("_BaseMap") == null)
+				mesh.rootBone = rootBone;
+				mesh.bones = newBones;
+				foreach (Material mat in mesh.materials)
 				{
-					if (playerArmorInventory.GetGender() == ArmorItem.Gender.Male)
+					mat.SetFloat("_Cull", 0);
+					mat.SetFloat("_Smoothness", 0);
+					if (mat.GetTexture("_BaseMap") == null)
 					{
-						mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
-					} else
-					{
-						mat.SetTexture("_BaseMap", playerArmorInventory.baseModelFemale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+						if (playerArmorInventory.GetGender() == ArmorItem.Gender.Male)
+						{
+							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+						} else
+						{
+							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelFemale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+						}
 					}
 				}
 			}
@@ -107,7 +110,7 @@ public class ArmorMeshManager : MonoBehaviour
 		currentModel[piece] = model;
 	}
 
-	public Transform[] HardcodeBaseBonesForArmorType(Transform[] newBones, ArmorItem.ArmorType type, SkinnedMeshRenderer mesh)
+	public Transform[] HardcodeBaseBonesForArmorType(Transform[] newBones, ArmorItem.ArmorType type)
 	{
 		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
 		switch (type)

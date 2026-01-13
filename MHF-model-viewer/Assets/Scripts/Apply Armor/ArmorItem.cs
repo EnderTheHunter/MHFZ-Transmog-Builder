@@ -25,4 +25,6 @@ public class ArmorItem : ScriptableObject
 	public ArmorType type;
 	[HideInInspector]
 	public bool isHeadVisible;
+	[HideInInspector]
+	public bool isHairDyable;
 }
