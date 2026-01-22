@@ -1,9 +1,11 @@
 using UnityEngine;
+using TMPro;
 
 public class PlayerArmorInventory : MonoBehaviour
 {
-	[SerializeField] private ArmorMeshManager ArmorSlot;
-	public ArmorItem[] armor = new ArmorItem[5];
+    [SerializeField]
+    private ArmorMeshManager ArmorSlot;
+    public ArmorItem[] armor = new ArmorItem[5];
     public ArmorItem[] baseModelMale = new ArmorItem[5];
     public ArmorItem[] baseModelFemale = new ArmorItem[5];
     private ArmorItem.Gender gender = ArmorItem.Gender.Male;
@@ -11,16 +13,18 @@ public class PlayerArmorInventory : MonoBehaviour
     public ArmorItem maleFace;
     public ArmorItem femaleFace;
 
+    public TextMeshProUGUI[] armorNames = new TextMeshProUGUI[5];
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         foreach (ArmorItem armorPiece in baseModelMale)
         {
-			ArmorSlot.LoadArmorPieceModel(armorPiece);
-		}
-		ArmorSlot.LoadArmorPieceModel(maleFace);
-	}
+            ArmorSlot.LoadArmorPieceModel(armorPiece);
+        }
+        ArmorSlot.LoadArmorPieceModel(maleFace);
+        RenameEmptySlots();
+    }
 
     public void ChangeArmor(ArmorItem newArmorPiece)
     {
@@ -31,11 +35,13 @@ public class PlayerArmorInventory : MonoBehaviour
             if (gender == ArmorItem.Gender.Male)
             {
                 ArmorSlot.LoadArmorPieceModel(maleFace);
-            } else
+            }
+            else
             {
                 ArmorSlot.LoadArmorPieceModel(femaleFace);
             }
         }
+        armorNames[piece].text = newArmorPiece.armorName;
     }
 
     public void SetGender(bool newGender)
@@ -43,7 +49,8 @@ public class PlayerArmorInventory : MonoBehaviour
         if (newGender == false)
         {
             gender = ArmorItem.Gender.Female;
-        } else
+        }
+        else
         {
             gender = ArmorItem.Gender.Male;
         }
@@ -59,19 +66,28 @@ public class PlayerArmorInventory : MonoBehaviour
     {
         if (gender == ArmorItem.Gender.Male)
         {
-            foreach(ArmorItem armorPiece in baseModelMale)
+            foreach (ArmorItem armorPiece in baseModelMale)
             {
                 ArmorSlot.LoadArmorPieceModel(armorPiece);
-				ArmorSlot.LoadArmorPieceModel(maleFace);
-			}
-        } else
+                ArmorSlot.LoadArmorPieceModel(maleFace);
+            }
+        }
+        else
         {
-			foreach (ArmorItem armorPiece in baseModelFemale)
-			{
-				ArmorSlot.LoadArmorPieceModel(armorPiece);
-				ArmorSlot.LoadArmorPieceModel(femaleFace);
-			}
-		}
+            foreach (ArmorItem armorPiece in baseModelFemale)
+            {
+                ArmorSlot.LoadArmorPieceModel(armorPiece);
+                ArmorSlot.LoadArmorPieceModel(femaleFace);
+            }
+        }
+        RenameEmptySlots();
+    }
 
+    private void RenameEmptySlots()
+    {
+        foreach(TextMeshProUGUI text in armorNames)
+        {
+            text.text = "None";
+        }
     }
 }
