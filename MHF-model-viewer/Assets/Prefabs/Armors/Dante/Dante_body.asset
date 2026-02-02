@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: Dante_body
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Dante body
-  type: 2
   gender: 0
-  modelPrefab: {fileID: 919132149155446097, guid: 772ecdaf4d301904caf3096fb416daec, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: a5a63bdac69e0d749829e0d4355f5739, type: 3}
+  type: 2
+  isHeadVisible: 0
+  isHairDyable: 0
+  blademasterOrGunner: 0
+  mainColor: 1
+  secondaryColor: 0
+  baseType: 0
+  style: 0

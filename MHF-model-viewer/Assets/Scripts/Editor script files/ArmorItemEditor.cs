@@ -11,6 +11,12 @@ public class ArmorItemEditor : Editor
 	SerializedProperty armorVisibleHead;
 	SerializedProperty armorDyableHair;
 
+	SerializedProperty blademasterOrGunner;
+	SerializedProperty mainColor;
+	SerializedProperty secondaryColor;
+	SerializedProperty baseType;
+	SerializedProperty style;
+
 
 	void OnEnable()
 	{
@@ -18,6 +24,12 @@ public class ArmorItemEditor : Editor
 		armorType = serializedObject.FindProperty(nameof(ArmorItem.type));
 		armorVisibleHead = serializedObject.FindProperty(nameof(ArmorItem.isHeadVisible));
 		armorDyableHair = serializedObject.FindProperty(nameof(ArmorItem.isHairDyable));
+
+		blademasterOrGunner = serializedObject.FindProperty("blademasterOrGunner");
+		mainColor = serializedObject.FindProperty("mainColor");
+		secondaryColor = serializedObject.FindProperty("secondaryColor");
+		baseType = serializedObject.FindProperty("baseType");
+		style = serializedObject.FindProperty("style");
 	}
 
 	public override void OnInspectorGUI()
@@ -31,6 +43,11 @@ public class ArmorItemEditor : Editor
 			EditorGUILayout.PropertyField(armorVisibleHead);
 			EditorGUILayout.PropertyField(armorDyableHair);
 		}
+		EditorGUILayout.PropertyField(blademasterOrGunner);
+		EditorGUILayout.PropertyField(mainColor);
+		EditorGUILayout.PropertyField(secondaryColor);
+		EditorGUILayout.PropertyField(baseType);
+		EditorGUILayout.PropertyField(style);
 		serializedObject.ApplyModifiedProperties();
 	}
 }

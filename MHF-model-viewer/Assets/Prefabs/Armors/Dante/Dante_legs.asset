@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: Dante_legs
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Dante legs
-  type: 5
   gender: 0
-  modelPrefab: {fileID: 919132149155446097, guid: 30bfb3e2793a5b448aa7b2222bc6a7f9, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 50655e444a1d6054aba893622a2751d4, type: 3}
+  type: 5
+  isHeadVisible: 0
+  isHairDyable: 0
+  blademasterOrGunner: 0
+  mainColor: 1
+  secondaryColor: 0
+  baseType: 0
+  style: 0
