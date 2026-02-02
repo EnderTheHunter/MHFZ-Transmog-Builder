@@ -19,7 +19,7 @@ MonoBehaviour:
   isHeadVisible: 1
   isHairDyable: 1
   blademasterOrGunner: 0
-  mainColor: 0
+  mainColor: 8
   secondaryColor: 0
   baseType: 0
   style: 0

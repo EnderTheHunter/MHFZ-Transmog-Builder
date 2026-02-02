@@ -18,3 +18,8 @@ MonoBehaviour:
   type: 3
   isHeadVisible: 0
   isHairDyable: 0
+  blademasterOrGunner: 0
+  mainColor: 1
+  secondaryColor: 0
+  baseType: 0
+  style: 0

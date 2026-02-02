@@ -1,4 +1,6 @@
 using NUnit.Framework;
+using System;
+using System.Linq;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -41,6 +43,7 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 		currentActiveList = armorList[newActiveList];
 		currentActiveList.gameObject.SetActive(true);
+		ApplySearch();
 	}
 
 	public void ApplySearch()
@@ -55,16 +58,30 @@ public class ArmorSorterManager : MonoBehaviour
 		DestroyAll();
 		foreach (ArmorItem armorItem in currentActiveList.armorPieces)
 		{
-			Debug.Log("Ici");
+			List<Enum> activeFilters = FindFirstObjectByType<FilterManager>(FindObjectsInactive.Include).listFilters;
+			List<Enum> listFilters = new List<Enum>(){armorItem.blademasterOrGunner, armorItem.mainColor, armorItem.secondaryColor, armorItem.baseType, armorItem.style};
+			List<Enum> listDefaultValues = new List<Enum>() {ArmorItem.BlademasterOrGunner.None, ArmorItem.ArmorColor.None, ArmorItem.ArmorColor.None, ArmorItem.BaseType.None, ArmorItem.ArmorStyle.None};
 			if (armorItem.armorName.Length >= searchBarInput.Length)
 			{
-				Debug.Log("Là");
 				if (searchBarInput.Length == 0 || armorItem.armorName.ToLower().Contains(searchBarInput.ToLower()))
 				{
-					Debug.Log("Win");
-					GameObject armor = Instantiate(resultPrefab, resultContent.transform);
-					armor.GetComponentInChildren<TextMeshProUGUI>().text = armorItem.armorName;
-					armor.GetComponent<ArmorInfoInPrefab>().m_Item = armorItem;
+					int validFilters = 0;
+					int i = 0;
+					Debug.Log("ArmorItem = " + armorItem.armorName);
+					foreach (Enum item in listFilters)
+					{
+						if (SortArmorElement(item, activeFilters[i], listDefaultValues[i]) == true)
+						{
+							validFilters++;
+						}
+						i++;
+					}
+					if (validFilters == listFilters.Count)
+					{
+						GameObject armor = Instantiate(resultPrefab, resultContent.transform);
+						armor.GetComponentInChildren<TextMeshProUGUI>().text = armorItem.armorName;
+						armor.GetComponent<ArmorInfoInPrefab>().m_Item = armorItem;
+					}
 				}
 			}
 		}
@@ -76,5 +93,23 @@ public class ArmorSorterManager : MonoBehaviour
 		{
 			Destroy(child.gameObject);
 		}
+	}
+
+	public List<Enum> FetchAllFilters()
+	{
+		List<Enum> filters = new List<Enum>();
+		return filters;
+	}
+
+	public static bool SortArmorElement<T>(T armorItem, T filterValue, T defaultValue) where T : Enum
+	{
+		if (armorItem != null && filterValue != null)
+		{
+			if (EqualityComparer<T>.Default.Equals(filterValue, defaultValue) == true || EqualityComparer<T>.Default.Equals(armorItem, filterValue) == true)
+			{
+				return true;
+			}
+		}
+		return false;
 	}
 }

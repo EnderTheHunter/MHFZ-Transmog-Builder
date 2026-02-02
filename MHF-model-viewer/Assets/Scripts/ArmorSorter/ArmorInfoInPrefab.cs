@@ -11,6 +11,7 @@ public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerEx
 		{
 			FindFirstObjectByType<PlayerArmorInventory>().ChangeArmor(m_Item);
 		}
+		GameObject.FindWithTag("ArmorSorter").gameObject.SetActive(false);
 	}
 
 	public void OnPointerEnter(PointerEventData eventData)

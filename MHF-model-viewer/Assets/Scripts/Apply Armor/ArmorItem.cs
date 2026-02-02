@@ -1,4 +1,7 @@
+using NUnit.Framework;
 using UnityEngine;
+using System;
+using System.Collections.Generic;
 
 [CreateAssetMenu]
 public class ArmorItem : ScriptableObject
