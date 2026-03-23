@@ -41,6 +41,10 @@ public class ArmorSorterManager : MonoBehaviour
 		{
 			currentActiveList.gameObject.SetActive(false);
 		}
+		if (PlayerArmorInventory.Instance.GetGender() == ArmorItem.Gender.Female)
+		{
+			newActiveList += 5;
+		}
 		currentActiveList = armorList[newActiveList];
 		currentActiveList.gameObject.SetActive(true);
 		ApplySearch();

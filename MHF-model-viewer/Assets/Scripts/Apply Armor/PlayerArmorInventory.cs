@@ -3,6 +3,8 @@ using TMPro;
 
 public class PlayerArmorInventory : MonoBehaviour
 {
+    private static PlayerArmorInventory instance;
+    public static PlayerArmorInventory Instance {  get { return instance; } }
     [SerializeField]
     private ArmorMeshManager ArmorSlot;
     public ArmorItem[] armor = new ArmorItem[5];
@@ -15,8 +17,20 @@ public class PlayerArmorInventory : MonoBehaviour
 
     public TextMeshProUGUI[] armorNames = new TextMeshProUGUI[5];
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+	private void Awake()
+	{
+		if (instance != null && instance != this)
+		{
+			Destroy(this.gameObject);
+		}
+		else
+		{
+			instance = this;
+		}
+	}
+
+	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	void Start()
     {
         foreach (ArmorItem armorPiece in baseModelMale)
         {
@@ -89,5 +103,16 @@ public class PlayerArmorInventory : MonoBehaviour
         {
             text.text = "None";
         }
+    }
+
+    public void RemoveArmorPiece(int type)
+    {
+        if (gender == ArmorItem.Gender.Male)
+        {
+            ChangeArmor(baseModelMale[type - 1]);
+        } else
+        {
+            ChangeArmor(baseModelFemale[type - 1]);
+		}
     }
 }

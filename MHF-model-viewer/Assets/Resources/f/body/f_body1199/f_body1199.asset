@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a80e5fe6ed72b4a9030213e9b67db5, type: 3}
+  m_Name: f_body1199
+  m_EditorClassIdentifier: ArmorItem::ArmorItem
+  armorName: "Magos D Mail\u30FBYellow"
+  gender: 1
+  modelPrefab: {fileID: 919132149155446097, guid: e5e10f9dd85162f429065e2def109108, type: 3}
+  type: 2
+  isHeadVisible: 0
+  isHairDyable: 0
+  blademasterOrGunner: 0
+  mainColor: 0
+  secondaryColor: 0
+  baseType: 0
+  style: 0
+  availableTransmog: 1

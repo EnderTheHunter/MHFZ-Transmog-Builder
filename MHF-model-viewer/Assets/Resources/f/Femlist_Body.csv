@@ -1,0 +1,970 @@
+body,Carrol C Suit,キャロルＣスーツ,1960,1960,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zyra C Mail,ザイラＣメイル,1961,1961,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Loose C Suit,ルースＣスーツ,1962,1962,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Higakure C Mail,ヒガクレＣメイル,1973,1973,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harokyu D Vest,ハロキュＤレジスト,1557,1557,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Evol D Mail・White,エヴォルＤメイル・白,1928,1928,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Evol D Mail・Red,エヴォルＤメイル・赤,1929,1929,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Evol D Mail・Blue,エヴォルＤメイル・青,1930,1930,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Evol D Mail・Purple,エヴォルＤメイル・紫,1931,1931,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blue Ice Emperor D Mail,蒼皇氷Ｄメイル,1871,1871,TRUE,TRUE,TRUE,TRUE,FALSE
+body,White Ice Emperor D Mail,白皇氷Ｄメイル,1872,1872,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Red Ice Emperor D Mail,紅皇氷Ｄメイル,1873,1873,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rance C Jacket,ランセＣジャケット,1975,1975,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Santa D Vest,サンタＤベスト,700,700,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Anteka D Vest,ガウシカＤベスト,1527,1527,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sakufi D Mail,サクフィＤメイル,1911,1911,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asumo D Mail,アスモＤメイル,1932,1932,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dios D Suit,ディオスＤスーツ,1921,1921,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asteli D Vest・White,アステリＤベスト・白,1693,1693,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asteli D Vest・Blue,アステリＤベスト・青,1694,1694,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asteli D Vest・Red,アステリＤベスト・赤,1695,1695,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asteli D Vest・Black,アステリＤベスト・黒,1696,1696,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・Blue,リアンＤベスト・青,441,440,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・Red,リアンＤベスト・赤,442,441,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・Black,リアンＤベスト・黒,443,442,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・White,リアンＤベスト・白,444,443,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・Crimson,リアンＤベスト・紅,457,456,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・藍,リアンＤベスト・藍,775,775,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lien D Vest・Peach,リアンＤベスト・桃,776,776,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carrol D Suit・Black,キャロルＤスーツ・黒,1490,1490,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carrol D Suit・Blue,キャロルＤスーツ・青,1491,1491,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carrol D Suit・White,キャロルＤスーツ・白,1492,1492,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carrol D Suit・Red,キャロルＤスーツ・赤,1493,1493,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carrol D Suit・Peach,キャロルＤスーツ・桃,1726,1726,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gothic D Plate,ゴシックＤプレート,259,258,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kirin D Vest,キリンＤベスト,95,94,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Farunokku D Mail,ファルノＤメイル,1175,1175,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Farunokku D Vest,ファルノＤレジスト,1176,1176,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pokara D Mail,ポカラＤメイル,1179,1179,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pokara D Vest,ポカラＤレジスト,1180,1180,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genesis D【胴当て】,創音奏Ｄ【胴当て】,1654,1654,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Motion D【胴当て】,音紡奏Ｄ【胴当て】,1655,1655,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lightning D【胴当て】,照雷Ｄ【胴当て】,1802,1802,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Thunder D【胴当て】,明雷Ｄ【胴当て】,1803,1803,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toridcless D Mail,トリドＤメイル,1760,1760,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toridcless D Vest,トリドＤレジスト,1761,1761,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Guan D Mail,グァンＤメイル,1852,1852,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Guan D Vest,グァンＤレジスト,1853,1853,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Varusa D Mail,ヴァルＤメイル,1656,1656,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Varusa D Vest,ヴァルＤレジスト,1657,1657,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toa D Mail,トアＤメイル,1875,1875,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toa D Vest,トアＤレジスト,1876,1876,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blitz D Vest,ブリッツＤベスト,792,792,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Stroma D Mail,ストロマＤメイル,1264,1264,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Stroma D Vest,ストロマＤレジスト,1265,1265,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Elegance D【胴当て】,雅深Ｄ【胴当て】,1637,1637,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Grace D【胴当て】,雅淵Ｄ【胴当て】,1638,1638,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Altera D Mail,アルテラＤメイル,1336,1336,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Altera D Vest,アルテラＤレジスト,1337,1337,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pobo D Mail,ポボルムＤメイル,1652,1652,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pobo D Vest,ポボルムＤレジスト,1653,1653,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zinogre C Mail,ジンオウＣメイル,1794,1794,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zinogre C Vest,ジンオウＣレジスト,1795,1795,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hornetaur UD Mail,タロスＵＤメイル,156,155,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hornetaur UD Vest,タロスＵＤレジスト,157,156,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathalos D Mail,レウスＤメイル,12,10,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathalos D Vest,レウスＤレジスト,13,11,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gogo D Mail,ゴゴＤメイル,1030,1030,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gogo D Vest,ゴゴＤレジスト,1031,1031,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Azul D Jacket,アスールＤジャケット,358,357,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Azul D Suit,アスールＤスーツ,359,358,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harvest D Mail,ハーヴェストＤメイル,566,565,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harvest D Vest,ハーヴェストＤレジスト,567,566,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melan D Jacket,メランＤジャケット,411,410,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melan D Suit,メランＤスーツ,412,411,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diru D Jacket,ディールＤジャケット,610,609,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diru D Suit,ディールＤスーツ,611,610,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tandress D Mail,タンドレスＤメイル,1194,1194,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tandress D Vest,タンドレスＤレジスト,1195,1195,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rance D Jacket,ランセＤジャケット,1733,1733,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rance D Suit,ランセＤスーツ,1734,1734,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ganeto D Jacket,ガネトＤジャケット,1776,1776,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ganeto D Suit,ガネトＤスーツ,1777,1777,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Chiru D Jacket,チールＤジャケット,1735,1735,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Chiru D Suit,チールＤスーツ,1736,1736,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shiusu D Jacket,シウスＤジャケット,1837,1837,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shiusu D Suit,シウスＤスーツ,1838,1838,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Once D Mail・無,ワンスＤメイル・無,1988,1988,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pale Sakura D [Haori 】,淡桜Ｄ【羽織】,754,754,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Howla D Suit,ハウラＤスーツ,1849,1849,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Panse D Suit,パンセＤスーツ,1967,1967,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marriage D Suit,マリジュＤスーツ,1965,1965,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Snow Miku D Vest,雪ミクＤベスト,0,1976,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Miku D Vest,ミクＤベスト,1277,1277,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Wasou Torso D,和奏ノ胴丸Ｄ,1861,1861,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Felyne D Mail,アイルーＤメイル,1906,1906,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Brown D Mail,チャトラＤメイル,1907,1907,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Monotone D Mail,シロＤメイル,1908,1908,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Two-tone D Mail,クロシロＤメイル,1909,1909,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Bistro D Vest,ビストロＤベスト,216,215,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Butterfly D Thorax,パピメルＤペット,0,287,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Demon Lord ノ肩鎧D,鬼神ノ肩鎧Ｄ,483,482,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Demon Tale ノ肩鎧D,鬼伝ノ肩鎧Ｄ,1848,1848,TRUE,TRUE,TRUE,TRUE,FALSE
+body,鬼凛ノ肩鎧D,鬼凛ノ肩鎧Ｄ,1920,1920,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress C Mail,エンプレスＣメイル,187,186,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress C Vest,エンプレスＣレジスト,188,187,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser C Mail,カイザーＣメイル,185,184,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser C Vest,カイザーＣレジスト,186,185,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon D Hide,ドラゴンＤハイド,47,47,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon D Skin,ドラゴンＤスキン,48,48,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nargacuga C Mail,ナルガＣメイル,1850,1850,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nargacuga C Vest,ナルガＣレジスト,1851,1851,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harudo D Mail,ハルドＤメイル,1702,1702,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harudo D Vest,ハルドＤレジスト,1703,1703,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Elegance D【胴当て】,雅孔Ｄ【胴当て】,1550,1550,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Grace D【胴当て】,雅穿Ｄ【胴当て】,1551,1551,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Meraginasu D Mail,メラギＤメイル,1484,1484,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Meraginasu D Vest,メラギＤレジスト,1485,1485,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hesyumu D Mail,ヘシュムＤメイル,1933,1933,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kasamie D Suit,カサミエＤスーツ,1966,1966,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cielo D Mail,シエロＤメイル,1845,1845,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vichi D Mail,ヴィーチＤメイル,1790,1790,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rocbouquet D Vest,ロックブーケＤベスト,1938,1938,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Claudia D Vest,クローディアＤベスト,1939,1939,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Kinosu D Mail,キノスＤメイル,487,486,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Himeros D Mail,ヒメロスＤメイル,488,487,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Charien D Vest,カリエンＤレジスト,489,488,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arietta D Suit,アリエッタＤスーツ,491,490,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Craft D Mail,クラフトＤメイル,582,581,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shieri D Mail,シエリーＤメイル,604,603,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pupen D Mail,プペンＤメイル,741,741,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Moss Cover D Mail,モスカバＤメイル,742,742,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Excelle D Mail,エクセレＤメイル,740,740,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ordre D Mail,オルドルＤメイル,1789,1789,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rath Duo D Mail,リオデュオＤメイル,504,503,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Atra D Mail,アトラＤメイル,672,672,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Madaru D Mail,マダルＤメイル,1162,1162,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shasse D Mail,シャッセＤメイル,733,733,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Orchesis D Mail,オルケシスＤメイル,1002,1002,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blize D Mail,ブリゼＤメイル,1260,1260,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Quoiz D Mail,クオイズＤメイル,1670,1670,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kalais D Mail,カライスＤメイル,1671,1671,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lucchese D Mail,ルケーゼＤメイル,1672,1672,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Entora D Mail,エントラＤメイル,1029,1029,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Penre D Suit,ペンレＤスーツ,1968,1968,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rokka D Suit,ロッカＤスーツ,1969,1969,TRUE,TRUE,TRUE,TRUE,FALSE
+body,YoRHa No.2 Type B D Vest,ﾖﾙﾊ二号B型Ｄベスト,1990,1990,FALSE,TRUE,TRUE,TRUE,FALSE
+body,トリートC Jacket,トリートＣジャケット,2083,2083,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Craft C Mail,クラフトＣメイル,2084,2084,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cielo C Mail,シエロＣメイル,2085,2085,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Felyne C Mail,アイルーＣメイル,2086,2086,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Knight King Chest BM D Blue,騎士王の胴鎧：剣Ｄ青,0,1278,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Knight King Chest BM D Red,騎士王の胴鎧：剣Ｄ赤,0,1279,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Knight King Chest BM D Black,騎士王の胴鎧：剣Ｄ黒,0,1280,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Knight King Chest BM D White,騎士王の胴鎧：剣Ｄ白,0,1281,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Gorgon D Vest・Black,ゴルゴンＤベスト・黒,0,1476,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Gorgon D Vest・Blue,ゴルゴンＤベスト・青,0,1478,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Gorgon D Vest・White,ゴルゴンＤベスト・白,0,1479,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Gorgon D Vest・Red,ゴルゴンＤベスト・赤,0,1480,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Arben D Mail,アーベンＤメイル,1925,1925,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aura D Mail,アウラＤメイル,1846,1846,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gagachu D Vest,ガガチュＤベスト,1831,1831,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kurofi D Mail,クロフィＤメイル,1910,1910,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Keravuno D Mail,ケラヴノＤメイル,1791,1791,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas ZD Muscle,エスピナZDムスケル,1944,1944,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas ZD Heart,エスピナZDケミュート,1945,1945,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc ZD Mail,ヒプノZDメイル,1948,1948,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc ZD Vest,ヒプノZDレジスト,1949,1949,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu ZD Mail,フルフルZDメイル,1952,1952,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu ZD Vest,フルフルZDレジスト,1953,1953,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hermitaur ZD Mail,ザザミZDメイル,1954,1954,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hermitaur ZD Vest,ザザミZDレジスト,1955,1955,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathalos ZD Mail,レウスZDメイル,1950,1950,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathalos ZD Vest,レウスZDレジスト,1951,1951,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blango ZD Mail,ブランゴZDメイル,1956,1956,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blango ZD Vest,ブランゴZDレジスト,1957,1957,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vashimu ZD Mail,ヴァシムZDメイル,1946,1946,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vashimu ZD Vest,ヴァシムZDレジスト,1947,1947,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tigrex ZD Mail,レックスZDメイル,1958,1958,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tigrex ZD Vest,レックスZDレジスト,1959,1959,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hyujikiki ZD Mail,ヒュジZDメイル,1977,1977,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hyujikiki ZD Vest,ヒュジZDレジスト,1978,1978,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gear ZD Mail,ギアZDメイル,1981,1981,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gear ZD Vest,ギアZDレジスト,1982,1982,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Muruta D Mail,ムルタＤメイル,1825,1825,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Midogaron ZD Mail,ミドZDメイル,1979,1979,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Midogaron ZD Vest,ミドZDレジスト,1980,1980,TRUE,TRUE,TRUE,TRUE,FALSE
+body,White Fatalis D Hide,祖龍Ｄハイド,1710,1710,TRUE,TRUE,TRUE,TRUE,TRUE
+body,White Fatalis D Skin,祖龍Ｄスキン,1711,1711,TRUE,TRUE,TRUE,TRUE,TRUE
+body,Elzelion D Mail,エルゼＤメイル,2090,2090,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Elzelion D Vest,エルゼＤレジスト,2091,2091,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zakka D Suit,ザッカＤスーツ,1970,1970,TRUE,TRUE,TRUE,TRUE,FALSE
+body,十ノ軌跡C Suit,十ノ軌跡Ｃスーツ,2058,2058,TRUE,TRUE,TRUE,TRUE,FALSE
+body,十ノ至道C Vest,十ノ至道Ｃベスト,2059,2059,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rantana D Suit,ランタナＤスーツ,2081,2081,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Eris D Suit,エリスＤスーツ,2107,2107,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magisa D Vest・Red,マギサＤベスト・赤,422,421,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magisa D Vest・Black,マギサＤベスト・黒,435,434,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magisa D Vest・Green,マギサＤベスト・緑,424,423,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magisa D Vest・White,マギサＤベスト・白,425,424,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magisa D Vest・Blue,マギサＤベスト・青,423,422,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Waka Torso D,和花ノ胴丸Ｄ,1860,1860,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Blue,シャランＤベスト・青,497,496,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Green,シャランＤベスト・緑,498,497,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Purple,シャランＤベスト・紫,499,498,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・White,シャランＤベスト・白,500,499,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Red,シャランＤベスト・赤,501,500,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Crimson,シャランＤベスト・紅,565,564,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shaln D Vest・Orange,シャランＤベスト・橙,564,563,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Carriage D Vest,キャリッジＤベスト,1520,1520,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marble D Vest,マーブルＤベスト,1522,1522,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shandy D Vest,シャンディＤベスト,1523,1523,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Banquet D Vest,バンケットＤベスト,1521,1521,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Korinyi D Suit,コリニィＤスーツ,2087,2087,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Renka Haori D,煉華ノ羽織Ｄ,2108,2108,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kukubo D Mail,ククボＤメイル,701,701,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kakabu D Mail,カカブＤメイル,1069,1069,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aruru D Mail,アルルＤメイル,1116,1116,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Red Cat D Suit,あかねこ服Ｄスーツ,445,444,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rios D Mail,ライオスＤメイル,1681,1681,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bonito D Mail,ボニトＤメイル,1682,1682,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Meirida D Mail,メイリダＤメイル,1737,1737,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Miniomu D Mail,ミニオムＤメイル,1775,1775,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harimeno D Mail,ハリメノＤメイル,1836,1836,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Deliver D Mail,デリヴＤメイル,1251,1251,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asaku D Mail,アサークＤメイル,1252,1252,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Desordre D Mail,デゾルトＤメイル,1253,1253,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Haragan D Mail,ハラガンＤメイル,1679,1679,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Abuyado D Mail,アブヤドＤメイル,1680,1680,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora ZD Mail,ルコZDメイル,2092,2092,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora ZD Vest,ルコZDレジスト,2093,2093,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth ZD Mail,ガノZDメイル,2094,2094,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth ZD Vest,ガノZDレジスト,2095,2095,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sharufu D Mail,シャルフＤメイル,1984,1984,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kamara D Mail,カマラＤメイル,2082,2082,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Liebre D Mail,リエブレＤメイル,2099,2099,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Korinyi C Suit,コリニィＣスーツ,2098,2098,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ruche D Mail,ルーチェＤメイル,2105,2105,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Strength Dボディ,ストレングスＤボディ,281,280,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rage D Mail,レイジＤメイル,619,618,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rampage D Mail,ランページＤメイル,620,619,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blaze D Mail,ブレイズＤメイル,621,620,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Poogie D Vest,プーギーＤブレスト,1022,1022,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mandora D Vest,マンドラＤベスト,1024,1024,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aonoko D Vest,アオノコＤベスト,1023,1023,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gauss D Mail,ガウスＤメイル,1130,1130,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Weber D Mail,ウェーバＤメイル,1131,1131,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gilbert D Mail,ギルバートＤメイル,1132,1132,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zuibei D Muscle,ズィベイＤムスケル,1510,1510,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Chiarim D Mail,チアリムＤメイル,1864,1864,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Scholar C Suit,スカラーＣスーツ,0,1842,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Rhopessa C Thorax,ファルメルＣペット,0,1816,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Yukumo ノドウギC・Heaven,ユクモノドウギＣ・天,1804,1804,TRUE,TRUE,TRUE,TRUE,FALSE
+body,White 蘭D Mail,白蘭Ｄメイル,1558,1558,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Crimson 霞D Mail,紅霞Ｄメイル,1559,1559,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Demonclad ノ肩鎧D,鬼穿ノ肩鎧Ｄ,1974,1974,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tangusu D Mail,タングスＤメイル,1160,1160,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Disu D Mail,ディスＤメイル,1187,1187,TRUE,TRUE,TRUE,TRUE,TRUE
+body,Disu D Vest,ディスＤレジスト,1188,1188,TRUE,TRUE,TRUE,TRUE,TRUE
+body,Lils D Mail,リルスＤメイル,790,790,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lils D Vest,リルスＤレジスト,791,791,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon SC Hide,ドラゴンSCハイド,151,150,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon SC Skin,ドラゴンSCスキン,152,151,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon GD Hide,ドラゴンGDハイド,1537,1537,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dragon GD Skin,ドラゴンGDスキン,1538,1538,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vulcan D Hide,バルカンＤハイド,61,60,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vulcan D Skin,バルカンＤスキン,62,61,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vulcan GD Hide,バルカンGDハイド,1539,1539,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vulcan GD Skin,バルカンGDスキン,1540,1540,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Garnet D Mail,ガーネットＤメイル,658,658,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Amethyst D Mail,アメジストＤメイル,659,659,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Coral D Mail,コーラルＤメイル,660,660,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Quartz D Mail,クォーツＤメイル,661,661,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Emerald D Mail,エメラルドＤメイル,664,664,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pearl D Mail,パールＤメイル,665,665,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ruby D Mail,ルビーＤメイル,662,662,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sapphire D Mail,サファイアＤメイル,663,663,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Topaz D Vest,トパーズＤレジスト,666,666,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tourmaline D Vest,トルマリンＤレジスト,667,667,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lapis D Vest,ラピスＤレジスト,668,668,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hisui D Mail,ヒスイＤメイル,1541,1541,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Onyx D Mail,オニキスＤメイル,1889,1889,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Veloci ーツボディD,ランポスーツボディＤ,170,169,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gen ーツボディD,ゲネポスーツボディＤ,171,170,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Io ーツボディD,イーオスーツボディＤ,172,171,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gia ーツボディD,ギアノスーツボディＤ,225,224,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mosswine Vest D,モスブレストＤ,52,51,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Remobra ーツボディD,ガブラスーツボディＤ,226,225,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Battle Vest PD Blue,バトルレジストPD青,323,322,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Battle Vest PD Yellow,バトルレジストPD黄,325,324,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Battle Vest PD Purple,バトルレジストPD紫,327,326,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathian Mail PD Blue,レイアメイルPD青,346,345,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathian Mail PD Red,レイアメイルPD赤,348,347,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rathian Mail PD Black,レイアメイルPD黒,350,349,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Mail PD Blue,フルフルメイルPD青,352,351,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Mail PD Green,フルフルメイルPD緑,354,353,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Mail PD Black,フルフルメイルPD黒,356,355,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Mail PD Red,エスピナメイルPD赤,360,359,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Mail PD Blue,エスピナメイルPD青,362,361,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Mail PD Yellow,エスピナメイルPD黄,364,363,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Vest PD Red,エスピナレジストPD赤,361,360,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Vest PD Blue,エスピナレジストPD青,363,362,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Espinas Vest PD Yellow,エスピナレジストPD黄,365,364,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Healer Vest PD Blue,ヒーラーベストPD青,0,327,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Healer Vest PD White,ヒーラーベストPD白,0,329,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Healer Vest PD Yellow,ヒーラーベストPD黄,0,331,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Shourou 【殻胴】D,ショウロウ【殻胴】Ｄ,1181,1181,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mitama 【殻胴】D,ミタマ【殻胴】Ｄ,1182,1182,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Burning Cliff D【胴当て】,焔嶽Ｄ【胴当て】,1942,1942,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Crimson Cliff D【胴当て】,緋嶽Ｄ【胴当て】,1943,1943,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ledia D Mail,ルディアＤメイル,583,582,TRUE,TRUE,TRUE,TRUE,FALSE
+body,White Snake Haori D,白蛇ノ羽織Ｄ,749,749,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Black Tiger Haori D,黒虎ノ羽織Ｄ,748,748,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Crushing Fog D [Haori 】,崩霧Ｄ【羽織】,750,750,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Valued Word Haori D,納言ノ羽織Ｄ,752,752,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blue Sky Haori D,蒼空ノ羽織Ｄ,746,746,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Noon Glow Haori D,夕焼ノ羽織Ｄ,747,747,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kosho D [Haori 】,紅昇Ｄ【羽織】,1740,1740,TRUE,TRUE,TRUE,TRUE,FALSE
+body,True Shadow Haori D,絶影ノ羽織Ｄ,751,751,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Furogada D Mail,フロガダＤメイル,1732,1732,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lars D Mail,ラースＤメイル,1224,1224,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Donru D Mail,ドゥンルＤメイル,2078,2078,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Inagami ZD Mail,イナガミZDメイル,2113,2113,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Barioth C Mail,ベリオＣメイル,1812,1812,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Barioth C Vest,ベリオＣレジスト,1813,1813,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Brachy C Mail,ブラキＣメイル,1798,1798,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Brachy C Vest,ブラキＣレジスト,1799,1799,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Uragaan C Mail,ガンキンＣメイル,1814,1814,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Uragaan C Vest,ガンキンＣレジスト,1815,1815,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Stygian C Mail,獄狼Ｃメイル,1914,1914,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Stygian C Vest,獄狼Ｃレジスト,1915,1915,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gore C Mail,ゴアＣメイル,1926,1926,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gore C Vest,ゴアＣレジスト,1927,1927,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vangis C Mail,バンギスＣメイル,1796,1796,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vangis C Vest,バンギスＣレジスト,1797,1797,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shagaru C Mail,シャガルＣメイル,1986,1986,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shagaru C Vest,シャガルＣレジスト,1987,1987,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Inagami ZD Vest,イナガミZDレジスト,2114,2114,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tempest C【衣】,荒天Ｃ【衣】,2111,2111,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Welkin C【衣】,蒼天Ｃ【衣】,2112,2112,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Levin D Mail,レビンＤメイル,2106,2106,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rose Ball Gown D・Shozoku,薔薇の舞踏服Ｄ・装束,2132,2132,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Shui D Mail,シュイＤメイル,2121,2121,TRUE,TRUE,TRUE,TRUE,FALSE
+body,AB Layer D BM Chest Red,ABレイヤーＤ胴：剣赤,0,1746,FALSE,TRUE,TRUE,TRUE,FALSE
+body,AB Layer D BM Chest Blue,ABレイヤーＤ胴：剣青,0,1747,FALSE,TRUE,TRUE,TRUE,FALSE
+body,AB Layer D BM Chest Black,ABレイヤーＤ胴：剣黒,0,1748,FALSE,TRUE,TRUE,TRUE,FALSE
+body,AB Layer D BM Chest White,ABレイヤーＤ胴：剣白,0,1749,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Ruban D Vest,リュバンＤベスト,0,1687,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Orloj D Vest,オルロジュＤベスト,0,1688,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Bright D Mail,ブライトＤメイル,1215,1215,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Juari D Mail,ジュアリＤメイル,1216,1216,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tinku D Mail,ティンクＤメイル,1217,1217,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shatemu D Vest,シャテムＤベスト,1301,1301,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hevria D Vest,ヘヴリアＤベスト,1302,1302,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tiuru D Vest,ティルルＤベスト,1303,1303,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaila D Mail,カイラＤメイル,1830,1830,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Fonce D Mail,フォンセＤメイル,2089,2089,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc ルータD Suit,ヒプノルータＤスーツ,456,455,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnolia D Suit,ヒプノリアＤスーツ,486,485,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Es Quera D Suit,エス・クェラＤスーツ,465,464,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ecole D Suit,エコールＤスーツ,508,507,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Guns D Suit,ガンズＤスーツ,482,481,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Agria D Suit,アグリアＤスーツ,526,525,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Fauve D Suit,フォーヴＤスーツ,527,526,TRUE,TRUE,TRUE,TRUE,FALSE
+body,ティーアD Suit,ティーアＤスーツ,568,567,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Muse D Suit,ミューズＤスーツ,569,568,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dicto D Suit,ディクトＤスーツ,601,600,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kruss D Suit,クリュスＤスーツ,606,605,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Starina D Suit,スタリナＤスーツ,607,606,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Loose D Suit,ルースＤスーツ,609,608,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mirado D Suit,ミラドＤスーツ,671,671,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Deyuru D Mail,デュールＤメイル,677,677,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Robust D Diru,ロバストＤディール,678,678,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Falco D Mail,ファルコＤメイル,706,706,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Howx D Mail,ハウクスＤメイル,743,743,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pirata D Jacket,ピラータＤジャケット,774,774,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zeroi D Jacket,ゼロイＤジャケット,1000,1000,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rail D Mail,レイルＤメイル,1014,1014,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ridere D Mail,リーデレＤメイル,1027,1027,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Riot D Mail,リエットＤメイル,1041,1041,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rutare D Mail,ルターレＤメイル,1057,1057,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rolling Flow の Chestplate・D,流転の胸当て・Ｄ,1071,1071,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rolling Sky の Chestplate・D,嵐転の胸当て・Ｄ,1072,1072,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cubie D Mail,キュビィＤメイル,1124,1124,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kemor D Mail,ケモルＤメイル,1125,1125,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Latria D Vest,ラトリアＤベスト,1153,1153,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kontao D Vest,コンタオＤベスト,1154,1154,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ukon D Vest,オービスＤブレスト,1203,1203,TRUE,TRUE,TRUE,TRUE,FALSE
+body,ロットD Vest,ロットＤブレスト,1204,1204,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shoko D Suit,ウーコンＤスーツ,1249,1249,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nimbus D Suit,ニンバスＤスーツ,1250,1250,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Moonlight Haori・D,月陽ノ羽織・Ｄ,1304,1304,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dawnbreak Haori・D,曙光ノ羽織・Ｄ,1305,1305,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toridcless ZD Mail,トリドZDメイル,2115,2115,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toridcless ZD Vest,トリドZDレジスト,2116,2116,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Doragyurosu ZD Mail,ドラギュZDメイル,2117,2117,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Doragyurosu ZD Vest,ドラギュZDレジスト,2118,2118,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Alfi D Suit,アルフィＤスーツ,2119,2119,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaifa D Mail,カイファＤメイル,2122,2122,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Straza D Suit,ストラザＤスーツ,2123,2123,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Renka Haori C,煉華ノ羽織Ｃ,2131,2131,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Survey Corps D Vest,調査兵団Ｄベスト,1533,1533,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Training Corps D Vest,訓練兵団Ｄベスト,1534,1534,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Holy Maiden Armor D・Shozoku,救国の聖女服Ｄ・装束,0,2134,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Rebellion Armour D・Body,叛逆の甲冑Ｄ・胴鎧,0,2133,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Dinato D Mail,ディナトＤメイル,1779,1779,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Duque D Mail,ドゥケＤメイル,1780,1780,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Granu D Mail,グラヌＤメイル,1781,1781,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Chiyo Shozoku D,千代ノ装束Ｄ,1821,1821,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rubellite D Mail,ルベライトＤメイル,1133,1133,TRUE,TRUE,TRUE,TRUE,FALSE
+body,ラズライトD Mail,ラズライトＤメイル,1134,1134,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zircon D Mail,ジルコンＤメイル,1135,1135,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Spinel D Mail,スピネルＤメイル,1136,1136,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Jade D Mail,ジェイドＤメイル,1139,1139,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Agate D Mail,アゲートＤメイル,1140,1140,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pyrope D Mail,パイローブＤメイル,1137,1137,TRUE,TRUE,TRUE,TRUE,FALSE
+body,アイオラD Mail,アイオラＤメイル,1138,1138,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rutile D Mail,ルチルＤメイル,1890,1890,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blood D Mail,ブラッドＤメイル,1542,1542,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Citrine D Vest,シトリンＤレジスト,1141,1141,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Peridot D Vest,ペリドットＤレジスト,1142,1142,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Turquoise D Vest,ターコイズＤレジスト,1143,1143,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mafumofu Suit PD Red,マフモフスーツPD赤,340,339,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mafumofu Suit PD Yellow,マフモフスーツPD黄,341,340,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Basarios Vest PD Red,バサルレジストPD赤,329,328,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Basarios Vest PD Black,バサルレジストPD黒,331,330,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Basarios Vest PD Yellow,バサルレジストPD黄,333,332,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blango Mail PD Yellow,ブランゴメイルPD黄,367,366,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blango Mail PD Blue,ブランゴメイルPD青,368,367,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Blango Mail PD Black,ブランゴメイルPD黒,369,368,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Golden Haori PD White,金色ノ羽織PD白,370,369,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Golden Haori PD Purple,金色ノ羽織PD紫,371,370,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Golden Haori PD Green,金色ノ羽織PD緑,372,371,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Vest PD Green,グラビドレジストPD緑,373,372,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Vest PD Purple,グラビドレジストPD紫,374,373,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Vest PD Red,グラビドレジストPD赤,375,374,TRUE,TRUE,TRUE,TRUE,FALSE
+body,High Metal Mail PD Black,ハイメタメイルPD黒,392,391,TRUE,TRUE,TRUE,TRUE,FALSE
+body,High Metal Mail PD Blue,ハイメタメイルPD青,390,389,TRUE,TRUE,TRUE,TRUE,FALSE
+body,High Metal Mail PD Yellow,ハイメタメイルPD黄,391,390,TRUE,TRUE,TRUE,TRUE,FALSE
+body,S・Sol Mail PD Red,Ｓ・ソルメイルPD赤,393,392,TRUE,TRUE,TRUE,TRUE,FALSE
+body,S・Sol Mail PD Purple,Ｓ・ソルメイルPD紫,394,393,TRUE,TRUE,TRUE,TRUE,FALSE
+body,S・Sol Mail PD Black,Ｓ・ソルメイルPD黒,395,394,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Garuga Vest PD White,ガルルガレジストPD白,396,395,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Garuga Vest PD Green,ガルルガレジストPD緑,397,396,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Garuga Vest PD Red,ガルルガレジストPD赤,398,397,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hermitaur Mail PD Blue,ザザミメイルPD青,452,451,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hermitaur Mail PD White,ザザミメイルPD白,454,453,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hermitaur Mail PD Purple,ザザミメイルPD紫,453,452,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala Diru PD Red,クシャナディールPD赤,426,425,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala Diru PD Yellow,クシャナディールPD黄,427,426,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala Diru PD Green,クシャナディールPD緑,428,427,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala バダル PD Red,クシャナバダルPD赤,432,431,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala バダル PD Yellow,クシャナバダルPD黄,433,432,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kushala バダル PD Green,クシャナバダルPD緑,434,433,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・陽D,忍の装束・陽Ｄ,53,52,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・陰D,忍の装束・陰Ｄ,54,53,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bonne D Mail,ボンネＤメイル,2130,2130,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kalais D Vest,カライスＤレジスト,1674,1674,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lucchese D Vest,ルケーゼＤレジスト,1675,1675,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Quoiz D Vest,クオイズＤレジスト,1673,1673,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nekodan D Suit,ネコダンＤスーツ,1788,1788,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gudan D Mail,グーダンＤメイル,1912,1912,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Saine D Suit,サイネＤスーツ,2120,2120,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Wing D Vest,ウイングＤベスト,2124,2124,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gasura ZD Mail,ガスラZDメイル,2135,2135,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gasura ZD Vest,ガスラZDレジスト,2136,2136,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seregios C Mail,レギオスＣメイル,2139,2139,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seregios C Vest,レギオスＣレジスト,2140,2140,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pinbi D Vest,ピンビＤベスト,2158,2158,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pribu D Vest,プリブＤベスト,2159,2159,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nerihi Haori D,煉緋ノ羽織Ｄ,2164,2164,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Urpina D Vest,ウルピナＤベスト,0,2166,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Bune D Vest,ビューネイＤベスト,0,2167,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Melas D Suit,メラースＤスーツ,2180,2180,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・Kensei D Mail,白虎・剣聖Ｄメイル,1343,1343,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・双龍D Mail,白虎・双龍Ｄメイル,1347,1347,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・Blade 王D Mail,白虎・剣王Ｄメイル,1351,1351,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・刀神D Mail,白虎・刀神Ｄメイル,1355,1355,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・Heaven 槍D Mail,白虎・天槍Ｄメイル,1359,1359,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・砲皇D Mail,白虎・砲皇Ｄメイル,1363,1363,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・鈍器獣D Mail,白虎・鈍器獣Ｄメイル,1367,1367,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・奏帝D Mail,白虎・奏帝Ｄメイル,1371,1371,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・穿凰D Mail,白虎・穿凰Ｄメイル,1543,1543,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・斬将D Mail,白虎・斬将Ｄメイル,1891,1891,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・銃傑D Suit,白虎・銃傑Ｄスーツ,1375,1375,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・銃仙D Suit,白虎・銃仙Ｄスーツ,1379,1379,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・Bow 鬼D Suit,白虎・弓鬼Ｄスーツ,1383,1383,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kirin Vest PD Red,キリンベストPD赤,429,428,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kirin Vest PD Purple,キリンベストPD紫,430,429,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kirin Vest PD Black,キリンベストPD黒,431,430,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Mail PD White,カイザーメイルPD白,447,446,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Vest PD White,カイザーレジストPD白,450,449,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Mail PD Black,カイザーメイルPD黒,446,445,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Vest PD Black,カイザーレジストPD黒,449,448,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Mail PD Green,カイザーメイルPD緑,448,447,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kaiser Vest PD Green,カイザーレジストPD緑,451,450,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mizuha [Chest] PD Blue,ミヅハ【胸当】PD青,474,473,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mizuha [Chest] PD Red,ミヅハ【胸当】PD赤,475,474,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mizuha [Chest] PD Yellow,ミヅハ【胸当】PD黄,473,472,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toyotama [Chest] PD Blue,トヨタマ【胸当】PD青,477,476,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toyotama [Chest] PD Red,トヨタマ【胸当】PD赤,478,477,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toyotama [Chest] PD Yellow,トヨタマ【胸当】PD黄,476,475,TRUE,TRUE,TRUE,TRUE,FALSE
+body,凛 [Chestplate] PD Black,凛【胸当て】PD黒,0,479,FALSE,TRUE,TRUE,TRUE,FALSE
+body,凛 [Chestplate] PD Purple,凛【胸当て】PD紫,0,478,FALSE,TRUE,TRUE,TRUE,FALSE
+body,凛 [Chestplate] PD White,凛【胸当て】PD白,0,480,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Ceanataur Vest PD Red,ギザミレジストPD赤,509,508,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ceanataur Vest PD Black,ギザミレジストPD黒,510,509,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ceanataur Vest PD Yellow,ギザミレジストPD黄,511,510,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Remobra ボディ PD White,ガブラスボディPD白,515,514,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Remobra ボディ PD Yellow,ガブラスボディPD黄,516,515,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Remobra ボディ PD Black,ガブラスボディPD黒,517,516,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harze D Suit,ハーゼＤスーツ,1155,1155,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Revenants D Muscle,ルヴナンＤムスケル,1511,1511,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kukubo D Vest,ククボＤレジスト,702,702,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kakabu D Vest,カカブＤレジスト,1070,1070,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aruru D Vest,アルルＤレジスト,1117,1117,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・Kensei D Mail,朱雀・剣聖Ｄメイル,1342,1342,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・双龍D Mail,朱雀・双龍Ｄメイル,1346,1346,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・Blade 王D Mail,朱雀・剣王Ｄメイル,1350,1350,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・刀神D Mail,朱雀・刀神Ｄメイル,1354,1354,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・Heaven 槍D Mail,朱雀・天槍Ｄメイル,1358,1358,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・砲皇D Mail,朱雀・砲皇Ｄメイル,1362,1362,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・鈍器獣D Mail,朱雀・鈍器獣Ｄメイル,1366,1366,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・奏帝D Mail,朱雀・奏帝Ｄメイル,1370,1370,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・穿凰D Mail,朱雀・穿凰Ｄメイル,1544,1544,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・斬将D Mail,朱雀・斬将Ｄメイル,1892,1892,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・銃傑D Suit,朱雀・銃傑Ｄスーツ,1374,1374,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・銃仙D Suit,朱雀・銃仙Ｄスーツ,1378,1378,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・Bow 鬼D Suit,朱雀・弓鬼Ｄスーツ,1382,1382,TRUE,TRUE,TRUE,TRUE,FALSE
+body,PV Vest PD Red,ＰＶベストPD赤,0,511,FALSE,TRUE,TRUE,TRUE,FALSE
+body,PV Vest PD Blue,ＰＶベストPD青,0,512,FALSE,TRUE,TRUE,TRUE,FALSE
+body,PV Vest PD Purple,ＰＶベストPD紫,0,513,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Empress Mail PD Red,エンプレスメイルPD赤,542,541,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress Mail PD Yellow,エンプレスメイルPD黄,544,543,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress Mail PD Purple,エンプレスメイルPD紫,546,545,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress Suit PD Red,エンプレススーツPD赤,543,542,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress Suit PD Yellow,エンプレススーツPD黄,545,544,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Empress Suit PD Purple,エンプレススーツPD紫,547,546,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vespoid Mail PD Yellow,ランゴメイルPD黄,548,547,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vespoid Mail PD Black,ランゴメイルPD黒,549,548,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vespoid Mail PD Blue,ランゴメイルPD青,550,549,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Death Stench Muscle PD White,デスギアムスケルPD白,573,572,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Death Stench Muscle PD Red,デスギアムスケルPD赤,574,573,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Death Stench Muscle PD Blue,デスギアムスケルPD青,575,574,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diablos Mail PD Purple,ディアブロメイルPD紫,576,575,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diablos Mail PD Blue,ディアブロメイルPD青,577,576,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diablos Mail PD Yellow,ディアブロメイルPD黄,578,577,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Makluva Cover PD Green,マカルパペプラムPD緑,579,578,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Makluva Cover PD Blue,マカルパペプラムPD青,580,579,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Makluva Cover PD Black,マカルパペプラムPD黒,581,580,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンテ PD Black,アカムトウルンテPD黒,631,630,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンテ PD Red,アカムトウルンテPD赤,632,631,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンテ PD White,アカムトウルンテPD白,633,632,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンペ PD Black,アカムトウルンペPD黒,634,633,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンペ PD Red,アカムトウルンペPD赤,635,634,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Akantor ウルンペ PD White,アカムトウルンペPD白,636,635,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Mail PD Black,グラビドメイルPD黒,637,636,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Mail PD Blue,グラビドメイルPD青,638,637,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios Mail PD Red,グラビドメイルPD赤,639,638,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sharuru D Mail,シャルルＤメイル,1985,1985,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Neriotori Haori D,煉鳳ノ羽織Ｄ,2109,2109,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Anorupatisu ZD Mail,アノルZDメイル,2137,2137,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Anorupatisu ZD Vest,アノルZDレジスト,2138,2138,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dylan D Suit,ディランＤスーツ,2160,2160,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dibble D Suit,ディブルＤスーツ,2161,2161,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Fins D Suit,フィンスＤスーツ,2162,2162,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dins D Suit,ディンスＤスーツ,2163,2163,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Charis D Suit,カリスＤスーツ,2172,2172,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Miriam D Mail,ミリアムＤメイル,2173,2173,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Lenigan D Suit,レニガンＤスーツ,2174,2174,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Brooke D Vest,ブルックＤベスト,1306,1306,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shirukku D Vest,シルックＤベスト,1307,1307,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gorukku D Vest,ゴルックＤベスト,1742,1742,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kiyoshi Haori D,潔燭ノ羽織Ｄ,2170,2170,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kashoku Haori D,華燭ノ羽織Ｄ,2171,2171,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Jyaga D Mail,ジャガーＤメイル,1090,1090,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cure D Mail,キュールＤメイル,1919,1919,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Jess D Mail,ジェスＤメイル,1100,1100,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Riaruo D Mail,リアルオＤメイル,1807,1807,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reiresu D Mail,レイレスＤメイル,1869,1869,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reuasu D Mail,レウアスＤメイル,1835,1835,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Buran D Jacket,ブランＤジャケット,505,504,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shimashima D Vest,しましまＤベスト,1745,1745,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Favila D Suit,ファビラＤスーツ,2175,2175,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Alicia D Suit,アリシアＤスーツ,2232,2232,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Masaha Dress C [Haori 】,雅葉ノ装Ｃ【羽織】,2187,2187,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aura C Mail,アウラＣメイル,2204,2204,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Asumo C Mail,アスモＣメイル,2205,2205,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rokka C Suit,ロッカＣスーツ,2206,2206,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ruche C Mail,ルーチェＣメイル,2207,2207,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shui C Mail,シュイＣメイル,2208,2208,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Masaha Dress D [Haori] Red,雅葉ノ装Ｄ【羽織】朱,2183,2183,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Masaha Dress D [Haori] Silver,雅葉ノ装Ｄ【羽織】銀,2184,2184,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Masaha Dress D [Haori] Blue,雅葉ノ装Ｄ【羽織】碧,2185,2185,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Masaha Dress D [Haori] Orange,雅葉ノ装Ｄ【羽織】橙,2186,2186,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・Kensei D Mail,玄武・剣聖Ｄメイル,1340,1340,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・双龍D Mail,玄武・双龍Ｄメイル,1344,1344,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・Blade 王D Mail,玄武・剣王Ｄメイル,1348,1348,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・刀神D Mail,玄武・刀神Ｄメイル,1352,1352,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・Heaven 槍D Mail,玄武・天槍Ｄメイル,1356,1356,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・砲皇D Mail,玄武・砲皇Ｄメイル,1360,1360,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・鈍器獣D Mail,玄武・鈍器獣Ｄメイル,1364,1364,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・奏帝D Mail,玄武・奏帝Ｄメイル,1368,1368,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・穿凰D Mail,玄武・穿凰Ｄメイル,1545,1545,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・斬将D Mail,玄武・斬将Ｄメイル,1893,1893,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・銃傑D Suit,玄武・銃傑Ｄスーツ,1372,1372,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・銃仙D Suit,玄武・銃仙Ｄスーツ,1376,1376,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・Bow 鬼D Suit,玄武・弓鬼Ｄスーツ,1380,1380,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tanzanite D Mail,タンザナＤメイル,2141,2141,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hematite D Mail,ヘマタイトＤメイル,2142,2142,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Byakko・磁星D Mail,白虎・磁星Ｄメイル,2143,2143,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suzaku・磁星D Mail,朱雀・磁星Ｄメイル,2144,2144,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Genbu・磁星D Mail,玄武・磁星Ｄメイル,2145,2145,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tigrex Mail PD Black,レックスメイルPD黒,641,640,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tigrex Mail PD White,レックスメイルPD白,642,641,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tigrex Mail PD Purple,レックスメイルPD紫,643,642,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Monoblos Mail PD Yellow,モノブロスメイルPD黄,644,643,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Monoblos Mail PD Green,モノブロスメイルPD緑,645,644,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Monoblos Mail PD White,モノブロスメイルPD白,646,645,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Vest PD Black,フルフルレジストPD黒,357,356,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Vest PD Green,フルフルレジストPD緑,355,354,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Khezu Vest PD Blue,フルフルレジストPD青,353,352,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Mail PD Black,ガノスメイルPD黒,686,686,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Mail PD Yellow,ガノスメイルPD黄,687,687,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Mail PD Purple,ガノスメイルPD紫,688,688,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Vest PD Black,ガノスレジストPD黒,689,689,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Vest PD Yellow,ガノスレジストPD黄,690,690,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Plesioth Vest PD Purple,ガノスレジストPD紫,691,691,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gypceros Vest PD Red,ゲリョスレジストPD赤,692,692,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gypceros Vest PD Yellow,ゲリョスレジストPD黄,693,693,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gypceros Vest PD Green,ゲリョスレジストPD緑,694,694,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kagura 【胴当て】 PD Red,神楽【胴当て】PD赤,724,724,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kagura 【胴当て】 PD Black,神楽【胴当て】PD黒,725,725,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kagura 【胴当て】 PD Purple,神楽【胴当て】PD紫,726,726,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kamiza [Chestplate] PD Red,神座【胸当て】PD赤,727,727,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kamiza [Chestplate] PD Black,神座【胸当て】PD黒,728,728,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kamiza [Chestplate] PD Purple,神座【胸当て】PD紫,729,729,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mosswine Vest PD White,モスブレストPD白,730,730,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mosswine Vest PD Yellow,モスブレストPD黄,731,731,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Mosswine Vest PD Blue,モスブレストPD青,732,732,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・陰 PD Yellow,忍の装束・陰PD黄,771,771,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・陰 PD Red,忍の装束・陰PD赤,772,772,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・陰 PD Blue,忍の装束・陰PD青,773,773,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dusk D Suit・Red,ダスクＤスーツ・赤,1784,1784,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dusk D Suit・White,ダスクＤスーツ・白,1785,1785,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dusk D Suit・Peach,ダスクＤスーツ・桃,1786,1786,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Dusk D Suit・Blue,ダスクＤスーツ・青,1787,1787,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marin D Vest・Blue,マリンＤベスト・青,1716,1716,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marin D Vest・Peach,マリンＤベスト・桃,1717,1717,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marin D Vest・White,マリンＤベスト・白,1718,1718,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Marin D Vest・Black,マリンＤベスト・黒,1719,1719,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reflet D Mail・Blue,ルフレＤメイル・青,1720,1720,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reflet D Mail・White,ルフレＤメイル・白,1722,1722,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reflet D Mail・Red,ルフレＤメイル・赤,1721,1721,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Reflet D Mail・Black,ルフレＤメイル・黒,1723,1723,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Tenpi Shozoku D・Red,天日ノ装束Ｄ・赤,0,1662,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Tenpi Shozoku D・Blue,天日ノ装束Ｄ・青,0,1665,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Tenpi Shozoku D・Black,天日ノ装束Ｄ・黒,0,1664,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Tenpi Shozoku D・White,天日ノ装束Ｄ・白,0,1663,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Naga D Vest・Blue,ナーガＤベスト・青,1516,1516,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Naga D Vest・Red,ナーガＤベスト・赤,1517,1517,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Naga D Vest・White,ナーガＤベスト・白,1518,1518,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Naga D Vest・Black,ナーガＤベスト・黒,1519,1519,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sheriff D Vest・Tea,シェリフＤベスト・茶,1297,1297,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sheriff D Vest・Black,シェリフＤベスト・黒,1298,1298,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sheriff D Vest・Blue,シェリフＤベスト・青,1299,1299,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Sheriff D Vest・White,シェリフＤベスト・白,1300,1300,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Serena D Vest・Purple,セレナＤベスト・紫,1494,1494,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Serena D Vest・Blue,セレナＤベスト・青,1495,1495,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Serena D Vest・White,セレナＤベスト・白,1496,1496,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Serena D Vest・Red,セレナＤベスト・赤,1497,1497,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gelt D Mail・Black,ゲルトＤメイル・黒,1245,1245,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gelt D Mail・Copper,ゲルトＤメイル・銅,1246,1246,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gelt D Mail・Silver,ゲルトＤメイル・銀,1247,1247,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gelt D Mail・Gold,ゲルトＤメイル・金,1248,1248,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gloria D Mail・Gold,グロリアＤメイル・金,1218,1218,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gloria D Mail・Blue,グロリアＤメイル・青,1219,1219,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gloria D Mail・Water,グロリアＤメイル・水,1220,1220,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gloria D Mail・Red,グロリアＤメイル・赤,1221,1221,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cloth D Vest・Red,クロースＤベスト・赤,1225,1225,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cloth D Vest・Blue,クロースＤベスト・青,1226,1226,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cloth D Vest・Purple,クロースＤベスト・紫,1227,1227,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cloth D Vest・Green,クロースＤベスト・緑,1228,1228,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rast D Vest・Black,レイストＤベスト・黒,1163,1163,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rast D Vest・Blue,レイストＤベスト・青,1164,1164,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rast D Vest・Crimson,レイストＤベスト・紅,1165,1165,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rast D Vest・White,レイストＤベスト・白,1166,1166,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Siena D Mail・Silver,シエナＤメイル・銀,1126,1126,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Siena D Mail・Black,シエナＤメイル・黒,1127,1127,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Siena D Mail・Red,シエナＤメイル・赤,1128,1128,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Siena D Mail・Blue,シエナＤメイル・青,1129,1129,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cultu D Vest・Ash,カウチュＤベスト・灰,1073,1073,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cultu D Vest・Blue,カウチュＤベスト・青,1074,1074,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cultu D Vest・Orange,カウチュＤベスト・橙,1075,1075,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cultu D Vest・Green,カウチュＤベスト・緑,1076,1076,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Truss D Jacket Blue,トラスＤジャケット青,1044,1044,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Truss D Jacket Red,トラスＤジャケット赤,1045,1045,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Truss D Jacket White,トラスＤジャケット白,1046,1046,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Truss D Jacket Purple,トラスＤジャケット紫,1047,1047,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maisto D Vest・Crimson,マイストＤベスト・紅,1017,1018,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maisto D Vest・Green,マイストＤベスト・緑,1018,1017,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maisto D Vest・Green,マイストＤベスト・蒼,1020,1020,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maisto D Vest・Pink,マイストＤベスト・桜,1019,1019,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Randa の胴当・D Yellow,蘭陀の胴当・Ｄ黄,777,777,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Randa の胴当・D Red,蘭陀の胴当・Ｄ赤,778,778,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Randa の胴当・D Purple,蘭陀の胴当・Ｄ紫,779,779,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Randa の胴当・D Gold,蘭陀の胴当・Ｄ金,780,780,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bunny D Suit・Black,バーニーＤスーツ・黒,709,709,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bunny D Suit・White,バーニーＤスーツ・白,710,710,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bunny D Suit・Red,バーニーＤスーツ・赤,711,711,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bunny D Suit・Purple,バーニーＤスーツ・紫,712,712,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regelia D Mail・White,リゲリアＤメイル・白,681,681,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regelia D Mail・Red,リゲリアＤメイル・赤,682,682,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regelia D Mail・Green,リゲリアＤメイル・緑,683,683,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regelia D Mail・Blue,リゲリアＤメイル・青,684,684,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aristo D Vest・Blue,アリストＤベスト・青,596,595,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aristo D Vest・White,アリストＤベスト・白,597,596,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aristo D Vest・Purple,アリストＤベスト・紫,598,597,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aristo D Vest・Red,アリストＤベスト・赤,599,598,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melety D Vest・White,メレティＤベスト・白,559,558,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melety D Vest・Red,メレティＤベスト・赤,560,559,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melety D Vest・Blue,メレティＤベスト・青,561,560,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Melety D Vest・Black,メレティＤベスト・黒,562,561,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ferme D Mail・Black,フェルムＤメイル・黒,530,529,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ferme D Mail・Red,フェルムＤメイル・赤,531,530,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ferme D Mail・White,フェルムＤメイル・白,532,531,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ferme D Mail・Blue,フェルムＤメイル・青,533,532,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Real D Mail・White,レアルＤメイル・白,521,520,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Real D Mail・Gold,レアルＤメイル・金,525,524,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Real D Mail・Blue,レアルＤメイル・青,523,522,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Real D Mail・Red,レアルＤメイル・赤,524,523,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arma D Vest・Black,アルマＤベスト・黒,455,454,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arma D Vest・White,アルマＤベスト・白,459,458,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arma D Vest・Blue,アルマＤベスト・青,462,461,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arma D Vest・Tea,アルマＤベスト・茶,461,460,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Honour D Mail・Red,オナブルＤメイル・赤,1498,1498,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Honour D Mail・Blue,オナブルＤメイル・青,1499,1499,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Honour D Mail・Green,オナブルＤメイル・緑,1500,1500,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Honour D Mail・紺,オナブルＤメイル・紺,1501,1501,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pics D Vest・Green,ピクスＤベスト・緑,1241,1241,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pics D Vest・Purple,ピクスＤベスト・紫,1243,1243,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pics D Vest・Black,ピクスＤベスト・黒,1242,1242,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pics D Vest・Water,ピクスＤベスト・水,1244,1244,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magos D Mail・Yellow,マゴスＤメイル・黄,1199,1199,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magos D Mail・Red,マゴスＤメイル・赤,1200,1200,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magos D Mail・Water,マゴスＤメイル・水,1201,1201,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Magos D Mail・Blue,マゴスＤメイル・青,1202,1202,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arge D Vest,アージェＤベスト,608,607,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Camarera D Vest,カマレラＤベスト,657,657,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Metenera D Vest,メテネラＤベスト,723,723,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Abitto D Vest,アビットＤベスト,789,789,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Riburi D Vest,リブリーＤベスト,1040,1040,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zodic D Mail・Blue,ゾデックＤメイル・青,1149,1149,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zodic D Mail・Tea,ゾデックＤメイル・茶,1152,1152,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zodic D Mail・Green,ゾデックＤメイル・緑,1150,1150,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zodic D Mail・Pink,ゾデックＤメイル・桜,1151,1151,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cayssis D Mail Water,カエシスＤメイル水,1120,1120,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cayssis D Mail Red,カエシスＤメイル赤,1121,1121,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cayssis D Mail Blue,カエシスＤメイル青,1122,1122,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cayssis D Mail Orange,カエシスＤメイル橙,1123,1123,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Omet D Mail・Black,オメットＤメイル・黒,1091,1091,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Omet D Mail・Red,オメットＤメイル・赤,1092,1092,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Omet D Mail・White,オメットＤメイル・白,1093,1093,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Omet D Mail・Blue,オメットＤメイル・青,1094,1094,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Edio D Mail・Blue,エディオＤメイル・青,784,784,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Edio D Mail・Red,エディオＤメイル・赤,785,785,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Edio D Mail・Yellow,エディオＤメイル・黄,786,786,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Edio D Mail・Black,エディオＤメイル・黒,787,787,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Steno D Mail・Orange,ステノＤメイル・橙,718,718,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Steno D Mail・Peach,ステノＤメイル・桃,719,719,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Steno D Mail・Blue,ステノＤメイル・青,720,720,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Steno D Mail・Red,ステノＤメイル・赤,721,721,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suriito D Vest・Yellow,スリートＤベスト・黄,652,652,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suriito D Vest・Silver,スリートＤベスト・銀,653,653,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suriito D Vest・Red,スリートＤベスト・赤,654,654,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Suriito D Vest・Blue,スリートＤベスト・青,655,655,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Galitos D Vest・Tea,ガリトスＤベスト・茶,1036,1036,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Galitos D Vest・Red,ガリトスＤベスト・赤,1037,1037,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Galitos D Vest・Black,ガリトスＤベスト・黒,1038,1038,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Galitos D Vest・Water,ガリトスＤベスト・水,1039,1039,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Text D Vest・Purple,テクストＤベスト・紫,588,587,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Text D Vest・Green,テクストＤベスト・緑,589,588,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Text D Vest・Blue,テクストＤベスト・青,590,589,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Text D Vest・Black,テクストＤベスト・黒,592,591,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pharan D Mail・White,ファランＤメイル・白,614,613,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pharan D Mail・Black,ファランＤメイル・黒,615,614,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pharan D Mail・Red,ファランＤメイル・赤,616,615,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pharan D Mail・Blue,ファランＤメイル・青,617,616,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gold D Mail・Red,ゴルトＤメイル・赤,554,553,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gold D Mail・Blue,ゴルトＤメイル・青,555,554,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gold D Mail・Yellow,ゴルトＤメイル・黄,556,555,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gold D Mail・Purple,ゴルトＤメイル・紫,557,556,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Claire D Vest・Purple,クレールＤベスト・紫,535,534,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Claire D Vest・Water,クレールＤベスト・水,536,535,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Claire D Vest・Red,クレールＤベスト・赤,537,536,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Claire D Vest・Black,クレールＤベスト・黒,538,537,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gold Cat D Suit,きんねこ服Ｄスーツ,258,257,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Silver Cat D Suit,ぎんねこ服Ｄスーツ,622,621,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ex D Vest・White,イクスＤベスト・白,468,467,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ex D Vest・Red,イクスＤベスト・赤,469,468,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ex D Vest・Blue,イクスＤベスト・青,470,469,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ex D Vest・Black,イクスＤベスト・黒,471,470,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Star Festival D Shozoku [Red 】,星祭Ｄ装束【赤】,387,386,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Star Festival D Shozoku [Blue 】,星祭Ｄ装束【青】,399,398,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Star Festival D Shozoku [Black 】,星祭Ｄ装束【黒】,400,399,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Star Festival D Shozoku [White 】,星祭Ｄ装束【白】,401,400,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Promise D Mail・White,プロミスＤメイル・白,301,300,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Promise D Mail・Blue,プロミスＤメイル・青,302,301,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Promise D Mail・Purple,プロミスＤメイル・紫,303,302,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Promise D Mail・Yellow,プロミスＤメイル・黄,304,303,TRUE,TRUE,TRUE,TRUE,FALSE
+body,White M Mail D,ホワイトＭメイルＤ,296,295,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Flight Haori D・White,飛天ノ羽織Ｄ・白,1515,1515,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Flight Haori D・Red,飛天ノ羽織Ｄ・赤,1512,1512,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Flight Haori D・Tea,飛天ノ羽織Ｄ・茶,1513,1513,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Flight Haori D・Blue,飛天ノ羽織Ｄ・青,1514,1514,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bande D Vest・Blue,バンデＤベスト・青,1658,1658,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bande D Vest・Red,バンデＤベスト・赤,1659,1659,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bande D Vest・Green,バンデＤベスト・緑,1660,1660,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bande D Vest・Black,バンデＤベスト・黒,1661,1661,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regnum D Vest・White,レグヌムＤベスト・白,1712,1712,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regnum D Vest・Blue,レグヌムＤベスト・青,1713,1713,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regnum D Vest・Red,レグヌムＤベスト・赤,1714,1714,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Regnum D Vest・Tea,レグヌムＤベスト・茶,1715,1715,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gania D Vest・Red,ガニアＤベスト・赤,1770,1770,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gania D Vest・Blue,ガニアＤベスト・青,1771,1771,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gania D Vest・Tea,ガニアＤベスト・茶,1772,1772,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gania D Vest・Purple,ガニアＤベスト・紫,1773,1773,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Amistad D Mail・Black,アミスタＤメイル・黒,1808,1808,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Amistad D Mail・White,アミスタＤメイル・白,1809,1809,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Amistad D Mail・Blue,アミスタＤメイル・青,1810,1810,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Amistad D Mail・Crimson,アミスタＤメイル・紅,1811,1811,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Perifu D Mail・Blue,ペリフＤメイル・青,1856,1856,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Perifu D Mail・Tea,ペリフＤメイル・茶,1857,1857,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Perifu D Mail・Green,ペリフＤメイル・緑,1858,1858,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Perifu D Mail・Purple,ペリフＤメイル・紫,1859,1859,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vakusu D Mail,ヴァクスＤメイル,1918,1918,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rizuvue D Mail,リズヴェＤメイル,2127,2127,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Konseru D Mail,コンセルＤメイル,1262,1262,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Utatsumugu Shozoku D,歌紡ノ装束Ｄ,2154,2154,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shikari の胴当てD,シカリの胴当てＤ,484,483,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Strega D Mail,ストレガＤメイル,440,439,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Eques D Mail,エクエスＤメイル,386,385,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Uida D Mail,ウィダＤメイル,493,492,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kuraaji D Mail,クラージＤメイル,507,506,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Aneshisu D Mail,アネシスＤメイル,506,505,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zaakaa D Mail,ザーカーＤメイル,595,594,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Vinen D Jacket,ヴィネンＤジャケット,760,760,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rudeos D Mail,ルデオスＤメイル,1001,1001,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Breo D Jacket,ブレオＤジャケット,761,761,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rouge D Jacket,ルージュＤジャケット,413,412,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Onero D Mail,オネロＤメイル,1089,1089,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Diina D Vest,ディーナＤベスト,265,264,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Oorowa D Mail,オーロワＤメイル,1118,1118,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Higakure D Mail,ヒガクレＤメイル,1257,1257,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Perce D Mail,ペルセＤメイル,1316,1316,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Orykto D Mail,オリクトＤメイル,1684,1684,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Orykto D Vest,オリクトＤレジスト,1685,1685,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Yoruti D Mail,ヨルティＤメイル,1677,1677,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nisuru D Mail,ニスルＤメイル,1222,1222,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maaden D Mail,マアデンＤメイル,1738,1738,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Maaden D Vest,マアデンＤレジスト,1739,1739,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cheni D Mail,チェニーＤメイル,1778,1778,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Eguiene D Mail,エギエネＤメイル,1917,1917,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Toruboda D Mail,トルボダＤメイル,1834,1834,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kabariba D Mail,カバリバＤメイル,1833,1833,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Norukku D Vest,ノルックＤベスト,1308,1308,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Valier D Mail,ヴァリエＤメイル,1867,1867,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arumyu D Mail,アルミュＤメイル,2075,2075,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Chatore D Mail,チャトレＤメイル,2074,2074,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Pashio D Mail,パシオＤメイル,1223,1223,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Cariva D Mail,カリヴァＤメイル,2128,2128,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Desutora D Plate,デストラＤプレート,0,2258,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Bogabado ZD Mail,ボガバドZDメイル,2192,2192,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bogabado ZD Vest,ボガバドZDレジスト,2193,2193,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Nerishoku Haori D,煉燭ノ羽織Ｄ,2165,2165,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios ZD Mail,グラビZDメイル,2190,2190,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gravios ZD Vest,グラビZDレジスト,2191,2191,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Baruragaru ZD Mail,バルラZDメイル,2188,2188,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Baruragaru ZD Vest,バルラZDレジスト,2189,2189,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rabius D Suit,ラビウスＤスーツ,2230,2230,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rocras D Suit,ロクラスＤスーツ,2231,2231,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Alisys D Suit,アリシスＤスーツ,2233,2233,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Loli D Suit,ロゥリィＤスーツ,2234,2234,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Recolis D Suit,レコリスＤスーツ,2235,2235,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rapin D Mail,ラファンＤメイル,2242,2242,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rapin C Mail,ラファンＣメイル,2243,2243,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Quna D Vest,クーナＤベスト,0,2168,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Ionia D Vest,イオニアＤベスト,0,2169,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Guridi D Mail,グリディＤメイル,1964,1964,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shifunyi D Suit,シフニィＤスーツ,2100,2100,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rappy D Suit,ラッピーＤスーツ,2198,2198,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Bita D Mail,ビーターＤメイル,2238,2238,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Koreputo D Mail,コレプトＤメイル,2239,2239,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Secuti D Mail・Black,セクティＤメイル・黒,1289,1289,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Secuti D Mail・Blue,セクティＤメイル・青,1290,1290,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Secuti D Mail・Red,セクティＤメイル・赤,1291,1291,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Secuti D Mail・White,セクティＤメイル・白,1292,1292,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rockman D Suit,ロックマンＤスーツ,2293,2293,TRUE,TRUE,TRUE,TRUE,FALSE
+body,蜂針D [Chestplate 】・Orange,蜂針Ｄ【胸当て】・橙,0,1229,FALSE,TRUE,TRUE,TRUE,FALSE
+body,Kinkou D Suit,キンコウＤスーツ,2228,2228,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Anbu D Suit,アンブＤスーツ,2229,2229,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rengoku Haori D,煉獄ノ羽織Ｄ,2240,2240,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shanru D Mail,シャンルＤメイル,2236,2236,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Fanru D Mail,ファンルＤメイル,2237,2237,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zamuza ZD Mail,ザムザZDメイル,2245,2245,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Zamuza ZD Vest,ザムザZDレジスト,2246,2246,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harudo ZD Mail,ハルドZDメイル,2247,2247,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Harudo ZD Vest,ハルドZDレジスト,2248,2248,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Arbiter D Plate,アービターＤプレート,2276,2276,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Elysi D Mail,エリュシＤメイル,2277,2277,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Fine D Suit,フィーネＤスーツ,2278,2278,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kotona D Suit,コトナＤスーツ,2279,2279,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Finis D Suit,フィニスＤスーツ,2280,2280,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Firl D Suit,フィールＤスーツ,2281,2281,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ryoso Torso D,了奏ノ胴丸Ｄ,2282,2282,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Gems D Suit,ジェムズＤスーツ,2284,2284,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Alisha D Suit,アリシャＤスーツ,2285,2285,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Ricca D Suit,リッカＤスーツ,2288,2288,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Kelis D Suit,ケリスＤスーツ,2290,2290,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Myunru D Mail,ミュンルＤメイル,2292,2292,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・Kensei D Mail,青龍・剣聖Ｄメイル,1341,1341,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・双龍D Mail,青龍・双龍Ｄメイル,1345,1345,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・Blade 王D Mail,青龍・剣王Ｄメイル,1349,1349,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・刀神D Mail,青龍・刀神Ｄメイル,1353,1353,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・Heaven 槍D Mail,青龍・天槍Ｄメイル,1357,1357,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・砲皇D Mail,青龍・砲皇Ｄメイル,1361,1361,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・鈍器獣D Mail,青龍・鈍器獣Ｄメイル,1365,1365,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・奏帝D Mail,青龍・奏帝Ｄメイル,1369,1369,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・穿凰D Mail,青龍・穿凰Ｄメイル,1546,1546,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・斬将D Mail,青龍・斬将Ｄメイル,1894,1894,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・銃傑D Suit,青龍・銃傑Ｄスーツ,1373,1373,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・銃仙D Suit,青龍・銃仙Ｄスーツ,1377,1377,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・Bow 鬼D Suit,青龍・弓鬼Ｄスーツ,1381,1381,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Seiryu・磁星D Mail,青龍・磁星Ｄメイル,2146,2146,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Shell PD Black,ＫロブスタシェルPD黒,765,765,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Shell PD Green,ＫロブスタシェルPD緑,766,766,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Shell PD Blue,ＫロブスタシェルPD青,767,767,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Skin PD Black,ＫロブスタスキンPD黒,768,768,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Skin PD Green,ＫロブスタスキンPD緑,769,769,TRUE,TRUE,TRUE,TRUE,FALSE
+body,K. Lobster Skin PD Blue,ＫロブスタスキンPD青,770,770,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc Mail PD Green,ヒプノメイルPD緑,1005,1005,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc Mail PD Red,ヒプノメイルPD赤,1006,1006,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hypnoc Mail PD Yellow,ヒプノメイルPD黄,1007,1007,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Mail PD Black,ベルメイルPD黒,1008,1008,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Mail PD Red,ベルメイルPD赤,1009,1009,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Mail PD Purple,ベルメイルPD紫,1010,1010,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Vest PD Black,ベルレジストPD黒,1011,1011,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Vest PD Red,ベルレジストPD赤,1012,1012,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Beru Vest PD Purple,ベルレジストPD紫,1013,1013,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Black Belt Mail PD White,クロオビメイルPD白,1062,1062,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Black Belt Mail PD Black,クロオビメイルPD黒,1063,1063,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Black Belt Mail PD Blue,クロオビメイルPD青,1064,1064,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Apkallu Mail PD White,アプカルメイルPD白,1086,1086,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Apkallu Mail PD Green,アプカルメイルPD緑,1087,1087,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Apkallu Mail PD Yellow,アプカルメイルPD黄,1088,1088,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Hide PD White,ルコハイドPD白,1103,1103,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Hide PD Blue,ルコハイドPD青,1104,1104,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Hide PD Red,ルコハイドPD赤,1105,1105,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Skin PD White,ルコスキンPD白,1106,1106,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Skin PD Blue,ルコスキンPD青,1107,1107,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Rukodiora Skin PD Red,ルコスキンPD赤,1108,1108,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Comrade Mail PD White Red,コムラダメイルPD白赤,1109,1109,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Comrade Mail PD White Blue,コムラダメイルPD白青,1110,1110,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Comrade Mail PD White Yellow,コムラダメイルPD白黄,1111,1111,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Otono D Jacket,オトノＤジャケット,1832,1832,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・空D,忍の装束・空Ｄ,162,161,TRUE,TRUE,TRUE,TRUE,FALSE
+body,忍の Shozoku・海D,忍の装束・海Ｄ,163,162,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shadow Shozoku・D,黒影ノ装束・Ｄ,1189,1189,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Shade Shozoku・D,黒陰ノ装束・Ｄ,1190,1190,TRUE,TRUE,TRUE,TRUE,FALSE
+body,Hope D Mail,ホープＤメイル,1191,1191,TRUE,TRUE,TRUE,TRUE,FALSE

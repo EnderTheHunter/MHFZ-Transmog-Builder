@@ -16,6 +16,7 @@ public class ArmorItemEditor : Editor
 	SerializedProperty secondaryColor;
 	SerializedProperty baseType;
 	SerializedProperty style;
+	SerializedProperty transmog;
 
 
 	void OnEnable()
@@ -30,6 +31,7 @@ public class ArmorItemEditor : Editor
 		secondaryColor = serializedObject.FindProperty("secondaryColor");
 		baseType = serializedObject.FindProperty("baseType");
 		style = serializedObject.FindProperty("style");
+		transmog = serializedObject.FindProperty("availableTransmog");
 	}
 
 	public override void OnInspectorGUI()
@@ -48,6 +50,7 @@ public class ArmorItemEditor : Editor
 		EditorGUILayout.PropertyField(secondaryColor);
 		EditorGUILayout.PropertyField(baseType);
 		EditorGUILayout.PropertyField(style);
+		EditorGUILayout.PropertyField(transmog);
 		serializedObject.ApplyModifiedProperties();
 	}
 }

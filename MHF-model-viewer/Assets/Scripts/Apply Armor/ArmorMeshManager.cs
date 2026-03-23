@@ -7,6 +7,8 @@ public class ArmorMeshManager : MonoBehaviour
 	public GameObject[] currentModel = new GameObject[6];
 	public Transform rootBone;
 	private PlayerArmorInventory playerArmorInventory;
+	public Texture maleSkin;
+	public Texture femaleSkin;
 
 	private void Start()
 	{
@@ -101,7 +103,7 @@ public class ArmorMeshManager : MonoBehaviour
 							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
 						} else
 						{
-							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelFemale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+							mat.SetTexture("_BaseMap", femaleSkin);
 						}
 					}
 				}

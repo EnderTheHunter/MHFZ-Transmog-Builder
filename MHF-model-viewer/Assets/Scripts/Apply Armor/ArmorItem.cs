@@ -34,7 +34,8 @@ public class ArmorItem : ScriptableObject
 		Pink,
 		White,
 		Grey,
-		Black
+		Black,
+		Brown
 	}
 
 	public enum BaseType
@@ -42,7 +43,7 @@ public class ArmorItem : ScriptableObject
 		None,
 		Classic,
 		Event,
-		Collab
+		Premium
 	}
 
 	public enum ArmorStyle
@@ -52,7 +53,8 @@ public class ArmorItem : ScriptableObject
 		Clothes,
 		Hair,
 		Futuristic,
-		Costume
+		Costume,
+		Collab
 	}
 
 	public enum BlademasterOrGunner
@@ -60,6 +62,12 @@ public class ArmorItem : ScriptableObject
 		None,
 		Blademaster,
 		Gunner
+	}
+
+	public enum AvailableTransmog
+	{
+		None,
+		Transmog
 	}
 
 	[Header("MAIN PARAMETERS /!\\ MANDATORY /!\\")]
@@ -83,4 +91,6 @@ public class ArmorItem : ScriptableObject
 	public BaseType baseType;
 	[HideInInspector]
 	public ArmorStyle style;
+	[HideInInspector]
+	public AvailableTransmog availableTransmog;
 }
