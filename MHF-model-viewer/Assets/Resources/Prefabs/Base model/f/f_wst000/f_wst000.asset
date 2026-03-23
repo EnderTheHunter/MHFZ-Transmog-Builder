@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a80e5fe6ed72b4a9030213e9b67db5, type: 3}
   m_Name: f_wst000
   m_EditorClassIdentifier: ArmorItem::ArmorItem
-  armorName: "Gorgon D Coil\u30FBBlack"
+  armorName: None
   gender: 1
   modelPrefab: {fileID: 919132149155446097, guid: 0a63abf7b7407944c9c52b9fd252729a, type: 3}
   type: 4
