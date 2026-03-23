@@ -20173,11 +20173,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bcfad5e4cec57324281381fe90a5fb14, type: 2}
   - {fileID: 11400000, guid: 05f140500df7b0f46aae0ef90b48a562, type: 2}
   baseModelFemale:
-  - {fileID: 11400000, guid: c6862ff218085f54daaf0dde0086c4b6, type: 2}
-  - {fileID: 11400000, guid: 6f6fb6d27a9b1d748a8bb3571eeeef6d, type: 2}
-  - {fileID: 11400000, guid: ad4c3cd1aeae0fb4ead04582bcbbcc22, type: 2}
-  - {fileID: 11400000, guid: 7fdc19714f37e594dbe5059b996e1d2e, type: 2}
-  - {fileID: 11400000, guid: a613a8007a6b90442a6291ff72b55f23, type: 2}
+  - {fileID: 11400000, guid: 305b60fbf6a324a41ad5e12931f48746, type: 2}
+  - {fileID: 11400000, guid: 1143364bdd3b40e4c9b34b2caf4b40ee, type: 2}
+  - {fileID: 11400000, guid: 57924b9931ab2004f9ac4c2294094db5, type: 2}
+  - {fileID: 11400000, guid: ae8df68af7fa3ef45a3d1865eea25c89, type: 2}
+  - {fileID: 11400000, guid: 642a286e36ed0104e80e26b36a2a5850, type: 2}
   maleFace: {fileID: 11400000, guid: b5bd693b1c783ee4d87c103a63abc5e8, type: 2}
   femaleFace: {fileID: 11400000, guid: a3ca7d6f8ad6fa84aac4c04ac42f7f6f, type: 2}
   armorNames:

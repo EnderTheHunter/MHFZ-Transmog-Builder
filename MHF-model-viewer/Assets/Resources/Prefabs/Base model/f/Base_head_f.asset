@@ -13,6 +13,14 @@ MonoBehaviour:
   m_Name: Base_head_f
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Base face male
-  type: 0
   gender: 1
-  modelPrefab: {fileID: 919132149155446097, guid: e68f90e1520e47b41b6ba9bef70cc031, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: a4d7182448245334f80c1fd3827e585a, type: 3}
+  type: 0
+  isHeadVisible: 0
+  isHairDyable: 0
+  blademasterOrGunner: 0
+  mainColor: 0
+  secondaryColor: 0
+  baseType: 0
+  style: 0
+  availableTransmog: 0
