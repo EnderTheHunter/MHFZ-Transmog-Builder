@@ -1,0 +1,18 @@
+{
+    "name": "ArmorItemEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0ccc82fddc2596b47bc9ea4011b527a0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
