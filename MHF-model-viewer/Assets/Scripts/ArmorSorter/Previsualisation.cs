@@ -119,6 +119,8 @@ public class Previsualisation : MonoBehaviour
 		{
 			foreach (Material mat in mesh.materials)
 			{
+				mat.EnableKeyword("_ALPHATEST_ON");
+				mat.SetFloat("_AlphaClip", 1);
 				mat.SetFloat("_Cull", 0);
 				mat.SetFloat("_Smoothness", 0);
 				if (mat.GetTexture("_BaseMap") == null)

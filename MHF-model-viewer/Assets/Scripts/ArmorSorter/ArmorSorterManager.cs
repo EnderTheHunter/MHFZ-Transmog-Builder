@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -47,10 +48,16 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 		currentActiveList = armorList[newActiveList];
 		currentActiveList.gameObject.SetActive(true);
-		ApplySearch();
+		StartCoroutineApplySearch();
 	}
 
-	public void ApplySearch()
+	public void StartCoroutineApplySearch()
+	{
+		StopAllCoroutines();
+		StartCoroutine(ApplySearch());
+	}
+
+	private IEnumerator ApplySearch()
 	{
 		string searchBarInput = "";
 
@@ -71,7 +78,6 @@ public class ArmorSorterManager : MonoBehaviour
 				{
 					int validFilters = 0;
 					int i = 0;
-					Debug.Log("ArmorItem = " + armorItem.armorName);
 					foreach (Enum item in listFilters)
 					{
 						if (SortArmorElement(item, activeFilters[i], listDefaultValues[i]) == true)
@@ -85,10 +91,12 @@ public class ArmorSorterManager : MonoBehaviour
 						GameObject armor = Instantiate(resultPrefab, resultContent.transform);
 						armor.GetComponentInChildren<TextMeshProUGUI>().text = armorItem.armorName;
 						armor.GetComponent<ArmorInfoInPrefab>().m_Item = armorItem;
+						yield return null;
 					}
 				}
 			}
 		}
+		yield return null;
 	}
 
 	private void DestroyAll()
