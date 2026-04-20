@@ -136,4 +136,15 @@ public class MixsetManager : MonoBehaviour
 			prefab.transform.Find("Gender").GetComponent<Image>().sprite = femaleIcon;
 		}
 	}
+
+	public void OpenClose()
+	{
+		if (isActiveAndEnabled == true)
+		{
+			gameObject.SetActive(false);
+		} else
+		{
+			gameObject.SetActive(true);
+		}
+	}
 }
