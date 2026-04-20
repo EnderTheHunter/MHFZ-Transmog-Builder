@@ -56,6 +56,7 @@ public class PlayerArmorInventory : MonoBehaviour
             }
         }
         armorNames[piece].text = newArmorPiece.armorName;
+        armor[piece] = newArmorPiece;
     }
 
     public void SetGender(bool newGender)

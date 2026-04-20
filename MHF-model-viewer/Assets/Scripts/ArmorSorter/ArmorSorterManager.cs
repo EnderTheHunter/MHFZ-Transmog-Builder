@@ -124,4 +124,15 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 		return false;
 	}
+
+	public ArmorTypeList GetArmorList(int value, ArmorItem.Gender gender)
+	{
+		if (gender == ArmorItem.Gender.Male)
+		{
+			return armorList[value];
+		} else
+		{
+			return armorList[value + 5];
+		}
+	}
 }
