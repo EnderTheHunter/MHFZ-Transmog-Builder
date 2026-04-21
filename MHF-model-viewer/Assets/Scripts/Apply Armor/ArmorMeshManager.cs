@@ -102,7 +102,7 @@ public class ArmorMeshManager : MonoBehaviour
 					{
 						if (playerArmorInventory.GetGender() == ArmorItem.Gender.Male)
 						{
-							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+							mat.SetTexture("_BaseMap", maleSkin);
 						} else
 						{
 							mat.SetTexture("_BaseMap", femaleSkin);

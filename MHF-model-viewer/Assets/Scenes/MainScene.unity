@@ -27101,7 +27101,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   rootBone: {fileID: 1547906768}
-  maleSkin: {fileID: 0}
+  maleSkin: {fileID: 2800000, guid: 3ee2f3117fba2424489fb508d8cd228d, type: 3}
   femaleSkin: {fileID: 2800000, guid: bd17bb0fd54a4a041a68d4f109058924, type: 3}
 --- !u!114 &1946811454
 MonoBehaviour:
