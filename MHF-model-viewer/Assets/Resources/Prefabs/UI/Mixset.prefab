@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 1755773983603804023}
   - component: {fileID: 3062418551622018869}
   - component: {fileID: 1554794840049230966}
+  - component: {fileID: 4297901527616312686}
   m_Layer: 5
   m_Name: Mixset
   m_TagString: Untagged
@@ -354,6 +355,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MixsetElement
   mixsetID: 0
   mainInputField: {fileID: 6544368938493632356}
+--- !u!114 &4297901527616312686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969114704723068840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7bd771cdf36054ea7179ae616a7835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MixsetInfoToPrevisualisation
+  id: 0
 --- !u!1 &4394518668798221624
 GameObject:
   m_ObjectHideFlags: 0

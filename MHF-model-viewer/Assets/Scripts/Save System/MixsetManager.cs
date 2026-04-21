@@ -3,6 +3,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.Rendering.DebugUI;
 
 public class MixsetManager : MonoBehaviour
 {
@@ -20,6 +21,15 @@ public class MixsetManager : MonoBehaviour
 	Sprite maleIcon;
 	[SerializeField]
 	Sprite femaleIcon;
+
+	[SerializeField]
+	GameObject mixsetPreview;
+	[SerializeField]
+	TextMeshProUGUI previewMixsetNameText;
+	[SerializeField]
+	TextMeshProUGUI previewGenderText;
+	[SerializeField]
+	TextMeshProUGUI[] previewArmorNamesTextList;
 
 	private void Awake()
 	{
@@ -96,6 +106,7 @@ public class MixsetManager : MonoBehaviour
 				}
 			}
 		}
+		mixsetPreview.SetActive(false);
 	}
 
 	public void UpdateMixset(GameObject newPrefab, MixsetStruct newMixset, int i = 1)
@@ -116,6 +127,7 @@ public class MixsetManager : MonoBehaviour
 			}
 		}
 		newPrefab.GetComponent<MixsetElement>().UpdateID(i - 1);
+		newPrefab.GetComponent<MixsetInfoToPrevisualisation>().UpdateID(i - 1);
 	}
 
 	public void RenameMixset(string newName, int mixsetID)
@@ -145,6 +157,45 @@ public class MixsetManager : MonoBehaviour
 		} else
 		{
 			gameObject.SetActive(true);
+		}
+	}
+
+	public void LoadMixsetPreview(int id)
+	{
+		if (id >= mixsetList.Count)
+		{
+			mixsetPreview.SetActive(false);
+			return;
+		}
+		mixsetPreview.SetActive(true);
+		previewMixsetNameText.text = mixsetList[id].mixsetName;
+
+		ArmorItem.Gender gender;
+		if (mixsetList[id].isMale == true)
+		{
+			previewGenderText.text = "Gender : male";
+			gender = ArmorItem.Gender.Male;
+		} else
+		{
+			previewGenderText.text = "Gender : female";
+			gender = ArmorItem.Gender.Female;
+		}
+		for (int i = 0; i < mixsetList[id].armorPieces.Length; i++)
+		{
+			if (mixsetList[id].armorPieces[i] == "None" || mixsetList[id].armorPieces[i].Contains("000"))
+			{
+				previewArmorNamesTextList[i].text = "None";
+			} else
+			{
+				List<ArmorItem> armorList = armorSorterManager.GetArmorList(i, gender).armorPieces;
+				foreach (ArmorItem armorItem in armorList)
+				{
+					if (armorItem.name == mixsetList[id].armorPieces[i])
+					{
+						previewArmorNamesTextList[i].text = armorItem.armorName;
+					}
+				}
+			}
 		}
 	}
 }
