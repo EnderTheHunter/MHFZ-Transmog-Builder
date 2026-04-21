@@ -16,7 +16,7 @@ MonoBehaviour:
   gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 7fe04b8e3c9cdeb43a3d0c36fe6ad7d4, type: 3}
   type: 1
-  isHeadVisible: 0
+  isHeadVisible: 1
   isHairDyable: 0
   blademasterOrGunner: 0
   mainColor: 0

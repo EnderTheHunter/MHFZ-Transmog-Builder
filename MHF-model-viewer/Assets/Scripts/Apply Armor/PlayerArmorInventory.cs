@@ -84,16 +84,16 @@ public class PlayerArmorInventory : MonoBehaviour
             foreach (ArmorItem armorPiece in baseModelMale)
             {
                 ArmorSlot.LoadArmorPieceModel(armorPiece);
-                ArmorSlot.LoadArmorPieceModel(maleFace);
             }
+            ArmorSlot.LoadArmorPieceModel(maleFace);
         }
         else
         {
             foreach (ArmorItem armorPiece in baseModelFemale)
             {
                 ArmorSlot.LoadArmorPieceModel(armorPiece);
-                ArmorSlot.LoadArmorPieceModel(femaleFace);
             }
+            ArmorSlot.LoadArmorPieceModel(femaleFace);
         }
         RenameEmptySlots();
     }

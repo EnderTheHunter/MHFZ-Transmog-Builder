@@ -77,6 +77,7 @@ public class BaseArmorMaker : EditorWindow
 					((ArmorItem)item).type = armorType;
 					((ArmorItem)item).gender = gender;
 					((ArmorItem)item).availableTransmog = ArmorItem.AvailableTransmog.Transmog;
+					((ArmorItem)item).isHeadVisible = true;
 					string fbxPath = folderPath + "/" + subDir.Name + "/" + "0001_0000001C";
 					fbxPath = fbxPath.Replace("Resources/", "");
 					//Debug.Log(fbxPath);
