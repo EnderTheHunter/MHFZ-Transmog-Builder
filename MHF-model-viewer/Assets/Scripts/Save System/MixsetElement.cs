@@ -31,6 +31,7 @@ public class MixsetElement : MonoBehaviour
 
     public void SaveMixset()
     {
+        this.transform.GetComponentInChildren<TMP_InputField>().enabled = true;
         MixsetManager.Instance.SaveMixset(mixsetID);
         MixsetManager.Instance.UpdateGenderIcon(this.gameObject, PlayerArmorInventory.Instance.GetGender());
     }

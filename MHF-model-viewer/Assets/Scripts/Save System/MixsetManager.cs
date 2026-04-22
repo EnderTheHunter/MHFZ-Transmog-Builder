@@ -73,6 +73,7 @@ public class MixsetManager : MonoBehaviour
 			mixsetList[id] = newMixset;
 		}
 		SavingSystem.SaveMixset(mixsetList);
+		LoadMixsetPreview(id);
 	}
 
 	public void LoadMixset(int value)
@@ -116,6 +117,7 @@ public class MixsetManager : MonoBehaviour
 			newPrefab.GetComponentInChildren<TMP_InputField>().text = "Mixset " + i.ToString();
 		} else
 		{
+			newPrefab.GetComponentInChildren<TMP_InputField>().enabled = true;
 			newPrefab.GetComponentInChildren<TMP_InputField>().text = newMixset.mixsetName;
 			if (newMixset.isMale == true)
 			{
@@ -134,6 +136,7 @@ public class MixsetManager : MonoBehaviour
 	{
 		mixsetList[mixsetID].ChangeMixsetName(newName);
 		SavingSystem.SaveMixset(mixsetList);
+		LoadMixsetPreview(mixsetID);
 	}
 
 	public void UpdateGenderIcon(GameObject prefab, ArmorItem.Gender gender)
