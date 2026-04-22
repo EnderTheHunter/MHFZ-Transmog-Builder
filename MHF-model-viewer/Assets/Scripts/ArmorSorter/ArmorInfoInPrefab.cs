@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 	public ArmorItem m_Item;
+
+	public Image armorIcon;
 
 	public void SendArmorPieceToInventory()
 	{

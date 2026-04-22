@@ -35,6 +35,12 @@ public class ArmorSorterManager : MonoBehaviour
 	[SerializeField]
 	private GameObject searchBar;
 
+	[SerializeField]
+	private List<Sprite> armorIconSprites;
+
+	[SerializeField]
+	private ArmorMeshManager armorMeshManager;
+
 	public void UpdateActiveList(int newActiveList)
 	{
 		if (currentActiveList != null)
@@ -92,6 +98,7 @@ public class ArmorSorterManager : MonoBehaviour
 						GameObject armor = Instantiate(resultPrefab, resultContent.transform);
 						armor.GetComponentInChildren<TextMeshProUGUI>().text = armorItem.armorName;
 						armor.GetComponent<ArmorInfoInPrefab>().m_Item = armorItem;
+						armor.GetComponent<ArmorInfoInPrefab>().armorIcon.sprite = armorIconSprites[armorMeshManager.ChooseArmorPiece(armorItem.type)];
 						iterations++;
 					}
 					if (iterations == 20)

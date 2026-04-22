@@ -7841,6 +7841,13 @@ MonoBehaviour:
   resultPrefab: {fileID: 2130365299757972776, guid: a7f147b120d7c9d4e9e56f463dcd4a8d, type: 3}
   resultContent: {fileID: 59287455}
   searchBar: {fileID: 692379150}
+  armorIconSprites:
+  - {fileID: -882373638, guid: e2f33f23ee2d65b44a0770ec613f9d21, type: 3}
+  - {fileID: 935395963, guid: 0b4ea92d65799d348a866b79fcf13a7e, type: 3}
+  - {fileID: -1633467840, guid: 6b2d2a0203528604ab783b0fd85f391c, type: 3}
+  - {fileID: 1965473671, guid: 28efbc499d07271408eefecef648695f, type: 3}
+  - {fileID: 586176436, guid: a4f30b7de02f19b4aab038ca7533450f, type: 3}
+  armorMeshManager: {fileID: 1946811453}
 --- !u!114 &481430538
 MonoBehaviour:
   m_ObjectHideFlags: 0
