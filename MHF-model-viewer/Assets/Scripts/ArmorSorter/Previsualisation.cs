@@ -109,7 +109,10 @@ public class Previsualisation : MonoBehaviour
 
 	public void HidePrevisualisation()
 	{
-		Destroy(currentArmorDisplayed.gameObject);
+		if (currentArmorDisplayed != null)
+		{
+			Destroy(currentArmorDisplayed.gameObject);
+		}
 		previsualationObject.SetActive(false);
 	}
 
