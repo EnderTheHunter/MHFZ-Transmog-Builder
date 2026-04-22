@@ -1,14 +1,32 @@
+using TMPro;
 using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class UIWindowManager : MonoBehaviour
 {
+	private static UIWindowManager instance;
+	public static UIWindowManager Instance { get { return instance; } }
+
 	[SerializeField]
 	GameObject ArmorListUI;
 	[SerializeField]
 	GameObject ColorPicker;
 	[SerializeField]
 	GameObject MixsetUI;
+	[SerializeField]
+	TextMeshProUGUI genderButtonText;
+
+	private void Awake()
+	{
+		if (instance != null && instance != this)
+		{
+			Destroy(this.gameObject);
+		}
+		else
+		{
+			instance = this;
+		}
+	}
 
 	public void OpenCloseWindow(int window)
 	{
@@ -87,6 +105,29 @@ public class UIWindowManager : MonoBehaviour
 				break;
 			default:
 				break;
+		}
+	}
+
+	public void SwitchGender()
+	{
+		if (PlayerArmorInventory.Instance.GetGender() == ArmorItem.Gender.Male)
+		{
+			PlayerArmorInventory.Instance.SetGender(false);
+		} else
+		{
+			PlayerArmorInventory.Instance.SetGender(true);
+		}
+	}
+
+	public void UpdateGenderButton()
+	{
+		if (PlayerArmorInventory.Instance.GetGender() == ArmorItem.Gender.Male)
+		{
+			genderButtonText.text = "Male";
+		}
+		else
+		{
+			genderButtonText.text = "Female";
 		}
 	}
 }

@@ -4,14 +4,13 @@ using TMPro;
 public class PlayerArmorInventory : MonoBehaviour
 {
     private static PlayerArmorInventory instance;
-    public static PlayerArmorInventory Instance {  get { return instance; } }
+    public static PlayerArmorInventory Instance { get { return instance; } }
     [SerializeField]
     private ArmorMeshManager ArmorSlot;
     public ArmorItem[] armor = new ArmorItem[5];
     public ArmorItem[] baseModelMale = new ArmorItem[5];
     public ArmorItem[] baseModelFemale = new ArmorItem[5];
     private ArmorItem.Gender gender = ArmorItem.Gender.Male;
-
     public ArmorItem maleFace;
     public ArmorItem femaleFace;
 
@@ -59,7 +58,7 @@ public class PlayerArmorInventory : MonoBehaviour
         armor[piece] = newArmorPiece;
     }
 
-    public void SetGender(bool newGender)
+    public void SetGender(bool newGender, bool removeAllArmors = true)
     {
         if (newGender == false)
         {
@@ -69,7 +68,7 @@ public class PlayerArmorInventory : MonoBehaviour
         {
             gender = ArmorItem.Gender.Male;
         }
-        ChangeGender();
+        ChangeGender(removeAllArmors);
     }
 
     public ArmorItem.Gender GetGender()
@@ -77,26 +76,33 @@ public class PlayerArmorInventory : MonoBehaviour
         return gender;
     }
 
-    private void ChangeGender()
+    private void ChangeGender(bool removeAllArmors = true)
     {
         if (gender == ArmorItem.Gender.Male)
         {
-            foreach (ArmorItem armorPiece in baseModelMale)
+            if (removeAllArmors == true)
             {
-                ArmorSlot.LoadArmorPieceModel(armorPiece);
+                foreach (ArmorItem armorPiece in baseModelMale)
+                {
+                    ArmorSlot.LoadArmorPieceModel(armorPiece);
+                }
             }
             ArmorSlot.LoadArmorPieceModel(maleFace);
         }
         else
         {
-            foreach (ArmorItem armorPiece in baseModelFemale)
+            if (removeAllArmors == true)
             {
-                ArmorSlot.LoadArmorPieceModel(armorPiece);
+                foreach (ArmorItem armorPiece in baseModelFemale)
+                {
+                    ArmorSlot.LoadArmorPieceModel(armorPiece);
+                }
             }
             ArmorSlot.LoadArmorPieceModel(femaleFace);
         }
         RenameEmptySlots();
-    }
+        UIWindowManager.Instance.UpdateGenderButton();
+	}
 
     private void RenameEmptySlots()
     {

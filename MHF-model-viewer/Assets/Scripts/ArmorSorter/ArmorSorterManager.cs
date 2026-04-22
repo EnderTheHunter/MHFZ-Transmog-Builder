@@ -24,7 +24,6 @@ public class ArmorSorterManager : MonoBehaviour
 
 	[SerializeField]
 	List<ArmorTypeList> armorList;
-
 	ArmorTypeList currentActiveList;
 
 	[SerializeField]

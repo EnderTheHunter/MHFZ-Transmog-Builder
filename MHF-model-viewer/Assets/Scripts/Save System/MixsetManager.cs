@@ -86,9 +86,11 @@ public class MixsetManager : MonoBehaviour
 		if (mixsetToApply.isMale == true)
 		{
 			gender = ArmorItem.Gender.Male;
+			PlayerArmorInventory.Instance.SetGender(true, false);
 		} else
 		{
 			gender = ArmorItem.Gender.Female;
+			PlayerArmorInventory.Instance.SetGender(false, false);
 		}
 		for (int i = 0; i < mixsetToApply.armorPieces.Length; i++)
 		{
@@ -176,11 +178,11 @@ public class MixsetManager : MonoBehaviour
 		ArmorItem.Gender gender;
 		if (mixsetList[id].isMale == true)
 		{
-			previewGenderText.text = "Gender : male";
+			previewGenderText.text = "Gender : Male";
 			gender = ArmorItem.Gender.Male;
 		} else
 		{
-			previewGenderText.text = "Gender : female";
+			previewGenderText.text = "Gender : Female";
 			gender = ArmorItem.Gender.Female;
 		}
 		for (int i = 0; i < mixsetList[id].armorPieces.Length; i++)

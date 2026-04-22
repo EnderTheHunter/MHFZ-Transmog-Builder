@@ -64,6 +64,7 @@ public class Previsualisation : MonoBehaviour
 		Transform currentPivot = armorPivot[ChooseArmorPiece(item.type)];
 		currentArmorDisplayed = Instantiate(item.modelPrefab, mainPivot);
 		this.transform.position = currentPivot.position;
+		//this.transform.rotation = currentPivot.rotation;
 		UpdateMaterials(currentArmorDisplayed.GetComponentsInChildren<SkinnedMeshRenderer>());
 		if (item.type == ArmorItem.ArmorType.Arms)
 		{
