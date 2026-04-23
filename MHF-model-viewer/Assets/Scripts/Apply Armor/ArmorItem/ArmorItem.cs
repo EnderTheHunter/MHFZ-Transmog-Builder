@@ -69,7 +69,6 @@ public class ArmorItem : ScriptableObject
 		None,
 		Transmog
 	}
-
 	[Header("MAIN PARAMETERS /!\\ MANDATORY /!\\")]
 	public string armorName;
 	public Gender gender;

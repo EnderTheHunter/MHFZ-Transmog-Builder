@@ -102,7 +102,7 @@ public class ArmorMeshManager : MonoBehaviour
 					{
 						if (playerArmorInventory.GetGender() == ArmorItem.Gender.Male)
 						{
-							mat.SetTexture("_BaseMap", playerArmorInventory.baseModelMale[piece].modelPrefab.GetComponentInChildren<SkinnedMeshRenderer>().sharedMaterial.GetTexture("_BaseMap"));
+							mat.SetTexture("_BaseMap", maleSkin);
 						} else
 						{
 							mat.SetTexture("_BaseMap", femaleSkin);
@@ -125,7 +125,7 @@ public class ArmorMeshManager : MonoBehaviour
 				break;
 			case ArmorItem.ArmorType.Helmet:
 				newBones[0] = mainSkel[0];
-				newBones[1] = mainSkel[13];
+				newBones[1] = mainSkel[12];
 				newBones[2] = mainSkel[23];
 				newBones[3] = mainSkel[24];
 				break;
