@@ -1,5 +1,4 @@
 using TMPro;
-using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class UIWindowManager : MonoBehaviour
