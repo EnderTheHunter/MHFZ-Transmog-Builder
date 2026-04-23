@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -23,7 +24,6 @@ public class ArmorSorterManager : MonoBehaviour
 
 	[SerializeField]
 	List<ArmorTypeList> armorList;
-
 	ArmorTypeList currentActiveList;
 
 	[SerializeField]
@@ -34,6 +34,12 @@ public class ArmorSorterManager : MonoBehaviour
 
 	[SerializeField]
 	private GameObject searchBar;
+
+	[SerializeField]
+	private List<Sprite> armorIconSprites;
+
+	[SerializeField]
+	private ArmorMeshManager armorMeshManager;
 
 	public void UpdateActiveList(int newActiveList)
 	{
@@ -47,10 +53,16 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 		currentActiveList = armorList[newActiveList];
 		currentActiveList.gameObject.SetActive(true);
-		ApplySearch();
+		StartCoroutineApplySearch();
 	}
 
-	public void ApplySearch()
+	public void StartCoroutineApplySearch()
+	{
+		StopAllCoroutines();
+		StartCoroutine(ApplySearch());
+	}
+
+	private IEnumerator ApplySearch()
 	{
 		string searchBarInput = "";
 
@@ -60,18 +72,19 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 
 		DestroyAll();
+		int iterations = 0;
 		foreach (ArmorItem armorItem in currentActiveList.armorPieces)
 		{
 			List<Enum> activeFilters = FindFirstObjectByType<FilterManager>(FindObjectsInactive.Include).listFilters;
 			List<Enum> listFilters = new List<Enum>(){armorItem.blademasterOrGunner, armorItem.mainColor, armorItem.secondaryColor, armorItem.baseType, armorItem.style};
 			List<Enum> listDefaultValues = new List<Enum>() {ArmorItem.BlademasterOrGunner.None, ArmorItem.ArmorColor.None, ArmorItem.ArmorColor.None, ArmorItem.BaseType.None, ArmorItem.ArmorStyle.None};
+
 			if (armorItem.armorName.Length >= searchBarInput.Length)
 			{
 				if (searchBarInput.Length == 0 || armorItem.armorName.ToLower().Contains(searchBarInput.ToLower()))
 				{
 					int validFilters = 0;
 					int i = 0;
-					Debug.Log("ArmorItem = " + armorItem.armorName);
 					foreach (Enum item in listFilters)
 					{
 						if (SortArmorElement(item, activeFilters[i], listDefaultValues[i]) == true)
@@ -85,10 +98,18 @@ public class ArmorSorterManager : MonoBehaviour
 						GameObject armor = Instantiate(resultPrefab, resultContent.transform);
 						armor.GetComponentInChildren<TextMeshProUGUI>().text = armorItem.armorName;
 						armor.GetComponent<ArmorInfoInPrefab>().m_Item = armorItem;
+						armor.GetComponent<ArmorInfoInPrefab>().armorIcon.sprite = armorIconSprites[armorMeshManager.ChooseArmorPiece(armorItem.type)];
+						iterations++;
+					}
+					if (iterations == 20)
+					{
+						iterations = 0;
+						yield return null;
 					}
 				}
 			}
 		}
+		yield return null;
 	}
 
 	private void DestroyAll()
@@ -115,5 +136,16 @@ public class ArmorSorterManager : MonoBehaviour
 			}
 		}
 		return false;
+	}
+
+	public ArmorTypeList GetArmorList(int value, ArmorItem.Gender gender)
+	{
+		if (gender == ArmorItem.Gender.Male)
+		{
+			return armorList[value];
+		} else
+		{
+			return armorList[value + 5];
+		}
 	}
 }

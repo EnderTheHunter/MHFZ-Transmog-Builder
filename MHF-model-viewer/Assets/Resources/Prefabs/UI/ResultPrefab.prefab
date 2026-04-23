@@ -92,6 +92,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorInfoInPrefab
   m_Item: {fileID: 0}
+  armorIcon: {fileID: 4929758288853552763}
 --- !u!114 &2417522853556554878
 MonoBehaviour:
   m_ObjectHideFlags: 0

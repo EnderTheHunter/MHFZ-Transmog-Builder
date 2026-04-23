@@ -64,6 +64,7 @@ public class Previsualisation : MonoBehaviour
 		Transform currentPivot = armorPivot[ChooseArmorPiece(item.type)];
 		currentArmorDisplayed = Instantiate(item.modelPrefab, mainPivot);
 		this.transform.position = currentPivot.position;
+		//this.transform.rotation = currentPivot.rotation;
 		UpdateMaterials(currentArmorDisplayed.GetComponentsInChildren<SkinnedMeshRenderer>());
 		if (item.type == ArmorItem.ArmorType.Arms)
 		{
@@ -109,7 +110,10 @@ public class Previsualisation : MonoBehaviour
 
 	public void HidePrevisualisation()
 	{
-		Destroy(currentArmorDisplayed.gameObject);
+		if (currentArmorDisplayed != null)
+		{
+			Destroy(currentArmorDisplayed.gameObject);
+		}
 		previsualationObject.SetActive(false);
 	}
 
@@ -119,6 +123,8 @@ public class Previsualisation : MonoBehaviour
 		{
 			foreach (Material mat in mesh.materials)
 			{
+				mat.EnableKeyword("_ALPHATEST_ON");
+				mat.SetFloat("_AlphaClip", 1);
 				mat.SetFloat("_Cull", 0);
 				mat.SetFloat("_Smoothness", 0);
 				if (mat.GetTexture("_BaseMap") == null)

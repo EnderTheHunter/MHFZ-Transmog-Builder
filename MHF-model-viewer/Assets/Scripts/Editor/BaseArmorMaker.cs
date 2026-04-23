@@ -40,6 +40,7 @@ public class BaseArmorMaker : EditorWindow
 		ArmorTypeList list = armorList.GetComponent<ArmorTypeList>();
 		if (Directory.Exists(fullFolderPath) == true)
 		{
+			Debug.Log("Test");
 			var fileData = File.ReadAllText(csvNameFilePath);
 			var lines = fileData.Split(new char[] {'\n'});
 			var csvContent = CreateDictFromCSV(lines);
@@ -49,7 +50,7 @@ public class BaseArmorMaker : EditorWindow
 			{
 				string filename = subDir.Name + ".asset";
 				string filePath = subDir.FullName + "\\" + filename;
-				string armorId = subDir.Name.Replace("f_wst", "");
+				string armorId = subDir.Name.Replace("m_hair", "");
 				if (armorId.StartsWith("0"))
 				{
 					armorId = armorId[1..];
@@ -76,6 +77,7 @@ public class BaseArmorMaker : EditorWindow
 					((ArmorItem)item).type = armorType;
 					((ArmorItem)item).gender = gender;
 					((ArmorItem)item).availableTransmog = ArmorItem.AvailableTransmog.Transmog;
+					((ArmorItem)item).isHeadVisible = true;
 					string fbxPath = folderPath + "/" + subDir.Name + "/" + "0001_0000001C";
 					fbxPath = fbxPath.Replace("Resources/", "");
 					//Debug.Log(fbxPath);
@@ -105,12 +107,12 @@ public class BaseArmorMaker : EditorWindow
 				break;
 			}
 			//parts[3] = parts[3].Remove(parts[3].Length - 1);
-			if (result.ContainsKey(parts[4]))
+			if (result.ContainsKey(parts[3]))
 			{
-				Debug.Log(parts[4]);
+				Debug.Log(parts[3]);
 			} else
 			{
-				result.Add(parts[4], parts[1]);
+				result.Add(parts[3], parts[1]);
 			}
 		}
 		return result;
