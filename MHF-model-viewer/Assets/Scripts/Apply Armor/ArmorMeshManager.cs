@@ -9,6 +9,7 @@ public class ArmorMeshManager : MonoBehaviour
 	private PlayerArmorInventory playerArmorInventory;
 	public Texture maleSkin;
 	public Texture femaleSkin;
+	public Material transparentMat;
 
 	private void Start()
 	{
@@ -88,11 +89,11 @@ public class ArmorMeshManager : MonoBehaviour
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
 			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
-			foreach (SkinnedMeshRenderer mesh in meshes)
+			for (int i = 0; i < meshes.Length; i++)
 			{
-				mesh.rootBone = rootBone;
-				mesh.bones = newBones;
-				foreach (Material mat in mesh.materials)
+				meshes[i].rootBone = rootBone;
+				meshes[i].bones = newBones;
+				foreach (Material mat in meshes[i].materials)
 				{
 					mat.EnableKeyword("_ALPHATEST_ON");
 					mat.SetFloat("_AlphaClip", 1);
@@ -107,6 +108,13 @@ public class ArmorMeshManager : MonoBehaviour
 						{
 							mat.SetTexture("_BaseMap", femaleSkin);
 						}
+					}
+					if (i > 0)
+					{
+						Material newMat = new Material(transparentMat);
+						newMat.CopyMatchingPropertiesFromMaterial(transparentMat);
+						newMat.SetTexture("_BaseMap", mat.GetTexture("_BaseMap"));
+						meshes[i].sharedMaterial = newMat;
 					}
 				}
 			}
@@ -189,5 +197,12 @@ public class ArmorMeshManager : MonoBehaviour
 				break;
 			}
 		return newBones;
+	}
+
+	private Material SetModeTransparent(Material originalMat)
+	{
+		Material materialTrans = new Material(transparentMat);
+		materialTrans.CopyMatchingPropertiesFromMaterial(originalMat);
+		return materialTrans;
 	}
 }
