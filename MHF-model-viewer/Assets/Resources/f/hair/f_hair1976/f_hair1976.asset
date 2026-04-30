@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ArmorItem::ArmorItem
   armorName: Snow Miku D Head
   gender: 1
-  modelPrefab: {fileID: 919132149155446097, guid: 631c3fb65f3bb9e448a28314f44c3081, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 0a623dbe5d4b8f246b538c89c005a1d6, type: 3}
   type: 1
   isHeadVisible: 1
   isHairDyable: 0

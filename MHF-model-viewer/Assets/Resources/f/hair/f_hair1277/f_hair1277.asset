@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: ArmorItem::ArmorItem
   armorName: Miku D Head
   gender: 1
-  modelPrefab: {fileID: 919132149155446097, guid: 76637ad51e4683842a3ca8d3e1e4f7db, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 513721806d4fe0a42b3d08f28347a018, type: 3}
   type: 1
   isHeadVisible: 1
   isHairDyable: 0

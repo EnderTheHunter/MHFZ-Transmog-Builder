@@ -132,7 +132,7 @@ public class ArmorMeshManager : MonoBehaviour
 				newBones[1] = mainSkel[24];
 				break;
 			case ArmorItem.ArmorType.Helmet:
-				newBones[0] = mainSkel[0];
+				newBones[0] = mainSkel[11];
 				newBones[1] = mainSkel[12];
 				newBones[2] = mainSkel[23];
 				newBones[3] = mainSkel[24];
