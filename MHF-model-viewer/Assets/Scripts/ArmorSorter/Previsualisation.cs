@@ -20,6 +20,9 @@ public class Previsualisation : MonoBehaviour
 	[SerializeField]
 	private Material alphaMaterial;
 
+	[SerializeField]
+	private Material transparentMat;
+
 	public int ChooseArmorPiece(ArmorItem.ArmorType type)
 	{
 		switch (type)
@@ -119,9 +122,9 @@ public class Previsualisation : MonoBehaviour
 
 	private void UpdateMaterials(SkinnedMeshRenderer[] meshes)
 	{
-		foreach (SkinnedMeshRenderer mesh in meshes)
+		for (int i = 0; i < meshes.Length; i++)
 		{
-			foreach (Material mat in mesh.materials)
+			foreach (Material mat in meshes[i].materials)
 			{
 				mat.EnableKeyword("_ALPHATEST_ON");
 				mat.SetFloat("_AlphaClip", 1);
@@ -130,6 +133,13 @@ public class Previsualisation : MonoBehaviour
 				if (mat.GetTexture("_BaseMap") == null)
 				{
 					mat.CopyPropertiesFromMaterial(alphaMaterial);
+				}
+				if (i > 0)
+				{
+					Material newMat = new Material(transparentMat);
+					newMat.CopyMatchingPropertiesFromMaterial(transparentMat);
+					newMat.SetTexture("_BaseMap", mat.GetTexture("_BaseMap"));
+					meshes[i].sharedMaterial = newMat;
 				}
 			}
 		}

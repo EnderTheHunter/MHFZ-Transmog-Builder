@@ -9414,7 +9414,19 @@ MonoBehaviour:
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 481430537}
+        m_TargetAssemblyTypeName: ArmorSorterManager, Assembly-CSharp
+        m_MethodName: StartCoroutineApplySearch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
@@ -14707,6 +14719,7 @@ MonoBehaviour:
   - {fileID: 1627079608}
   previsualationObject: {fileID: 1921500238}
   alphaMaterial: {fileID: 2100000, guid: a2d7898341d8e9047a628df9f3902bad, type: 2}
+  transparentMat: {fileID: 2100000, guid: a2d7898341d8e9047a628df9f3902bad, type: 2}
 --- !u!1 &1123699469
 GameObject:
   m_ObjectHideFlags: 0
@@ -21222,7 +21235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.06
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21282,6 +21295,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1946811457}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1946811455}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       insertIndex: -1
@@ -21289,9 +21305,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1946811453}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1946811457}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1946811458}
@@ -27384,6 +27397,7 @@ MonoBehaviour:
   rootBone: {fileID: 1547906768}
   maleSkin: {fileID: 2800000, guid: 3ee2f3117fba2424489fb508d8cd228d, type: 3}
   femaleSkin: {fileID: 2800000, guid: bd17bb0fd54a4a041a68d4f109058924, type: 3}
+  transparentMat: {fileID: 2100000, guid: a2d7898341d8e9047a628df9f3902bad, type: 2}
 --- !u!114 &1946811454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27423,6 +27437,7 @@ MonoBehaviour:
   - {fileID: 1950110098}
   - {fileID: 1551427072}
   - {fileID: 206561025}
+  playerAnimator: {fileID: 1946811457}
 --- !u!114 &1946811455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27481,7 +27496,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2c47df22e2df7404e8b79c55e5f5f113, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -29265,7 +29280,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
