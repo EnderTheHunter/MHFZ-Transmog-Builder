@@ -21235,7 +21235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.06
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 91f5320371af0224b97371040c0f1911, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27437,6 +27437,7 @@ MonoBehaviour:
   - {fileID: 1950110098}
   - {fileID: 1551427072}
   - {fileID: 206561025}
+  playerAnimator: {fileID: 1946811457}
 --- !u!114 &1946811455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27495,7 +27496,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2c47df22e2df7404e8b79c55e5f5f113, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
