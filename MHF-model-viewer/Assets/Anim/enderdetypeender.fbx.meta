@@ -1,0 +1,1167 @@
+fileFormatVersion: 2
+guid: 406dd29ddf7b9aa43adc28939e65418f
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Ender_RIG:body:Bone_2' has translation
+      animation that will be discarded.\n\t'Ender_RIG:body:Bone_3' has translation
+      animation that will be discarded.\n\t'Ender_RIG:body:Bone_4' has translation
+      animation that will be discarded.\n\t'Ender_RIG:body:Bone_5' has translation
+      animation that will be discarded.\n\t'Ender_RIG:body:Bone_5' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Ender_RIG:arm:Bone_4'
+      has translation animation that will be discarded.\n\t'Ender_RIG:arm:Bone_5'
+      has translation animation that will be discarded.\n\t'Ender_RIG:body:Bone_6'
+      has translation animation that will be discarded.\n\t'Ender_RIG:body:Bone_7'
+      has translation animation that will be discarded.\n\t'Ender_RIG:body:Bone_7'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Ender_RIG:arm:Bone_8'
+      has translation animation that will be discarded.\n\t'Ender_RIG:arm:Bone_9'
+      has translation animation that will be discarded.\n\t'Ender_RIG:body:Bone_9'
+      has translation animation that will be discarded.\n\t'Ender_RIG:body:Bone_9'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Ender_RIG:legs:Bone_0
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_3
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_6
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_4
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_7
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_5
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_8
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:body:Bone_2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:body:Bone_8
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:face:Bone_0
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:body:Bone_4
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:body:Bone_6
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_3
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_7
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_4
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_8
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_5
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:arm:Bone_9
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:face:Bone_3
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:face:Bone_5
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:face:Bone_10
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_5_end
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:legs:Bone_8_end
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ender_RIG:body:Bone_3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: enderdetypeender(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: Ender_RIG:Mesh
+      parentName: enderdetypeender(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:arm:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Mesh_0
+      parentName: Ender_RIG:Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Root_
+      parentName: enderdetypeender(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Root
+      parentName: Ender_RIG:Root_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:COG_
+      parentName: Ender_RIG:Root
+      position: {x: -0, y: 104.805504, z: 0.0000045811944}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:COG
+      parentName: Ender_RIG:COG_
+      position: {x: -0, y: -4.4078755, z: -1.0190865e-21}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Spine1_
+      parentName: Ender_RIG:COG
+      position: {x: -0, y: -0.0000026716782, z: -0.000004581194}
+      rotation: {x: -0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Spine1
+      parentName: Ender_RIG:FK_Spine1_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.022271156, y: -0.017614054, z: -0.00017695632, w: 0.9995968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Spine2_
+      parentName: Ender_RIG:FK_Spine1
+      position: {x: -0, y: 14.399994, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Spine2
+      parentName: Ender_RIG:FK_Spine2_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.022271156, y: -0.017614054, z: -0.00017695632, w: 0.9995968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Shoulder_L_
+      parentName: Ender_RIG:FK_Spine2
+      position: {x: -14.9082, y: 21.600008, z: -1.9999957}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Shoulder_L_offset
+      parentName: Ender_RIG:FK_Shoulder_L_
+      position: {x: -0.16190936, y: -2.342899, z: 0.0000000018357813}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Shoulder_L
+      parentName: Ender_RIG:FK_Shoulder_L_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.097615995, y: 0.07206123, z: 0.5128618, w: 0.8498536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Elbow_L_
+      parentName: Ender_RIG:FK_Shoulder_L
+      position: {x: -27.500006, y: -2.842171e-14, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Elbow_L
+      parentName: Ender_RIG:FK_Elbow_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.14911956, z: -0, w: 0.9888192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Wrist_L_
+      parentName: Ender_RIG:FK_Elbow_L
+      position: {x: -26, y: -2.842171e-14, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Wrist_L
+      parentName: Ender_RIG:FK_Wrist_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.14982171, y: 0.012972882, z: 0.085284986, w: 0.98494244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Hand_Wp_L_
+      parentName: Ender_RIG:FK_Wrist_L
+      position: {x: -8.091794, y: -0.1809708, z: 0.61198384}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:Hand_Wp_L
+      parentName: Ender_RIG:Hand_Wp_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Shoulder_R_
+      parentName: Ender_RIG:FK_Spine2
+      position: {x: 14.9082, y: 21.600008, z: -1.9999957}
+      rotation: {x: -6.123234e-17, y: 1, z: 0.000000021855694, w: -1.3382753e-24}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:FK_Shoulder_R_offset
+      parentName: Ender_RIG:FK_Shoulder_R_
+      position: {x: -0.16190936, y: -2.342899, z: 0.0000000018357778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Shoulder_R
+      parentName: Ender_RIG:FK_Shoulder_R_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.097615995, y: 0.07206123, z: 0.5128618, w: 0.8498536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Elbow_R_
+      parentName: Ender_RIG:FK_Shoulder_R
+      position: {x: -27.500006, y: -2.842171e-14, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Elbow_R
+      parentName: Ender_RIG:FK_Elbow_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.14911956, z: -0, w: 0.9888192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Wrist_R_
+      parentName: Ender_RIG:FK_Elbow_R
+      position: {x: -26, y: -2.842171e-14, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:FK_Wrist_R
+      parentName: Ender_RIG:FK_Wrist_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.14982171, y: 0.012972882, z: 0.085284986, w: 0.98494244}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Hand_Wp_R_
+      parentName: Ender_RIG:FK_Wrist_R
+      position: {x: -8.091794, y: -0.1809708, z: 0.61198384}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:Hand_Wp_R
+      parentName: Ender_RIG:Hand_Wp_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Neck_
+      parentName: Ender_RIG:FK_Spine2
+      position: {x: -3.0656597e-13, y: 22.7, z: -5.499993}
+      rotation: {x: 0.14136477, y: -0, z: -0, w: 0.9899576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Neck
+      parentName: Ender_RIG:Neck_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.012098749, y: -0.055650495, z: 0.00880357, w: 0.9983382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Scapula_L_
+      parentName: Ender_RIG:FK_Spine2
+      position: {x: -2.9999988, y: 19.60003, z: -1.9999954}
+      rotation: {x: 0.000000021448747, y: -0.0000000018604396, z: -0.08641438, w: 0.9962593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Scapula_L
+      parentName: Ender_RIG:Scapula_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.09724599, w: 0.9952604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Scapula_R_
+      parentName: Ender_RIG:FK_Spine2
+      position: {x: 2.9999988, y: 19.60003, z: -1.9999954}
+      rotation: {x: -0.08641438, y: 0.9962593, z: 0.000000021448747, w: -0.0000000018604396}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:Scapula_R
+      parentName: Ender_RIG:Scapula_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.09724599, w: 0.9952604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Head_
+      parentName: Ender_RIG:COG
+      position: {x: -2.8813627e-13, y: 49.4, z: -2}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Head_offset
+      parentName: Ender_RIG:Head_
+      position: {x: -0.20258544, y: -0.08592407, z: 4.024822}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Head
+      parentName: Ender_RIG:Head_offset
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.08423355, y: -0.30800998, z: 0.027389547, w: 0.94725096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Hips_
+      parentName: Ender_RIG:COG
+      position: {x: -0, y: -1.4210855e-14, z: 8.4703295e-22}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Hips
+      parentName: Ender_RIG:Hips_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_2_L_
+      parentName: Ender_RIG:Hips
+      position: {x: -9.999999, y: -18.600008, z: 0.0000008960171}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_2_L
+      parentName: Ender_RIG:Vest_2_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_1_L_
+      parentName: Ender_RIG:Vest_2_L
+      position: {x: 0.000013238047, y: -0.000003814697, z: -40.000015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_1_L
+      parentName: Ender_RIG:Vest_1_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_2_R_
+      parentName: Ender_RIG:Hips
+      position: {x: 9.999999, y: -18.600008, z: 0.0000008960171}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:Vest_2_R
+      parentName: Ender_RIG:Vest_2_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_1_R_
+      parentName: Ender_RIG:Vest_2_R
+      position: {x: 0.000013238047, y: -0.000003814697, z: -40.000015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Vest_1_R
+      parentName: Ender_RIG:Vest_1_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_SYSTEM
+      parentName: Ender_RIG:Root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Foot_L_
+      parentName: Ender_RIG:IK_SYSTEM
+      position: {x: -10, y: 10.205501, z: -0.0000015539035}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Foot_L
+      parentName: Ender_RIG:IK_Foot_L_
+      position: {x: -22.320946, y: -7.769251e-15, z: 0.91458696}
+      rotation: {x: 0, y: -0.17003906, z: -0, w: 0.98543733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Heel_L_
+      parentName: Ender_RIG:IK_Foot_L
+      position: {x: 1.7763568e-15, y: -10.205501, z: -9.418074}
+      rotation: {x: -0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Heel_L
+      parentName: Ender_RIG:IK_Heel_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Toe_L_
+      parentName: Ender_RIG:IK_Heel_L
+      position: {x: -0, y: -4.7019774e-38, z: 31.089369}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Toe_L
+      parentName: Ender_RIG:IK_Toe_L_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:ikLeg_L
+      parentName: Ender_RIG:IK_Toe_L
+      position: {x: -5.3290705e-15, y: 10.205501, z: -21.671295}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:ikToe_L
+      parentName: Ender_RIG:IK_Toe_L
+      position: {x: -5.3290705e-15, y: 110.2055, z: -21.671288}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Foot_R_
+      parentName: Ender_RIG:IK_SYSTEM
+      position: {x: 10, y: 10.205501, z: -0.0000015539035}
+      rotation: {x: -6.123234e-17, y: 1, z: 0.000000021855694, w: -1.3382753e-24}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:IK_Foot_R
+      parentName: Ender_RIG:IK_Foot_R_
+      position: {x: -19.919996, y: -7.769251e-15, z: 1.5793033}
+      rotation: {x: 0, y: -0.117539525, z: -0, w: 0.9930682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Heel_R_
+      parentName: Ender_RIG:IK_Foot_R
+      position: {x: 1.7763568e-15, y: -10.205501, z: -9.418074}
+      rotation: {x: -0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Heel_R
+      parentName: Ender_RIG:IK_Heel_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Toe_R_
+      parentName: Ender_RIG:IK_Heel_R
+      position: {x: -0, y: -4.7019774e-38, z: 31.089369}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Toe_R
+      parentName: Ender_RIG:IK_Toe_R_
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:ikLeg_R
+      parentName: Ender_RIG:IK_Toe_R
+      position: {x: 0.000005722046, y: 10.205516, z: -21.671293}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:ikToe_R
+      parentName: Ender_RIG:IK_Toe_R
+      position: {x: 0.00000008007591, y: 110.20551, z: -21.671259}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:IK_Pole_Leg_L_
+      parentName: Ender_RIG:IK_SYSTEM
+      position: {x: -9.999998, y: 67.6168, z: 95.011406}
+      rotation: {x: -0.00000049803253, y: 0.000000010536712, z: 5.2476258e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Pole_Leg_L
+      parentName: Ender_RIG:IK_Pole_Leg_L_
+      position: {x: -39.94942, y: -2.7246204e-14, z: -6.108761}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:IK_Pole_Leg_R_
+      parentName: Ender_RIG:IK_SYSTEM
+      position: {x: 9.999998, y: 67.6168, z: 95.011406}
+      rotation: {x: 5.308858e-15, y: 1, z: -0.00000049803253, w: 0.000000010536712}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Ender_RIG:IK_Pole_Leg_R
+      parentName: Ender_RIG:IK_Pole_Leg_R_
+      position: {x: -37.852818, y: 7.105414e-14, z: 1.3830353e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:Skel
+      parentName: enderdetypeender(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_0
+      parentName: Ender_RIG:Skel
+      position: {x: -0, y: 100.39763, z: 0.0000043885198}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_1
+      parentName: Ender_RIG:legs:Bone_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_2
+      parentName: Ender_RIG:legs:Bone_1
+      position: {x: -0, y: 0, z: 8.4703295e-22}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_0
+      parentName: Ender_RIG:legs:Bone_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:arm:Bone_0
+      parentName: Ender_RIG:body:Bone_0
+      position: {x: 0.0000024114927, y: 8.077936e-28, z: 3.410605e-13}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_1
+      parentName: Ender_RIG:body:Bone_0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:arm:Bone_1
+      parentName: Ender_RIG:body:Bone_1
+      position: {x: 0.0000024114927, y: 14.399994, z: 3.3500524e-13}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_2
+      parentName: Ender_RIG:body:Bone_1
+      position: {x: -0.0000001625088, y: -0.00000020659664, z: 0.000000111584136}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: Ender_RIG:body:Bone_3
+      parentName: Ender_RIG:body:Bone_2
+      position: {x: -0.00000013118249, y: 14.399994, z: -0.0000014058272}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+    - name: Ender_RIG:body:Bone_4
+      parentName: Ender_RIG:body:Bone_3
+      position: {x: -3.981084, y: 19.40646, z: -1.9999999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Ender_RIG:arm:Bone_2
+      parentName: Ender_RIG:body:Bone_4
+      position: {x: 0.000002173074, y: -0.000022888184, z: 0.0000013996366}
+      rotation: {x: -0.0408889, y: 0.039376814, z: -0.096737094, w: 0.99368984}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: Ender_RIG:body:Bone_5
+      parentName: Ender_RIG:body:Bone_4
+      position: {x: -13.157556, y: -0.799113, z: 0.08029246}
+      rotation: {x: -0.000000055199866, y: 0.06626369, z: 0.50225866, w: 0.86217487}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ender_RIG:arm:Bone_3
+      parentName: Ender_RIG:body:Bone_5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.11726338, y: -0.019149015, z: -0.51838005, w: 0.8468559}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ender_RIG:arm:Bone_4
+      parentName: Ender_RIG:arm:Bone_3
+      position: {x: -27.340254, y: 2.842171e-14, z: 1.0592318}
+      rotation: {x: -0, y: -0.0000000037252903, z: 0.000000037718564, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Ender_RIG:arm:Bone_5
+      parentName: Ender_RIG:arm:Bone_4
+      position: {x: -25.946537, y: -0.61738473, z: -0.000008019527}
+      rotation: {x: 0.00405697, y: -0.17050976, z: 0.66018325, w: 0.7314835}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Ender_RIG:arm:Bone_5_end
+      parentName: Ender_RIG:arm:Bone_5
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_5_end
+      parentName: Ender_RIG:body:Bone_5
+      position: {x: -0, y: 100.00001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_6
+      parentName: Ender_RIG:body:Bone_3
+      position: {x: 3.981082, y: 19.406437, z: -1.9999999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ender_RIG:arm:Bone_6
+      parentName: Ender_RIG:body:Bone_6
+      position: {x: 0.000007656701, y: 6.3948846e-14, z: 0.0000013996366}
+      rotation: {x: -0.047737714, y: 0.03071719, z: 0.09744126, w: 0.99362105}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Ender_RIG:body:Bone_7
+      parentName: Ender_RIG:body:Bone_6
+      position: {x: 13.157568, y: -0.79908586, z: 0.08029834}
+      rotation: {x: 0.000000050874014, y: -0.14423555, z: -0.4836862, w: 0.86327505}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: Ender_RIG:arm:Bone_7
+      parentName: Ender_RIG:body:Bone_7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.15333211, y: 0.0790714, z: 0.5121065, w: 0.84141785}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Ender_RIG:arm:Bone_8
+      parentName: Ender_RIG:arm:Bone_7
+      position: {x: 27.340248, y: -1.4210855e-14, z: 1.0592287}
+      rotation: {x: -0, y: -0, z: 0.000000004656613, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ender_RIG:arm:Bone_9
+      parentName: Ender_RIG:arm:Bone_8
+      position: {x: 25.946596, y: -0.6173954, z: -0.0000029732244}
+      rotation: {x: 0.0053823288, y: 0.2262, z: -0.6434869, w: 0.73125184}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: Ender_RIG:arm:Bone_9_end
+      parentName: Ender_RIG:arm:Bone_9
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_7_end
+      parentName: Ender_RIG:body:Bone_7
+      position: {x: -0, y: 100.00001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:body:Bone_8
+      parentName: Ender_RIG:body:Bone_3
+      position: {x: 1.19348975e-14, y: 22.699997, z: -5.4999976}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Ender_RIG:body:Bone_9
+      parentName: Ender_RIG:body:Bone_8
+      position: {x: 1.5099033e-14, y: 12.300011, z: 3.499999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Ender_RIG:body:Bone_9_end
+      parentName: Ender_RIG:body:Bone_9
+      position: {x: -0, y: 99.99999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_0
+      parentName: Ender_RIG:body:Bone_9
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_1
+      parentName: Ender_RIG:face:Bone_0
+      position: {x: 2.663161e-14, y: 3.8124676e-22, z: -0.00000008833372}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_2
+      parentName: Ender_RIG:face:Bone_1
+      position: {x: -1.1393, y: 6.1239014, z: 11.611194}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_3
+      parentName: Ender_RIG:face:Bone_2
+      position: {x: -3.501461, y: 0.6406021, z: -1.0908747}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_3_end
+      parentName: Ender_RIG:face:Bone_3
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_4
+      parentName: Ender_RIG:face:Bone_1
+      position: {x: 1.1393, y: 6.1239014, z: 11.611194}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_5
+      parentName: Ender_RIG:face:Bone_4
+      position: {x: 3.8399386, y: 0.6406021, z: -1.0908747}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_5_end
+      parentName: Ender_RIG:face:Bone_5
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_6
+      parentName: Ender_RIG:face:Bone_0
+      position: {x: -1.5777218e-30, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_7
+      parentName: Ender_RIG:face:Bone_6
+      position: {x: -2.9667, y: 4.6316376, z: 7.770033}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_7_end
+      parentName: Ender_RIG:face:Bone_7
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_8
+      parentName: Ender_RIG:face:Bone_6
+      position: {x: 2.9667, y: 4.6316376, z: 7.770033}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_8_end
+      parentName: Ender_RIG:face:Bone_8
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_9
+      parentName: Ender_RIG:face:Bone_0
+      position: {x: -1.5777218e-30, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_10
+      parentName: Ender_RIG:face:Bone_9
+      position: {x: -0.03402272, y: 1.0559998, z: 3.2408898}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_10_end
+      parentName: Ender_RIG:face:Bone_10
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_11
+      parentName: Ender_RIG:face:Bone_9
+      position: {x: -9.079785e-19, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_11_end
+      parentName: Ender_RIG:face:Bone_11
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_12
+      parentName: Ender_RIG:face:Bone_9
+      position: {x: -6.362023e-18, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:face:Bone_12_end
+      parentName: Ender_RIG:face:Bone_12
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_3
+      parentName: Ender_RIG:body:Bone_9
+      position: {x: 0.0000050000003, y: 7.1054274e-14, z: -0.00000015008453}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_4
+      parentName: Ender_RIG:hair:Bone_3
+      position: {x: 0.00000014170291, y: 3.3446274, z: -11.834297}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_5
+      parentName: Ender_RIG:hair:Bone_4
+      position: {x: -0.0000002883762, y: -22, z: -0.0000047683716}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_6
+      parentName: Ender_RIG:hair:Bone_5
+      position: {x: 0.000000051767074, y: -22, z: -0.000002861023}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_6_end
+      parentName: Ender_RIG:hair:Bone_6
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_2
+      parentName: Ender_RIG:body:Bone_8
+      position: {x: 0.0000039999995, y: -0.000015258789, z: 0.0000019956826}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_1
+      parentName: Ender_RIG:body:Bone_3
+      position: {x: 0.0000030000003, y: 6.57252e-14, z: 0.0000015188455}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_10
+      parentName: Ender_RIG:body:Bone_3
+      position: {x: -4.244008e-15, y: 0, z: 4.2351647e-22}
+      rotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_11
+      parentName: Ender_RIG:legs:Bone_10
+      position: {x: -3.9999976, y: 19.600029, z: -1.9999999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_12
+      parentName: Ender_RIG:legs:Bone_11
+      position: {x: -14.49999, y: 1.9999542, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_13
+      parentName: Ender_RIG:legs:Bone_12
+      position: {x: -27.500011, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_14
+      parentName: Ender_RIG:legs:Bone_13
+      position: {x: -26, y: -0.0000076293945, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_14_end
+      parentName: Ender_RIG:legs:Bone_14
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_15
+      parentName: Ender_RIG:legs:Bone_10
+      position: {x: 4, y: 19.600006, z: -1.9999999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_16
+      parentName: Ender_RIG:legs:Bone_15
+      position: {x: 14.499994, y: 1.9999924, z: 0.0000021457672}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_17
+      parentName: Ender_RIG:legs:Bone_16
+      position: {x: 27.500006, y: -0.00001525879, z: 6.6724404e-13}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_18
+      parentName: Ender_RIG:legs:Bone_17
+      position: {x: 26, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_18_end
+      parentName: Ender_RIG:legs:Bone_18
+      position: {x: -0, y: 100.00001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_19
+      parentName: Ender_RIG:legs:Bone_10
+      position: {x: -0, y: 22.699997, z: -5.4999976}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_20
+      parentName: Ender_RIG:legs:Bone_19
+      position: {x: -0, y: 12.300011, z: 3.499999}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_20_end
+      parentName: Ender_RIG:legs:Bone_20
+      position: {x: -0, y: 99.99999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_9
+      parentName: Ender_RIG:body:Bone_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:hair:Bone_0
+      parentName: Ender_RIG:body:Bone_0
+      position: {x: 0.000002, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_0
+      parentName: Ender_RIG:body:Bone_0
+      position: {x: 0.00000080383086, y: -0.000001430511, z: -0.0000001189031}
+      rotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_1
+      parentName: Ender_RIG:waist:Bone_0
+      position: {x: -0, y: 1.4823077e-21, z: 3.5527137e-14}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_2
+      parentName: Ender_RIG:waist:Bone_1
+      position: {x: 0.00000080383086, y: 5.197432e-15, z: 0.00000011890339}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_2_end
+      parentName: Ender_RIG:waist:Bone_2
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_3
+      parentName: Ender_RIG:legs:Bone_2
+      position: {x: -10, y: -18.600021, z: -0.0000017926858}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Ender_RIG:legs:Bone_4
+      parentName: Ender_RIG:legs:Bone_3
+      position: {x: -0, y: -40, z: 6.252776e-13}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Ender_RIG:legs:Bone_5
+      parentName: Ender_RIG:legs:Bone_4
+      position: {x: -0, y: -35.999985, z: -0.0000002269992}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_5_end
+      parentName: Ender_RIG:legs:Bone_5
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:legs:Bone_6
+      parentName: Ender_RIG:legs:Bone_2
+      position: {x: 10, y: -18.600021, z: -0.0000006128725}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ender_RIG:legs:Bone_7
+      parentName: Ender_RIG:legs:Bone_6
+      position: {x: -0.0000009536743, y: -40, z: 2.2737368e-13}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ender_RIG:legs:Bone_8
+      parentName: Ender_RIG:legs:Bone_7
+      position: {x: -0.0000047683716, y: -35.99997, z: -0.00000014540473}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Ender_RIG:legs:Bone_8_end
+      parentName: Ender_RIG:legs:Bone_8
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_3
+      parentName: Ender_RIG:legs:Bone_2
+      position: {x: -9.999999, y: -18.600008, z: 0.0000008960171}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_4
+      parentName: Ender_RIG:waist:Bone_3
+      position: {x: 0.0000038146973, y: -40.000015, z: -0.000012681684}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_4_end
+      parentName: Ender_RIG:waist:Bone_4
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_5
+      parentName: Ender_RIG:legs:Bone_2
+      position: {x: 10.000001, y: -18.600008, z: 0.00000050233314}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_6
+      parentName: Ender_RIG:waist:Bone_5
+      position: {x: 0.0000019073486, y: -40.000015, z: 0.0000057337943}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ender_RIG:waist:Bone_6_end
+      parentName: Ender_RIG:waist:Bone_6
+      position: {x: -0, y: 100, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

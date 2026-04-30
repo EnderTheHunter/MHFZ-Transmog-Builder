@@ -16,6 +16,9 @@ public class PlayerArmorInventory : MonoBehaviour
 
     public TextMeshProUGUI[] armorNames = new TextMeshProUGUI[5];
 
+    [SerializeField]
+    private Animator playerAnimator;
+
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -88,6 +91,7 @@ public class PlayerArmorInventory : MonoBehaviour
                 }
             }
             ArmorSlot.LoadArmorPieceModel(maleFace);
+            playerAnimator.SetBool("isMale", true);
         }
         else
         {
@@ -99,7 +103,8 @@ public class PlayerArmorInventory : MonoBehaviour
                 }
             }
             ArmorSlot.LoadArmorPieceModel(femaleFace);
-        }
+			playerAnimator.SetBool("isMale", false);
+		}
         RenameEmptySlots();
         UIWindowManager.Instance.UpdateGenderButton();
 	}
