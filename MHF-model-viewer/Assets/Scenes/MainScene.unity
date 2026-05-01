@@ -7839,6 +7839,7 @@ MonoBehaviour:
   - {fileID: 1389171051}
   resultPrefab: {fileID: 2130365299757972776, guid: a7f147b120d7c9d4e9e56f463dcd4a8d, type: 3}
   resultContent: {fileID: 59287455}
+  resultScrollRect: {fileID: 998965512}
   searchBar: {fileID: 692379150}
   armorIconSprites:
   - {fileID: -882373638, guid: e2f33f23ee2d65b44a0770ec613f9d21, type: 3}
@@ -9417,7 +9418,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 481430537}
         m_TargetAssemblyTypeName: ArmorSorterManager, Assembly-CSharp
-        m_MethodName: StartCoroutineApplySearch
+        m_MethodName: ApplySearch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19121,6 +19122,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 904528215}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1408636104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20699,7 +20712,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 481430537}
         m_TargetAssemblyTypeName: ArmorSorterManager, Assembly-CSharp
-        m_MethodName: StartCoroutineApplySearch
+        m_MethodName: ApplySearch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

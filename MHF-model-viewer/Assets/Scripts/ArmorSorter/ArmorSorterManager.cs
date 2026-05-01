@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ArmorSorterManager : MonoBehaviour
 {
@@ -25,12 +26,16 @@ public class ArmorSorterManager : MonoBehaviour
 	[SerializeField]
 	List<ArmorTypeList> armorList;
 	ArmorTypeList currentActiveList;
+	private int currentListValue = -1;
 
 	[SerializeField]
 	private GameObject resultPrefab;
 
 	[SerializeField]
 	private GameObject resultContent;
+
+	[SerializeField]
+	private ScrollRect resultScrollRect;
 
 	[SerializeField]
 	private GameObject searchBar;
@@ -51,18 +56,16 @@ public class ArmorSorterManager : MonoBehaviour
 		{
 			newActiveList += 5;
 		}
-		currentActiveList = armorList[newActiveList];
-		currentActiveList.gameObject.SetActive(true);
-		StartCoroutineApplySearch();
+		if (newActiveList != currentListValue)
+		{
+			currentListValue = newActiveList;
+			currentActiveList = armorList[newActiveList];
+			currentActiveList.gameObject.SetActive(true);
+			ApplySearch();
+		}
 	}
 
-	public void StartCoroutineApplySearch()
-	{
-		StopAllCoroutines();
-		StartCoroutine(ApplySearch());
-	}
-
-	private IEnumerator ApplySearch()
+	public void ApplySearch()
 	{
 		string searchBarInput = "";
 
@@ -73,11 +76,11 @@ public class ArmorSorterManager : MonoBehaviour
 
 		DestroyAll();
 		int iterations = 0;
+		List<Enum> activeFilters = FindFirstObjectByType<FilterManager>(FindObjectsInactive.Include).listFilters;
+		List<Enum> listDefaultValues = new List<Enum>() {ArmorItem.BlademasterOrGunner.None, ArmorItem.ArmorColor.None, ArmorItem.ArmorColor.None, ArmorItem.BaseType.None, ArmorItem.ArmorStyle.None};
 		foreach (ArmorItem armorItem in currentActiveList.armorPieces)
 		{
-			List<Enum> activeFilters = FindFirstObjectByType<FilterManager>(FindObjectsInactive.Include).listFilters;
 			List<Enum> listFilters = new List<Enum>(){armorItem.blademasterOrGunner, armorItem.mainColor, armorItem.secondaryColor, armorItem.baseType, armorItem.style};
-			List<Enum> listDefaultValues = new List<Enum>() {ArmorItem.BlademasterOrGunner.None, ArmorItem.ArmorColor.None, ArmorItem.ArmorColor.None, ArmorItem.BaseType.None, ArmorItem.ArmorStyle.None};
 
 			if (armorItem.armorName.Length >= searchBarInput.Length)
 			{
@@ -104,12 +107,11 @@ public class ArmorSorterManager : MonoBehaviour
 					if (iterations == 20)
 					{
 						iterations = 0;
-						yield return null;
 					}
 				}
 			}
 		}
-		yield return null;
+		resultScrollRect.verticalNormalizedPosition = 1;
 	}
 
 	private void DestroyAll()
