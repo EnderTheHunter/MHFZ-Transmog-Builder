@@ -8,6 +8,9 @@ public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
 	public Image armorIcon;
 
+	[SerializeField]
+	private AudioClip audioClip;
+
 	public void SendArmorPieceToInventory()
 	{
 		if (m_Item != null)
@@ -20,6 +23,7 @@ public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerEx
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 		Previsualisation.Instance.UpdatePrevisualisation(m_Item);
+		//SoundFXManager.Instance.PlaySoundFXClip(audioClip, this.transform, 0.5f);
 	}
 
 	public void OnPointerExit(PointerEventData eventData)
