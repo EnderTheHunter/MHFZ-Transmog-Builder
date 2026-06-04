@@ -42,7 +42,7 @@ public class MixsetManager : MonoBehaviour
 			instance = this;
 		}
 
-		mixsetList = SavingSystem.LoadMixset();
+		mixsetList = SavingSystem.Load<List<MixsetStruct>>("/mixsets.jsmt");
 		if (mixsetList == null )
 		{
 			mixsetList = new List<MixsetStruct>();
@@ -72,7 +72,7 @@ public class MixsetManager : MonoBehaviour
 		{
 			mixsetList[id] = newMixset;
 		}
-		SavingSystem.SaveMixset(mixsetList);
+		SavingSystem.Save(mixsetList, "/mixsets.jsmt");
 		LoadMixsetPreview(id);
 	}
 
@@ -137,7 +137,7 @@ public class MixsetManager : MonoBehaviour
 	public void RenameMixset(string newName, int mixsetID)
 	{
 		mixsetList[mixsetID].ChangeMixsetName(newName);
-		SavingSystem.SaveMixset(mixsetList);
+		SavingSystem.Save(mixsetList, "/mixsets.jsmt");
 		LoadMixsetPreview(mixsetID);
 	}
 

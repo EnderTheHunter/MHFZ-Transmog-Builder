@@ -5,33 +5,35 @@ using System.Collections.Generic;
 
 public static class SavingSystem
 {
-	public static void SaveMixset(List<MixsetStruct> mixsetsList)
+
+	public static void Save<T>(T obj, string filename)
 	{
 		BinaryFormatter formatter = new BinaryFormatter();
 
-		string path = Application.persistentDataPath + "/mixsets.jsmt";
+		string path = Application.persistentDataPath + filename;
 		FileStream stream = new FileStream(path, FileMode.Create);
 
-		formatter.Serialize(stream, mixsetsList);
+		formatter.Serialize(stream, obj);
 		stream.Close();
 	}
 
-	public static List<MixsetStruct> LoadMixset()
+	public static T Load<T>(string filename)
 	{
-		string path = Application.persistentDataPath + "/mixsets.jsmt";
+		string path = Application.persistentDataPath + filename;
 		if (File.Exists(path))
 		{
 			BinaryFormatter formatter = new BinaryFormatter();
 			Debug.Log(path);
 			FileStream stream = new FileStream(path, FileMode.Open);
 
-			List<MixsetStruct> mixset = formatter.Deserialize(stream) as List<MixsetStruct>;
+			T obj = (T)formatter.Deserialize(stream);
 			stream.Close();
-			return mixset;
-		} else
+			return obj;
+		}
+		else
 		{
 			Debug.LogError("Save file not found in " + path);
-			return null;
+			return default;
 		}
 	}
 }
