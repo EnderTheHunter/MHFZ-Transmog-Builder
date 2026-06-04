@@ -1,36 +1,68 @@
+using Unity.VisualScripting;
+using UnityEditor.Build;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
-public class CharacterSpin : MonoBehaviour
+public class CharacterSpin : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+	[SerializeField]
+	private InputActionReference clickAction;
+	[SerializeField]
+	private InputActionReference mousePosition;
+
 	public float speed = 10f;
 	private bool isRotating = false;
 	private bool isHovering = false;
 	private float startMousePosition;
+	private bool isClicking = false;
 
-	void OnMouseEnter()
+	private void OnEnable()
 	{
-		isHovering = true;
-
+		clickAction.action.performed += MouseClick;
+		clickAction.action.canceled += MouseRelease;
 	}
 
-	void OnMouseExit()
+	private void OnDisable()
+	{
+		clickAction.action.performed -= MouseClick;
+		clickAction.action.canceled -= MouseRelease;
+	}
+
+	public void OnPointerEnter(PointerEventData eventData)
+	{
+		isHovering = true;
+	}
+
+	public void OnPointerExit(PointerEventData eventData)
 	{
 		isHovering = false;
 	}
 
+	private void MouseClick(InputAction.CallbackContext context)
+	{
+		isClicking = true;
+	}
+
+	private void MouseRelease(InputAction.CallbackContext context)
+	{
+		isClicking = false;
+	}
+
 	private void Update()
 	{
-		if (Input.GetMouseButtonDown(0) == true && isHovering == true)
+		if (isClicking == true && isHovering == true && isRotating == false)
 		{
 			isRotating = true;
-			startMousePosition = Input.mousePosition.x;
-		} else if (Input.GetMouseButtonUp(0) == true)
+			startMousePosition = mousePosition.action.ReadValue<Vector2>().x;
+		}
+		else if (isClicking == false)
 		{
 			isRotating = false;
 		}
 		if (isRotating)
 		{
-			float currentMousePosition = Input.mousePosition.x;
+			float currentMousePosition = mousePosition.action.ReadValue<Vector2>().x;
 			float mouseMovement = currentMousePosition - startMousePosition;
 
 			transform.Rotate(Vector3.up, -mouseMovement * speed * Time.deltaTime);
