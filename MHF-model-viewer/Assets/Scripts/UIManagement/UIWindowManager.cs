@@ -46,6 +46,9 @@ public class UIWindowManager : MonoBehaviour
 		parameterKey.action.started -= ManageParameterWindow;
 	}
 
+	/// <summary>
+	/// Singleton initialization
+	/// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -58,6 +61,14 @@ public class UIWindowManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Check if given window needs to be opened or closed.
+	/// 0 = ArmorList,
+	/// 1 = ColorPicker,
+	/// 2 = MixsetPage,
+	/// 3 = Parameters
+	/// </summary>
+	/// <param name="window"></param>
 	public void OpenCloseWindow(int window)
 	{
 		switch (window)
@@ -105,7 +116,11 @@ public class UIWindowManager : MonoBehaviour
 		}
 	}
 
-	public void OpenWindow(int window) //0 = Armor List, 1 = Color Picker, 2 = Mixset
+	/// <summary>
+	/// Open given window and close the others
+	/// </summary>
+	/// <param name="window"></param>
+	public void OpenWindow(int window) //0 = Armor List, 1 = Color Picker, 2 = Mixset, 3 = Parameters
 	{
 		switch (window)
 		{
@@ -134,7 +149,11 @@ public class UIWindowManager : MonoBehaviour
 		SoundFXManager.Instance.PlaySoundFXClip(audioOpen, this.transform, volume, timeOpen);
 	}
 
-	public void CloseWindow(int window) //0 = Armor List, 1 = Color Picker, 2 = Mixset
+	/// <summary>
+	/// Close the given window
+	/// </summary>
+	/// <param name="window"></param>
+	public void CloseWindow(int window) //0 = Armor List, 1 = Color Picker, 2 = Mixset, 3 = Parameters
 	{
 		switch (window)
 		{
@@ -168,6 +187,9 @@ public class UIWindowManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Change the text on the gender button to display the current gender
+	/// </summary>
 	public void UpdateGenderButton()
 	{
 		if (PlayerArmorInventory.Instance.GetGender() == ArmorItem.Gender.Male)

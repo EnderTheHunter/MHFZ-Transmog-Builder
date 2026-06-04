@@ -16,6 +16,11 @@ public class ArmorMeshManager : MonoBehaviour
 		playerArmorInventory = GetComponent<PlayerArmorInventory>();
 	}
 
+	/// <summary>
+	/// Convert an armorPiece type into a int value.
+	/// </summary>
+	/// <param name="type"></param>
+	/// <returns></returns>
 	public int ChooseArmorPiece(ArmorItem.ArmorType type)
 	{
 		switch (type)
@@ -37,6 +42,10 @@ public class ArmorMeshManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Hide the selected armor piece.
+	/// </summary>
+	/// <param name="type"></param>
 	public void UnloadArmorPiece(ArmorItem.ArmorType type)
 	{
 		int piece = ChooseArmorPiece(type);
@@ -46,6 +55,10 @@ public class ArmorMeshManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Destroy the selected armor piece.
+	/// </summary>
+	/// <param name="type"></param>
 	public void UnloadArmorPieceAndDestroy(ArmorItem.ArmorType type)
 	{
 		int piece = ChooseArmorPiece(type);
@@ -59,6 +72,10 @@ public class ArmorMeshManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Load an armor piece and initialize its materials properly.
+	/// </summary>
+	/// <param name="armorItem"></param>
 	public void LoadArmorPieceModel(ArmorItem armorItem)
 	{
 		UnloadArmorPieceAndDestroy(armorItem.type);
@@ -122,6 +139,12 @@ public class ArmorMeshManager : MonoBehaviour
 		currentModel[piece] = model;
 	}
 
+	/// <summary>
+	/// Retarget all the bones from an armor piece to the playerbase skeleton
+	/// </summary>
+	/// <param name="newBones"></param>
+	/// <param name="type"></param>
+	/// <returns></returns>
 	public Transform[] HardcodeBaseBonesForArmorType(Transform[] newBones, ArmorItem.ArmorType type)
 	{
 		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();

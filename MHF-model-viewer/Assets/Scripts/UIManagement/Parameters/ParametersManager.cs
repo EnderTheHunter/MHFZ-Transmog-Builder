@@ -26,6 +26,9 @@ public class ParametersManager : MonoBehaviour
 		BGMVolume
 	}
 
+	/// <summary>
+	/// Singleton initialization + Loading existing parameters if there are any
+	/// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -40,6 +43,9 @@ public class ParametersManager : MonoBehaviour
 		parameters = SavingSystem.Load<ParametersList>("/options.param");
 	}
 
+	/// <summary>
+	/// Apply loaded settings. This is a workaround since you currently can't SetFloat an audiomixer in the Awake function.
+	/// </summary>
 	private void Start()
 	{
 		if (parameters == null)
@@ -52,6 +58,9 @@ public class ParametersManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Apply every setting and display the correct value on the UI.
+	/// </summary>
 	private void ApplyParameters()
 	{
 		soundMixerManager.SetMasterVolume(parameters.mainVolume);
@@ -62,6 +71,12 @@ public class ParametersManager : MonoBehaviour
 		bgmVolumeSlider.value = parameters.BGMVolume;
 	}
 
+	/// <summary>
+	/// Update and save the given setting
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	/// <param name="paramName">The setting name</param>
+	/// <param name="newValue">The setting's new value</param>
 	public void UpdateParameters<T>(ParameterName paramName, T newValue)
 	{
 		switch (paramName)

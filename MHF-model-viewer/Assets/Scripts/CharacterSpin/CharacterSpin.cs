@@ -49,6 +49,9 @@ public class CharacterSpin : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 		isClicking = false;
 	}
 
+	/// <summary>
+	/// Check if click + drag is performed on the character. If so, make it spin !
+	/// </summary>
 	private void Update()
 	{
 		if (isClicking == true && isHovering == true && isRotating == false)

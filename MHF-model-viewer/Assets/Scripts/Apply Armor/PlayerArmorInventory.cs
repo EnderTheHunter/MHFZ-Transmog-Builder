@@ -19,6 +19,9 @@ public class PlayerArmorInventory : MonoBehaviour
     [SerializeField]
     private Animator playerAnimator;
 
+    /// <summary>
+    /// Singleton initialization
+    /// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -31,7 +34,9 @@ public class PlayerArmorInventory : MonoBehaviour
 		}
 	}
 
-	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	/// <summary>
+    /// Init the character with all base body parts
+    /// </summary>
 	void Start()
     {
         foreach (ArmorItem armorPiece in baseModelMale)
@@ -42,6 +47,10 @@ public class PlayerArmorInventory : MonoBehaviour
         RenameEmptySlots();
     }
 
+    /// <summary>
+    /// Apply a given armor piece
+    /// </summary>
+    /// <param name="newArmorPiece"></param>
     public void ChangeArmor(ArmorItem newArmorPiece)
     {
         int piece = ArmorSlot.ChooseArmorPiece(newArmorPiece.type);
@@ -79,6 +88,10 @@ public class PlayerArmorInventory : MonoBehaviour
         return gender;
     }
 
+    /// <summary>
+    /// Switch the character to the other gender
+    /// </summary>
+    /// <param name="removeAllArmors"></param>
     private void ChangeGender(bool removeAllArmors = true)
     {
         if (gender == ArmorItem.Gender.Male)

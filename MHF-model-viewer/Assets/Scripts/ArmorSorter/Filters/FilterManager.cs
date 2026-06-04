@@ -18,6 +18,7 @@ public class FilterManager : MonoBehaviour
 
 	private int currentFilter;
 
+	// List to update whenever you add a new filter to the tool
 	public FilterManager()
 	{
 		listFilters = new List<Enum>() {ArmorItem.BlademasterOrGunner.None, 
@@ -27,6 +28,10 @@ public class FilterManager : MonoBehaviour
 										ArmorItem.ArmorStyle.None };
 	}
 
+	/// <summary>
+	/// Create a button dynamically for every option in an enum type in the filter list.
+	/// </summary>
+	/// <param name="filter"></param>
 	public void InstantiateFilters(int filter)
 	{
 		var enumFilter = listFilters[filter];

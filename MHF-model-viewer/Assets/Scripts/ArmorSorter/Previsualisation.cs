@@ -23,6 +23,11 @@ public class Previsualisation : MonoBehaviour
 	[SerializeField]
 	private Material transparentMat;
 
+	/// <summary>
+	/// Duplicate from PlayerArmorInventory, to remove eventually
+	/// </summary>
+	/// <param name="type"></param>
+	/// <returns></returns>
 	public int ChooseArmorPiece(ArmorItem.ArmorType type)
 	{
 		switch (type)
@@ -44,6 +49,9 @@ public class Previsualisation : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Singleton initialization
+	/// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -57,6 +65,10 @@ public class Previsualisation : MonoBehaviour
 		DontDestroyOnLoad(this.gameObject);
 	}
 
+	/// <summary>
+	/// Instantiate the selected armor piece in the previsualisation space
+	/// </summary>
+	/// <param name="item"></param>
 	public void UpdatePrevisualisation(ArmorItem item)
 	{
 		if (currentArmorDisplayed != null)
@@ -64,7 +76,7 @@ public class Previsualisation : MonoBehaviour
 			Destroy(currentArmorDisplayed);
 		}
 		previsualationObject.SetActive(true);
-		Transform currentPivot = armorPivot[ChooseArmorPiece(item.type)];
+		Transform currentPivot = armorPivot[ChooseArmorPiece(item.type)]; //Choose the right pivot so the armor piece is always centered in the preview
 		currentArmorDisplayed = Instantiate(item.modelPrefab, mainPivot);
 		this.transform.position = currentPivot.position;
 		//this.transform.rotation = currentPivot.rotation;
@@ -75,6 +87,9 @@ public class Previsualisation : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Change the arms position so they don't T pose and fit in the preview space
+	/// </summary>
 	private void ApplyBaseArmsPosition()
 	{
 		Transform bone3 = FindRecursiveChild(currentArmorDisplayed.transform, "Bone_3");
@@ -120,6 +135,10 @@ public class Previsualisation : MonoBehaviour
 		previsualationObject.SetActive(false);
 	}
 
+	/// <summary>
+	/// Update the materials to fit with the changes made in the ArmorMeshManager. Could probably be improved.
+	/// </summary>
+	/// <param name="meshes"></param>
 	private void UpdateMaterials(SkinnedMeshRenderer[] meshes)
 	{
 		for (int i = 0; i < meshes.Length; i++)

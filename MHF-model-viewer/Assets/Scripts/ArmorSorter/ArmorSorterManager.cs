@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class ArmorSorterManager : MonoBehaviour
 {
+	//All armor pieces lists
 	public enum ArmorTypeListName
 	{
 		Helmet_M,
@@ -46,6 +47,10 @@ public class ArmorSorterManager : MonoBehaviour
 	[SerializeField]
 	private ArmorMeshManager armorMeshManager;
 
+	/// <summary>
+	/// Change the current armor pieces list to display
+	/// </summary>
+	/// <param name="newActiveList"></param>
 	public void UpdateActiveList(int newActiveList)
 	{
 		if (currentActiveList != null)
@@ -65,6 +70,9 @@ public class ArmorSorterManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Iterate through the current armorList, remove the elements not corresponding to all filters selected and instantiate a gameobject for every result found
+	/// </summary>
 	public void ApplySearch()
 	{
 		string searchBarInput = "";
@@ -128,6 +136,14 @@ public class ArmorSorterManager : MonoBehaviour
 		return filters;
 	}
 
+	/// <summary>
+	/// Check if the current armorItem corresponds to the filterValue or defaultValue (if no filter has been selected)
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	/// <param name="armorItem"></param>
+	/// <param name="filterValue"></param>
+	/// <param name="defaultValue"></param>
+	/// <returns></returns>
 	public static bool SortArmorElement<T>(T armorItem, T filterValue, T defaultValue) where T : Enum
 	{
 		if (armorItem != null && filterValue != null)

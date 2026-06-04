@@ -11,11 +11,14 @@ public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerEx
 	[SerializeField]
 	private AudioClip audioClip;
 
+	/// <summary>
+	/// When this armor piece is selected, apply it to the character
+	/// </summary>
 	public void SendArmorPieceToInventory()
 	{
 		if (m_Item != null)
 		{
-			FindFirstObjectByType<PlayerArmorInventory>().ChangeArmor(m_Item);
+			PlayerArmorInventory.Instance.ChangeArmor(m_Item);
 		}
 		GameObject.FindWithTag("ArmorSorter").gameObject.SetActive(false);
 	}

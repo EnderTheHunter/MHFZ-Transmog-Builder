@@ -26,6 +26,9 @@ public class ColorPickerControl : MonoBehaviour
 	[SerializeField]
 	private TextMeshProUGUI blueValue;
 
+	/// <summary>
+	/// Update the color on the right armor piece if the armor piece is dyeable
+	/// </summary>
 	public void UpdateRGBColor()
 	{
 		Color newColor = new Color((float)(currentRed.value/255), (float)(currentGreen.value/255), (float)(currentBlue.value/255));

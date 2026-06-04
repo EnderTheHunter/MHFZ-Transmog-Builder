@@ -31,6 +31,9 @@ public class MixsetManager : MonoBehaviour
 	[SerializeField]
 	TextMeshProUGUI[] previewArmorNamesTextList;
 
+	/// <summary>
+	/// Singleton initialization + Loading all saved mixsets
+	/// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -62,6 +65,11 @@ public class MixsetManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Save a nex mixset
+	/// </summary>
+	/// <param name="id"></param>
+	/// <param name="name"></param>
 	public void SaveMixset(int id, string name = "Mixset")
 	{
 		MixsetStruct newMixset = new MixsetStruct(PlayerArmorInventory.Instance, id, name);
@@ -76,6 +84,10 @@ public class MixsetManager : MonoBehaviour
 		LoadMixsetPreview(id);
 	}
 
+	/// <summary>
+	/// Load a pre existing mixset
+	/// </summary>
+	/// <param name="value">The mixset ID</param>
 	public void LoadMixset(int value)
 	{
 		if (value >= mixsetList.Count)
@@ -112,6 +124,12 @@ public class MixsetManager : MonoBehaviour
 		mixsetPreview.SetActive(false);
 	}
 
+	/// <summary>
+	/// Modify an existing mixset
+	/// </summary>
+	/// <param name="newPrefab"></param>
+	/// <param name="newMixset"></param>
+	/// <param name="i"></param>
 	public void UpdateMixset(GameObject newPrefab, MixsetStruct newMixset, int i = 1)
 	{
 		if (newMixset == null)
@@ -165,6 +183,10 @@ public class MixsetManager : MonoBehaviour
 		}
 	}
 
+	/// <summary>
+	/// Load every information about a mixset in the preview page
+	/// </summary>
+	/// <param name="id"></param>
 	public void LoadMixsetPreview(int id)
 	{
 		if (id >= mixsetList.Count)
