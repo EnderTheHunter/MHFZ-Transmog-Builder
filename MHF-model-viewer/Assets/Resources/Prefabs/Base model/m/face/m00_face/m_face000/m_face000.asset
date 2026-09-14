@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: m_face000
   m_EditorClassIdentifier: ArmorItem::ArmorItem
   armorName: None
+  id: m_face000
   gender: 0
   modelPrefab: {fileID: 919132149155446097, guid: 7ad1d1ff39a0b4f45af73f80ece046fe, type: 3}
   type: 0

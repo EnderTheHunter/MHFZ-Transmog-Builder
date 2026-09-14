@@ -1,9 +1,15 @@
+using Mono.Data.Sqlite;
 using System.Collections.Generic;
+using System.Data;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using static UnityEngine.Rendering.DebugUI;
+using NUnit.Framework;
+using System;
+using System.Linq;
+using System.Collections;
 
 public class MixsetManager : MonoBehaviour
 {
@@ -45,7 +51,7 @@ public class MixsetManager : MonoBehaviour
 			instance = this;
 		}
 
-		mixsetList = SavingSystem.Load<List<MixsetStruct>>("/mixsets.jsmt");
+		mixsetList = SavingSystem.Load<List<MixsetStruct>>("/mixsetsv2.jsmt");
 		if (mixsetList == null )
 		{
 			mixsetList = new List<MixsetStruct>();
@@ -80,7 +86,7 @@ public class MixsetManager : MonoBehaviour
 		{
 			mixsetList[id] = newMixset;
 		}
-		SavingSystem.Save(mixsetList, "/mixsets.jsmt");
+		SavingSystem.Save(mixsetList, "/mixsetsv2.jsmt");
 		LoadMixsetPreview(id);
 	}
 
@@ -111,14 +117,15 @@ public class MixsetManager : MonoBehaviour
 				PlayerArmorInventory.Instance.RemoveArmorPiece(i + 1);
 			} else
 			{
-				List<ArmorItem> armorList = armorSorterManager.GetArmorList(i, gender).armorPieces;
-				foreach(ArmorItem armorItem in armorList)
+				string armorList = armorSorterManager.GetArmorList(i, gender);
+				PlayerArmorInventory.Instance.ChangeArmor(SearchArmorItemByName(armorList, mixsetToApply.armorPieces[i]));
+				/*foreach(ArmorItem armorItem in armorList)
 				{
 					if (armorItem.name == mixsetToApply.armorPieces[i])
 					{
 						PlayerArmorInventory.Instance.ChangeArmor(armorItem);
 					}
-				}
+				}*/
 			}
 		}
 		mixsetPreview.SetActive(false);
@@ -214,15 +221,50 @@ public class MixsetManager : MonoBehaviour
 				previewArmorNamesTextList[i].text = "None";
 			} else
 			{
-				List<ArmorItem> armorList = armorSorterManager.GetArmorList(i, gender).armorPieces;
-				foreach (ArmorItem armorItem in armorList)
+				string armorList = armorSorterManager.GetArmorList(i, gender);
+				ArmorItem item = SearchArmorItemByName(armorList, mixsetList[id].armorPieces[i]);
+				if (item != null)
 				{
-					if (armorItem.name == mixsetList[id].armorPieces[i])
-					{
-						previewArmorNamesTextList[i].text = armorItem.armorName;
-					}
+					previewArmorNamesTextList[i].text = item.armorName;
 				}
 			}
 		}
+	}
+
+	public ArmorItem SearchArmorItemByName(string tableName, string armorName)
+	{
+		string commandString = "SELECT * FROM " + tableName + " WHERE armorName = \"" + armorName + "\"";
+		ArmorItem result = null;
+
+		using (SqliteConnection connection = new SqliteConnection(armorSorterManager.dbName))
+		{
+			connection.Open();
+
+			using (var command = connection.CreateCommand())
+			{
+				command.CommandText = commandString;
+				using (IDataReader reader = command.ExecuteReader())
+				{
+					if (reader.Read() == true)
+					{
+						result = ScriptableObject.CreateInstance<ArmorItem>();
+						result.armorName = (string)reader["armorName"];
+						result.gender = armorSorterManager.ConvertObjToEnum<ArmorItem.Gender>(reader["gender"]);
+						result.type = armorSorterManager.ConvertObjToEnum<ArmorItem.ArmorType>(reader["type"]);
+						result.isHeadVisible = Convert.ToBoolean(reader["isHeadVisible"]);
+						result.isHairDyable = Convert.ToBoolean(reader["isHairDyable"]);
+						result.blademasterOrGunner = armorSorterManager.ConvertObjToEnum<ArmorItem.BlademasterOrGunner>(reader["blademasterOrGunner"]);
+						result.mainColor = armorSorterManager.ConvertObjToEnum<ArmorItem.ArmorColor>(reader["mainColor"]);
+						result.secondaryColor = armorSorterManager.ConvertObjToEnum<ArmorItem.ArmorColor>(reader["secondaryColor"]);
+						result.baseType = armorSorterManager.ConvertObjToEnum<ArmorItem.BaseType>(reader["baseType"]);
+						result.style = armorSorterManager.ConvertObjToEnum<ArmorItem.ArmorStyle>(reader["style"]);
+						result.id = armorSorterManager.CreateArmorId(result, (string)reader["id"]);
+					}
+					reader.Close();
+				}
+			}
+			connection.Close();
+		}
+		return result;
 	}
 }

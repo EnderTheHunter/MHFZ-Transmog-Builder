@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArmorItem
   armorName: Dante arms
   gender: 0
-  modelPrefab: {fileID: 919132149155446097, guid: 8beb59571e37a564fb06384201488b4f, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 5af3d527be82f514cbe3702cddda07d9, type: 3}
   type: 3
   isHeadVisible: 0
   isHairDyable: 0
@@ -23,3 +23,4 @@ MonoBehaviour:
   secondaryColor: 0
   baseType: 0
   style: 0
+  availableTransmog: 0

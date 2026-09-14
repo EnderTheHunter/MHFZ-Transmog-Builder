@@ -1,5 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ArmorMeshManager : MonoBehaviour
 {
@@ -76,7 +78,7 @@ public class ArmorMeshManager : MonoBehaviour
 	/// Load an armor piece and initialize its materials properly.
 	/// </summary>
 	/// <param name="armorItem"></param>
-	public void LoadArmorPieceModel(ArmorItem armorItem)
+	public async void LoadArmorPieceModel(ArmorItem armorItem)
 	{
 		UnloadArmorPieceAndDestroy(armorItem.type);
 		int piece = ChooseArmorPiece(armorItem.type);
@@ -87,7 +89,8 @@ public class ArmorMeshManager : MonoBehaviour
 			return;
 		}
 
-		GameObject model = Instantiate(armorItem.modelPrefab) as GameObject;
+		Debug.Log(armorItem.id);
+		GameObject model = await ModelManager.Instance.LoadModelById(armorItem.id, transform);
 
 		if (model != null)
 		{
@@ -106,6 +109,27 @@ public class ArmorMeshManager : MonoBehaviour
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
 			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			/*if (armorItem.type == ArmorItem.ArmorType.Belt)
+			{
+				newBones[7] = meshes[0].bones[7];
+				newBones[8] = meshes[0].bones[8];
+				newBones[9] = meshes[0].bones[9];
+				newBones[10] = meshes[0].bones[10];
+				newBones[11] = meshes[0].bones[11];
+				newBones[12] = meshes[0].bones[12];
+				newBones[13] = meshes[0].bones[13];
+				newBones[14] = meshes[0].bones[14];
+				newBones[15] = meshes[0].bones[15];
+				newBones[7].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
+				newBones[10].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
+				newBones[13].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
+				newBones[8].SetParent(newBones[7]);
+				newBones[11].SetParent(newBones[10]);
+				newBones[14].SetParent(newBones[13]);
+				newBones[9].SetParent(newBones[8]);
+				newBones[12].SetParent(newBones[11]);
+				newBones[15].SetParent(newBones[14]);
+			}*/
 			for (int i = 0; i < meshes.Length; i++)
 			{
 				meshes[i].rootBone = rootBone;
@@ -220,6 +244,56 @@ public class ArmorMeshManager : MonoBehaviour
 				break;
 			}
 		return newBones;
+	}
+
+	public void RemoveExtraBonesFromMainSkel(ArmorItem.ArmorType type)
+	{
+		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
+		List<string> armorTypes = new List<string>() { "Head", "Body", "Arms", "Waist", "Leg" };
+		foreach (Transform bone in mainSkel)
+		{
+			if (bone.name.Contains("Extra") && bone.name.Contains(armorTypes[(int)type]))
+			{
+				Destroy(bone.gameObject);
+			}
+		}
+	}
+
+	public Transform[] RetargetBonesByName(Transform[] newBones, Transform[] modelBones)
+	{
+		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
+		for(int i = 0; i < newBones.Length; i++)
+		{
+			if (modelBones[i].name.Contains("Extra"))
+			{
+				newBones[i] = modelBones[i];
+				newBones[i].SetParent(newBones[0].Find(modelBones[i].parent.name));
+			} else
+			{
+				newBones[i] = FindChildWithNameRecursive(mainSkel[0], modelBones[i].name);
+			}
+		}
+		return newBones;
+	}
+
+	public Transform FindChildWithNameRecursive(Transform parent, string name)
+	{
+		Transform correctChild = null;
+		foreach(Transform child in parent)
+		{
+			if(child.name == name)
+			{
+				correctChild = child;
+				break;
+			}
+			else
+			{
+				correctChild = FindChildWithNameRecursive(child, name);
+				if (correctChild != null)
+					break;
+			}
+		}
+		return correctChild;
 	}
 
 	private Material SetModeTransparent(Material originalMat)

@@ -31,10 +31,10 @@ public static class SavingSystem
 	public static T Load<T>(string filename)
 	{
 		string path = Application.persistentDataPath + filename;
+		Debug.Log(path);
 		if (File.Exists(path))
 		{
 			BinaryFormatter formatter = new BinaryFormatter();
-			Debug.Log(path);
 			FileStream stream = new FileStream(path, FileMode.Open);
 
 			T obj = (T)formatter.Deserialize(stream);

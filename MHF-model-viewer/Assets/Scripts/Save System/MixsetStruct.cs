@@ -30,7 +30,7 @@ public class MixsetStruct
 				armorPieces[i] = "None";
 			} else
 			{
-				armorPieces[i] = armorInventory.armor[i].name;
+				armorPieces[i] = armorInventory.armor[i].armorName;
 			}
 		}
 

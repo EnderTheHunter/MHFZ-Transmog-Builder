@@ -8022,7 +8022,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 699163404}
@@ -8638,17 +8638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd676d4dd015c7344ba837f96a312f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorSorterManager
-  armorList:
-  - {fileID: 1575906726}
-  - {fileID: 1955726585}
-  - {fileID: 244661350}
-  - {fileID: 826700566}
-  - {fileID: 1006807797}
-  - {fileID: 407403233}
-  - {fileID: 190675821}
-  - {fileID: 1732210891}
-  - {fileID: 1438251599}
-  - {fileID: 1389171051}
   resultPrefab: {fileID: 2130365299757972776, guid: a7f147b120d7c9d4e9e56f463dcd4a8d, type: 3}
   resultContent: {fileID: 59287455}
   resultScrollRect: {fileID: 998965512}
@@ -8660,6 +8649,7 @@ MonoBehaviour:
   - {fileID: 1965473671, guid: 28efbc499d07271408eefecef648695f, type: 3}
   - {fileID: 586176436, guid: a4f30b7de02f19b4aab038ca7533450f, type: 3}
   armorMeshManager: {fileID: 1946811453}
+  dbName: URI=file:Assets/Resources/DB/ArmorDB.db
 --- !u!1 &491735187
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,7 +10355,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 481430537}
         m_TargetAssemblyTypeName: ArmorSorterManager, Assembly-CSharp
-        m_MethodName: ApplySearch
+        m_MethodName: SearchArmorInDatabase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13760,7 +13750,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1800317563}
   m_HandleRect: {fileID: 1800317562}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -23065,7 +23055,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 481430537}
         m_TargetAssemblyTypeName: ArmorSorterManager, Assembly-CSharp
-        m_MethodName: ApplySearch
+        m_MethodName: SearchArmorInDatabase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29423,6 +29413,50 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1864594795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1864594797}
+  - component: {fileID: 1864594796}
+  m_Layer: 0
+  m_Name: AddressableModelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1864594796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864594795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0c6b37493fa5d4ea352ec40dcad8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ModelManager
+--- !u!4 &1864594797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864594795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869618684
 GameObject:
   m_ObjectHideFlags: 0
@@ -32482,6 +32516,7 @@ SceneRoots:
   - {fileID: 1542232381}
   - {fileID: 699163405}
   - {fileID: 477915730}
+  - {fileID: 1864594797}
   - {fileID: 478424699}
   - {fileID: 1480736875}
   - {fileID: 1793165330}
