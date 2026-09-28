@@ -97,6 +97,8 @@ public class Previsualisation : MonoBehaviour
 		{
 			ApplyBaseArmsPosition();
 		}
+		if (item.type == ArmorItem.ArmorType.Helmet && item.isHairDyable == true)
+			ColorPickerControl.Instance.ApplyHairColor(currentArmorDisplayed, item);
 	}
 
 	private async Task ShowModel(string modelId)
@@ -164,8 +166,8 @@ public class Previsualisation : MonoBehaviour
 	/// </summary>
 	private void ApplyBaseArmsPosition()
 	{
-		Transform bone3 = FindRecursiveChild(currentArmorDisplayed.transform, "Bone_3");
-		Transform bone7 = FindRecursiveChild(currentArmorDisplayed.transform, "Bone_7");
+		Transform bone3 = FindRecursiveChild(currentArmorDisplayed.transform, "L_Shoulder_jnt");
+		Transform bone7 = FindRecursiveChild(currentArmorDisplayed.transform, "R_Shoulder_jnt");
 
 		bone3.localRotation = Quaternion.Euler(0, 90, 45);
 		bone7.localRotation = Quaternion.Euler(0, -90, -45);

@@ -143,10 +143,6 @@ public class ArmorSorterManager : MonoBehaviour
 		DestroyAll();
 		using (SqliteConnection connection = new SqliteConnection(dbName))
 		{
-			if (File.Exists(connection.ConnectionString))
-				Debug.Log("Oui + " + dbName);
-			else
-				Debug.Log("Non + " + connection.ConnectionString);
 			connection.Open();
 
 			using (var command = connection.CreateCommand())
@@ -204,7 +200,6 @@ public class ArmorSorterManager : MonoBehaviour
 				stringVal += " AND " + filtersDbName[i] + " = " + activeFilters[i].ToString("d");
 			}
 		}
-		Debug.Log(stringVal);
 		return stringVal;
 	}
 
@@ -268,7 +263,6 @@ public class ArmorSorterManager : MonoBehaviour
 			modelId = "0" + modelId;
 		}
 		id += modelId;
-		Debug.Log(id);
 		return id;
 	}
 

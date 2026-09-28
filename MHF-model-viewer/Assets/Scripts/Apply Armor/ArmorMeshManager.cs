@@ -13,6 +13,8 @@ public class ArmorMeshManager : MonoBehaviour
 	public Texture femaleSkin;
 	public Material transparentMat;
 
+	private List<string> extraBonesTagList = new List<string>() { "Hair", "Body", "Arm", "Wst", "Leg" };
+
 	private void Start()
 	{
 		playerArmorInventory = GetComponent<PlayerArmorInventory>();
@@ -89,7 +91,7 @@ public class ArmorMeshManager : MonoBehaviour
 			return;
 		}
 
-		Debug.Log(armorItem.id);
+		//Debug.Log(armorItem.id);
 		GameObject model = await ModelManager.Instance.LoadModelById(armorItem.id, transform);
 
 		if (model != null)
@@ -108,28 +110,8 @@ public class ArmorMeshManager : MonoBehaviour
 
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
-			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
-			/*if (armorItem.type == ArmorItem.ArmorType.Belt)
-			{
-				newBones[7] = meshes[0].bones[7];
-				newBones[8] = meshes[0].bones[8];
-				newBones[9] = meshes[0].bones[9];
-				newBones[10] = meshes[0].bones[10];
-				newBones[11] = meshes[0].bones[11];
-				newBones[12] = meshes[0].bones[12];
-				newBones[13] = meshes[0].bones[13];
-				newBones[14] = meshes[0].bones[14];
-				newBones[15] = meshes[0].bones[15];
-				newBones[7].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
-				newBones[10].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
-				newBones[13].SetParent(rootBone.GetComponentsInChildren<Transform>()[2]);
-				newBones[8].SetParent(newBones[7]);
-				newBones[11].SetParent(newBones[10]);
-				newBones[14].SetParent(newBones[13]);
-				newBones[9].SetParent(newBones[8]);
-				newBones[12].SetParent(newBones[11]);
-				newBones[15].SetParent(newBones[14]);
-			}*/
+			//newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			newBones = RetargetBonesByName(newBones, meshes[0].bones, armorItem.type);
 			for (int i = 0; i < meshes.Length; i++)
 			{
 				meshes[i].rootBone = rootBone;
@@ -159,6 +141,8 @@ public class ArmorMeshManager : MonoBehaviour
 					}
 				}
 			}
+			if (armorItem.type == ArmorItem.ArmorType.Helmet && armorItem.isHairDyable == true)
+				ColorPickerControl.Instance.ApplyHairColor(model, armorItem);
 		}
 		currentModel[piece] = model;
 	}
@@ -259,15 +243,16 @@ public class ArmorMeshManager : MonoBehaviour
 		}
 	}
 
-	public Transform[] RetargetBonesByName(Transform[] newBones, Transform[] modelBones)
+	public Transform[] RetargetBonesByName(Transform[] newBones, Transform[] modelBones, ArmorItem.ArmorType type)
 	{
 		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
 		for(int i = 0; i < newBones.Length; i++)
 		{
 			if (modelBones[i].name.Contains("Extra"))
 			{
+				modelBones[i].gameObject.tag = extraBonesTagList[ChooseArmorPiece(type)];
 				newBones[i] = modelBones[i];
-				newBones[i].SetParent(newBones[0].Find(modelBones[i].parent.name));
+				newBones[i].SetParent(FindExtraBoneChildWithNameRecursive(mainSkel[0], modelBones[i].parent.name, extraBonesTagList[ChooseArmorPiece(type)]), false);
 			} else
 			{
 				newBones[i] = FindChildWithNameRecursive(mainSkel[0], modelBones[i].name);
@@ -283,12 +268,34 @@ public class ArmorMeshManager : MonoBehaviour
 		{
 			if(child.name == name)
 			{
+				Debug.Log(child.name + " == " + name);
 				correctChild = child;
 				break;
 			}
 			else
 			{
 				correctChild = FindChildWithNameRecursive(child, name);
+				if (correctChild != null)
+					break;
+			}
+		}
+		return correctChild;
+	}
+
+	public Transform FindExtraBoneChildWithNameRecursive(Transform parent, string name, string tag)
+	{
+		Transform correctChild = null;
+		foreach (Transform child in parent)
+		{
+			if (child.name == name && (child.tag == "Untagged" || child.tag == tag))
+			{
+				Debug.Log(child.name + " == " + name);
+				correctChild = child;
+				break;
+			}
+			else
+			{
+				correctChild = FindExtraBoneChildWithNameRecursive(child, name, tag);
 				if (correctChild != null)
 					break;
 			}

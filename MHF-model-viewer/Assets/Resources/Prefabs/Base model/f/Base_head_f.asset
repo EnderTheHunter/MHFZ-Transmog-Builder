@@ -15,7 +15,7 @@ MonoBehaviour:
   armorName: Base face male
   id: f_face000
   gender: 1
-  modelPrefab: {fileID: 919132149155446097, guid: a4d7182448245334f80c1fd3827e585a, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 58e396491ea02ad449e3058a17d310e0, type: 3}
   type: 0
   isHeadVisible: 0
   isHairDyable: 0

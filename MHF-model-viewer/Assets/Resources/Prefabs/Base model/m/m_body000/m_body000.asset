@@ -15,7 +15,7 @@ MonoBehaviour:
   armorName: None
   id: m_body000
   gender: 0
-  modelPrefab: {fileID: 919132149155446097, guid: 999e7c4eeb8d7114796199205f34f515, type: 3}
+  modelPrefab: {fileID: 919132149155446097, guid: 030789e8acb3460418072b8acf8b1efa, type: 3}
   type: 2
   isHeadVisible: 0
   isHairDyable: 0

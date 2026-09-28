@@ -9,7 +9,7 @@ using UnityEngine;
 
 public static class AddressableModelSetup
 {
-	private const string GroupName = "Equipment_Models";
+	private const string GroupName = "Modelsv2";
 
 	[MenuItem("Tools/Setup Addressable Models")]
 	public static void SetupAll()
@@ -24,7 +24,7 @@ public static class AddressableModelSetup
 		}
 
 		// On cherche large (tous les GameObject), puis on filtre nous-mêmes sur l'extension .fbx
-		string[] guids = AssetDatabase.FindAssets("t:GameObject", new[] { "Assets/Resources/Prefabs/Base model/f/" });
+		string[] guids = AssetDatabase.FindAssets("t:GameObject", new[] { "Assets/Resources/Armors/f/Face" });
 
 		int count = 0;
 		var seenIds = new HashSet<string>();
