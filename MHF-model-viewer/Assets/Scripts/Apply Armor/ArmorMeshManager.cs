@@ -111,6 +111,7 @@ public class ArmorMeshManager : MonoBehaviour
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
 			//newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			RemoveExtraBonesFromMainSkel(armorItem.type);
 			newBones = RetargetBonesByName(newBones, meshes[0].bones, armorItem.type);
 			for (int i = 0; i < meshes.Length; i++)
 			{
