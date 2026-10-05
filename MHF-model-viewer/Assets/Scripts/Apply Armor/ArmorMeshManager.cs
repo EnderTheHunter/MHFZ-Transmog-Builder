@@ -234,10 +234,14 @@ public class ArmorMeshManager : MonoBehaviour
 	public void RemoveExtraBonesFromMainSkel(ArmorItem.ArmorType type)
 	{
 		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
-		List<string> armorTypes = new List<string>() { "Head", "Body", "Arms", "Waist", "Leg" };
+		List<string> armorTypes = new List<string>() { "Hair", "Body", "Arm", "Wst", "Leg" };
+
+		if (type == ArmorItem.ArmorType.Face)
+			return;
+
 		foreach (Transform bone in mainSkel)
 		{
-			if (bone.name.Contains("Extra") && bone.name.Contains(armorTypes[(int)type]))
+			if (bone.name.Contains("Extra") && bone.tag == armorTypes[(int)type - 1])
 			{
 				Destroy(bone.gameObject);
 			}
@@ -269,7 +273,6 @@ public class ArmorMeshManager : MonoBehaviour
 		{
 			if(child.name == name)
 			{
-				Debug.Log(child.name + " == " + name);
 				correctChild = child;
 				break;
 			}
@@ -290,7 +293,6 @@ public class ArmorMeshManager : MonoBehaviour
 		{
 			if (child.name == name && (child.tag == "Untagged" || child.tag == tag))
 			{
-				Debug.Log(child.name + " == " + name);
 				correctChild = child;
 				break;
 			}
