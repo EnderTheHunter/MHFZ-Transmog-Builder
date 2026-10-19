@@ -66,6 +66,7 @@ public class ArmorMeshManager : MonoBehaviour
 	public void UnloadArmorPieceAndDestroy(ArmorItem.ArmorType type)
 	{
 		int piece = ChooseArmorPiece(type);
+		RemoveExtraBonesFromMainSkel(type);
 		if (currentModel[piece] != null)
 		{
 			Destroy(currentModel[piece]);
@@ -80,7 +81,7 @@ public class ArmorMeshManager : MonoBehaviour
 	/// Load an armor piece and initialize its materials properly.
 	/// </summary>
 	/// <param name="armorItem"></param>
-	public async void LoadArmorPieceModel(ArmorItem armorItem)
+	public async Awaitable LoadArmorPieceModel(ArmorItem armorItem)
 	{
 		UnloadArmorPieceAndDestroy(armorItem.type);
 		int piece = ChooseArmorPiece(armorItem.type);
@@ -90,7 +91,7 @@ public class ArmorMeshManager : MonoBehaviour
 			UnloadArmorPiece(armorItem.type);
 			return;
 		}
-
+		await Awaitable.NextFrameAsync();
 		//Debug.Log(armorItem.id);
 		GameObject model = await ModelManager.Instance.LoadModelById(armorItem.id, transform);
 
@@ -111,7 +112,7 @@ public class ArmorMeshManager : MonoBehaviour
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
 			//newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
-			RemoveExtraBonesFromMainSkel(armorItem.type);
+			//RemoveExtraBonesFromMainSkel(armorItem.type);
 			newBones = RetargetBonesByName(newBones, meshes[0].bones, armorItem.type);
 			for (int i = 0; i < meshes.Length; i++)
 			{
@@ -294,6 +295,7 @@ public class ArmorMeshManager : MonoBehaviour
 			if (child.name == name && (child.tag == "Untagged" || child.tag == tag))
 			{
 				correctChild = child;
+				Debug.Log(correctChild.name);
 				break;
 			}
 			else
