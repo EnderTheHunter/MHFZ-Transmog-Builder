@@ -149,7 +149,7 @@ public class ArmorMeshManager : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Retarget all the bones from an armor piece to the playerbase skeleton
+	/// OBSOLETE FUNCTION, DO NOT USE /!\ Retarget all the bones from an armor piece to the playerbase skeleton
 	/// </summary>
 	/// <param name="newBones"></param>
 	/// <param name="type"></param>

@@ -24,7 +24,7 @@ public static class AddressableModelSetup
 		}
 
 		// On cherche large (tous les GameObject), puis on filtre nous-mêmes sur l'extension .fbx
-		string[] guids = AssetDatabase.FindAssets("t:GameObject", new[] { "Assets/Resources/Armors/f/Face" });
+		string[] guids = AssetDatabase.FindAssets("t:GameObject", new[] { "Assets/Resources/Armors/m/Body" });
 
 		int count = 0;
 		var seenIds = new HashSet<string>();
