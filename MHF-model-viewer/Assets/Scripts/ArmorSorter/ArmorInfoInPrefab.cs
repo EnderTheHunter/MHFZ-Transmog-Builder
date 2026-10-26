@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler
 {
 	public ArmorItem m_Item;
 
@@ -27,10 +27,5 @@ public class ArmorInfoInPrefab : MonoBehaviour, IPointerEnterHandler, IPointerEx
 	{
 		Previsualisation.Instance.UpdatePrevisualisation(m_Item);
 		//SoundFXManager.Instance.PlaySoundFXClip(audioClip, this.transform, 0.5f);
-	}
-
-	public void OnPointerExit(PointerEventData eventData)
-	{
-		Previsualisation.Instance.HidePrevisualisation();
 	}
 }

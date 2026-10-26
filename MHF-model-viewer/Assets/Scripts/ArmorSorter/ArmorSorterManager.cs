@@ -187,7 +187,7 @@ public class ArmorSorterManager : MonoBehaviour
 
 		if (searchBar != null)
 		{
-			stringVal += " WHERE armorName LIKE \'%" + searchBar.GetComponent<TMP_InputField>().text + "%\'";
+			stringVal += " WHERE armorName LIKE \'%" + searchBar.GetComponent<TMP_InputField>().text + "%\' ORDER BY armorName GLOB '[A-Za-z]*' DESC, armorName";
 		}
 
 		List<string> filtersDbName = new List<string>() { "blademasterOrGunner", "mainColor", "secondaryColor", "baseType", "style"};

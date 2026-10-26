@@ -116,7 +116,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: Bone_2
+    - boneName: Bone_0
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
