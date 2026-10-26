@@ -162,7 +162,7 @@ public class MixsetManager : MonoBehaviour
 	public void RenameMixset(string newName, int mixsetID)
 	{
 		mixsetList[mixsetID].ChangeMixsetName(newName);
-		SavingSystem.Save(mixsetList, "/mixsets.jsmt");
+		SavingSystem.Save(mixsetList, "/mixsetsv2.jsmt");
 		LoadMixsetPreview(mixsetID);
 	}
 
