@@ -5,33 +5,46 @@ using System.Collections.Generic;
 
 public static class SavingSystem
 {
-	public static void SaveMixset(List<MixsetStruct> mixsetsList)
+	/// <summary>
+	/// Saves an obj into a file. The file is stored in the App persistent data path
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	/// <param name="obj">The object to save</param>
+	/// <param name="filename">The name of the file. Has to be named "/[filename].[extension]"</param>
+	public static void Save<T>(T obj, string filename)
 	{
 		BinaryFormatter formatter = new BinaryFormatter();
 
-		string path = Application.persistentDataPath + "/mixsets.jsmt";
+		string path = Application.persistentDataPath + filename;
 		FileStream stream = new FileStream(path, FileMode.Create);
 
-		formatter.Serialize(stream, mixsetsList);
+		formatter.Serialize(stream, obj);
 		stream.Close();
 	}
 
-	public static List<MixsetStruct> LoadMixset()
+	/// <summary>
+	/// Load a file stored in the App persistent data path and extract the struct inside it
+	/// </summary>
+	/// <typeparam name="T">Expected type for the structure found inside the file</typeparam>
+	/// <param name="filename">The name of the file. Has to be named "/[filename].[extension]</param>
+	/// <returns>Returns the loaded structure</returns>
+	public static T Load<T>(string filename)
 	{
-		string path = Application.persistentDataPath + "/mixsets.jsmt";
+		string path = Application.persistentDataPath + filename;
+		Debug.Log(path);
 		if (File.Exists(path))
 		{
 			BinaryFormatter formatter = new BinaryFormatter();
-			Debug.Log(path);
 			FileStream stream = new FileStream(path, FileMode.Open);
 
-			List<MixsetStruct> mixset = formatter.Deserialize(stream) as List<MixsetStruct>;
+			T obj = (T)formatter.Deserialize(stream);
 			stream.Close();
-			return mixset;
-		} else
+			return obj;
+		}
+		else
 		{
 			Debug.LogError("Save file not found in " + path);
-			return null;
+			return default;
 		}
 	}
 }

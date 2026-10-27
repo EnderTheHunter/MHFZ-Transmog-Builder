@@ -15,10 +15,15 @@ public class PlayerArmorInventory : MonoBehaviour
     public ArmorItem femaleFace;
 
     public TextMeshProUGUI[] armorNames = new TextMeshProUGUI[5];
+    public TextMeshProUGUI[] armorTypes = new TextMeshProUGUI[5];
+    public TextMeshProUGUI[] armorIDs = new TextMeshProUGUI[5];
 
     [SerializeField]
     private Animator playerAnimator;
 
+    /// <summary>
+    /// Singleton initialization
+    /// </summary>
 	private void Awake()
 	{
 		if (instance != null && instance != this)
@@ -31,7 +36,9 @@ public class PlayerArmorInventory : MonoBehaviour
 		}
 	}
 
-	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	/// <summary>
+    /// Init the character with all base body parts
+    /// </summary>
 	void Start()
     {
         foreach (ArmorItem armorPiece in baseModelMale)
@@ -42,6 +49,10 @@ public class PlayerArmorInventory : MonoBehaviour
         RenameEmptySlots();
     }
 
+    /// <summary>
+    /// Apply a given armor piece
+    /// </summary>
+    /// <param name="newArmorPiece"></param>
     public void ChangeArmor(ArmorItem newArmorPiece)
     {
         int piece = ArmorSlot.ChooseArmorPiece(newArmorPiece.type);
@@ -58,6 +69,8 @@ public class PlayerArmorInventory : MonoBehaviour
             }
         }
         armorNames[piece].text = newArmorPiece.armorName;
+        armorTypes[piece].text = "Type : " + newArmorPiece.baseType.ToString();
+        armorIDs[piece].text = "ID : " + newArmorPiece.id;
         armor[piece] = newArmorPiece;
     }
 
@@ -79,6 +92,10 @@ public class PlayerArmorInventory : MonoBehaviour
         return gender;
     }
 
+    /// <summary>
+    /// Switch the character to the other gender
+    /// </summary>
+    /// <param name="removeAllArmors"></param>
     private void ChangeGender(bool removeAllArmors = true)
     {
         if (gender == ArmorItem.Gender.Male)
@@ -111,9 +128,11 @@ public class PlayerArmorInventory : MonoBehaviour
 
     private void RenameEmptySlots()
     {
-        foreach(TextMeshProUGUI text in armorNames)
+        for (int i = 0; i < armorNames.Length; i++)
         {
-            text.text = "None";
+            armorNames[i].text = "None";
+            armorTypes[i].text = "Type :";
+            armorIDs[i].text = "ID :";
         }
     }
 

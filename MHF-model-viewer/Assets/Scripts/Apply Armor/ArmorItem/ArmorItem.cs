@@ -71,6 +71,7 @@ public class ArmorItem : ScriptableObject
 	}
 	[Header("MAIN PARAMETERS /!\\ MANDATORY /!\\")]
 	public string armorName;
+	public string id;
 	public Gender gender;
 	public GameObject modelPrefab;
 	public ArmorType type;

@@ -879,6 +879,7 @@ GameObject:
   - component: {fileID: 4457615883379463742}
   - component: {fileID: 1557627642298746707}
   - component: {fileID: 6854339266820568516}
+  - component: {fileID: 3166526952545379804}
   m_Layer: 5
   m_Name: Load Mixset Button
   m_TagString: Untagged
@@ -999,3 +1000,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3166526952545379804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676357216945388337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cc271bdff70394bb00db20967f4a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonPlaySoundOnClick
+  soundEffect: {fileID: 8300000, guid: ee994fbd0ae457e47a966fa6023fab5f, type: 3}
+  volume: 0.5
+  trimIntroTime: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5587914856268723403}
   - component: {fileID: 8427422105919469539}
   - component: {fileID: 2417522853556554878}
+  - component: {fileID: 4096747250653493594}
   m_Layer: 5
   m_Name: ResultPrefab
   m_TagString: Untagged
@@ -93,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ArmorInfoInPrefab
   m_Item: {fileID: 0}
   armorIcon: {fileID: 4929758288853552763}
+  audioClip: {fileID: 8300000, guid: 015d519fc0c381b4a8351325f3b80082, type: 3}
 --- !u!114 &2417522853556554878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +151,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4096747250653493594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130365299757972776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cc271bdff70394bb00db20967f4a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonPlaySoundOnClick
+  soundEffect: {fileID: 8300000, guid: 492bfcd0f13b6fa4c904c8bd2d4cf08b, type: 3}
+  volume: 0.5
+  trimIntroTime: 0
 --- !u!1 &5657650186951626716
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,10 +258,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 18
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0

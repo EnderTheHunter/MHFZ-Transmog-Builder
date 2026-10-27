@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
+/// <summary>
+/// UNUSED FEATURE SINCE MHFRONTIER USES RGB TO COLOR THE HAIRS INSTEAD OF SVI
+/// </summary>
 public class SVImageControl : MonoBehaviour, IDragHandler, IPointerClickHandler
 {
 	[SerializeField]

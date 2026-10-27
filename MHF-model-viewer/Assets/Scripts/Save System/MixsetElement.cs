@@ -1,6 +1,9 @@
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Class used for the Mixset prefabs
+/// </summary>
 public class MixsetElement : MonoBehaviour
 {
     [SerializeField]
