@@ -1,5 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ArmorMeshManager : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class ArmorMeshManager : MonoBehaviour
 	public Texture maleSkin;
 	public Texture femaleSkin;
 	public Material transparentMat;
+
+	private List<string> extraBonesTagList = new List<string>() { "Hair", "Body", "Arm", "Wst", "Leg" };
 
 	private void Start()
 	{
@@ -62,6 +66,7 @@ public class ArmorMeshManager : MonoBehaviour
 	public void UnloadArmorPieceAndDestroy(ArmorItem.ArmorType type)
 	{
 		int piece = ChooseArmorPiece(type);
+		RemoveExtraBonesFromMainSkel(type);
 		if (currentModel[piece] != null)
 		{
 			Destroy(currentModel[piece]);
@@ -76,7 +81,7 @@ public class ArmorMeshManager : MonoBehaviour
 	/// Load an armor piece and initialize its materials properly.
 	/// </summary>
 	/// <param name="armorItem"></param>
-	public void LoadArmorPieceModel(ArmorItem armorItem)
+	public async Awaitable LoadArmorPieceModel(ArmorItem armorItem)
 	{
 		UnloadArmorPieceAndDestroy(armorItem.type);
 		int piece = ChooseArmorPiece(armorItem.type);
@@ -86,8 +91,9 @@ public class ArmorMeshManager : MonoBehaviour
 			UnloadArmorPiece(armorItem.type);
 			return;
 		}
-
-		GameObject model = Instantiate(armorItem.modelPrefab) as GameObject;
+		await Awaitable.NextFrameAsync();
+		//Debug.Log(armorItem.id);
+		GameObject model = await ModelManager.Instance.LoadModelById(armorItem.id, transform);
 
 		if (model != null)
 		{
@@ -105,7 +111,9 @@ public class ArmorMeshManager : MonoBehaviour
 
 			SkinnedMeshRenderer[] meshes = model.GetComponentsInChildren<SkinnedMeshRenderer>();
 			Transform[] newBones = new Transform[meshes[0].bones.Length];
-			newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			//newBones = HardcodeBaseBonesForArmorType(newBones, armorItem.type);
+			//RemoveExtraBonesFromMainSkel(armorItem.type);
+			newBones = RetargetBonesByName(newBones, meshes[0].bones, armorItem.type);
 			for (int i = 0; i < meshes.Length; i++)
 			{
 				meshes[i].rootBone = rootBone;
@@ -135,12 +143,14 @@ public class ArmorMeshManager : MonoBehaviour
 					}
 				}
 			}
+			if (armorItem.type == ArmorItem.ArmorType.Helmet && armorItem.isHairDyable == true)
+				ColorPickerControl.Instance.ApplyHairColor(model, armorItem);
 		}
 		currentModel[piece] = model;
 	}
 
 	/// <summary>
-	/// Retarget all the bones from an armor piece to the playerbase skeleton
+	/// OBSOLETE FUNCTION, DO NOT USE /!\ Retarget all the bones from an armor piece to the playerbase skeleton
 	/// </summary>
 	/// <param name="newBones"></param>
 	/// <param name="type"></param>
@@ -220,6 +230,82 @@ public class ArmorMeshManager : MonoBehaviour
 				break;
 			}
 		return newBones;
+	}
+
+	public void RemoveExtraBonesFromMainSkel(ArmorItem.ArmorType type)
+	{
+		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
+		List<string> armorTypes = new List<string>() { "Hair", "Body", "Arm", "Wst", "Leg" };
+
+		if (type == ArmorItem.ArmorType.Face)
+			return;
+
+		foreach (Transform bone in mainSkel)
+		{
+			if (bone.name.Contains("Extra") && bone.tag == armorTypes[(int)type - 1])
+			{
+				Destroy(bone.gameObject);
+			}
+		}
+	}
+
+	public Transform[] RetargetBonesByName(Transform[] newBones, Transform[] modelBones, ArmorItem.ArmorType type)
+	{
+		Transform[] mainSkel = rootBone.GetComponentsInChildren<Transform>();
+		for(int i = 0; i < newBones.Length; i++)
+		{
+			if (modelBones[i].name.Contains("Extra"))
+			{
+				modelBones[i].gameObject.tag = extraBonesTagList[ChooseArmorPiece(type)];
+				newBones[i] = modelBones[i];
+				newBones[i].SetParent(FindExtraBoneChildWithNameRecursive(mainSkel[0], modelBones[i].parent.name, extraBonesTagList[ChooseArmorPiece(type)]), false);
+			} else
+			{
+				newBones[i] = FindChildWithNameRecursive(mainSkel[0], modelBones[i].name);
+			}
+		}
+		return newBones;
+	}
+
+	public Transform FindChildWithNameRecursive(Transform parent, string name)
+	{
+		Transform correctChild = null;
+		foreach(Transform child in parent)
+		{
+			if(child.name == name)
+			{
+				correctChild = child;
+				break;
+			}
+			else
+			{
+				correctChild = FindChildWithNameRecursive(child, name);
+				if (correctChild != null)
+					break;
+			}
+		}
+		return correctChild;
+	}
+
+	public Transform FindExtraBoneChildWithNameRecursive(Transform parent, string name, string tag)
+	{
+		Transform correctChild = null;
+		foreach (Transform child in parent)
+		{
+			if (child.name == name && (child.tag == "Untagged" || child.tag == tag))
+			{
+				correctChild = child;
+				Debug.Log(correctChild.name);
+				break;
+			}
+			else
+			{
+				correctChild = FindExtraBoneChildWithNameRecursive(child, name, tag);
+				if (correctChild != null)
+					break;
+			}
+		}
+		return correctChild;
 	}
 
 	private Material SetModeTransparent(Material originalMat)

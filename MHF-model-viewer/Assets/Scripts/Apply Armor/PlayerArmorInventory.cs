@@ -15,6 +15,8 @@ public class PlayerArmorInventory : MonoBehaviour
     public ArmorItem femaleFace;
 
     public TextMeshProUGUI[] armorNames = new TextMeshProUGUI[5];
+    public TextMeshProUGUI[] armorTypes = new TextMeshProUGUI[5];
+    public TextMeshProUGUI[] armorIDs = new TextMeshProUGUI[5];
 
     [SerializeField]
     private Animator playerAnimator;
@@ -67,6 +69,8 @@ public class PlayerArmorInventory : MonoBehaviour
             }
         }
         armorNames[piece].text = newArmorPiece.armorName;
+        armorTypes[piece].text = "Type : " + newArmorPiece.baseType.ToString();
+        armorIDs[piece].text = "ID : " + newArmorPiece.id;
         armor[piece] = newArmorPiece;
     }
 
@@ -124,9 +128,11 @@ public class PlayerArmorInventory : MonoBehaviour
 
     private void RenameEmptySlots()
     {
-        foreach(TextMeshProUGUI text in armorNames)
+        for (int i = 0; i < armorNames.Length; i++)
         {
-            text.text = "None";
+            armorNames[i].text = "None";
+            armorTypes[i].text = "Type :";
+            armorIDs[i].text = "ID :";
         }
     }
 
